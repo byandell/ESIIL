@@ -1,11 +1,11 @@
 site_name: 'ESIIL Working Group Home'
 site_description: 'Central resource for ESIIL working groups'
 site_author: Ty Tuff
-site_url: https://cu-esiil.github.io/Working_group_home
+site_url: https://cu-esiil.github.io/Postdoc_OASIS
 
 # Repository
-repo_name: Working-group-home
-repo_url: https://github.com/CU-ESIIL/Working_group_home
+repo_name: Postdoc_OASIS
+repo_url: https://github.com/CU-ESIIL/Postdoc_OASIS
 edit_uri: edit/main/docs/
 # Copyright
 copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
