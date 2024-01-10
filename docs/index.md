@@ -10,12 +10,7 @@ Welcome to the [Your Name] repository, part of the Environmental Data Science In
 
 [Link to the detailed project proposal document or include the proposal directly in the repository. This should outline the goals, methodologies, anticipated challenges, and projected timelines.]
 
-## Group Members
-
-[List the names and a brief description of each group member, possibly linking to their personal or professional web pages.]
-
-- **Member 1**: Brief description or role within the group.
-- **Member 2**: Brief description or role within the group.
+## Collaborators
 - ...
 
 ## Code Repository
