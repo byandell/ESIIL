@@ -1,5 +1,5 @@
-site_name: 'ESIIL Working Group Home'
-site_description: 'Central resource for ESIIL working groups'
+site_name: 'ESIIL Postdoctoral Researcher OASIS'
+site_description: 'Central resource for ESIIL postdoctoral researchers'
 site_author: Ty Tuff
 site_url: https://cu-esiil.github.io/Postdoc_OASIS
 
@@ -13,9 +13,24 @@ copyright: 'Copyright &copy; 2023 University of Colorado Boulder'
 # Page tree
 nav:
   - Home: index.md
-  # TODO: Add your nav sections / sub-sections and path to markdown page Ex:
-  # - Remote Sensing:
-  #     - How to Cloud Correct Sentinel-2 Images: remote_sensing/sentinel_2_cloud_correction/sentinel_2_cloud_correction.md
+  - Resources:
+       - Code of Conduct: resources/code-of-conduct.md
+       - Participant agreement: resources/participant_agreement.md
+       - ESIIL training: resources/esiil_training.md
+       - Markdown: resources/markdown_basics.md
+       - Cyverse: resources/cyverse_basics.md
+       - Working groups: resources/working_groups_and_postdocs.md
+  - Notes:
+       - OASIS orientation: resources/pre_meeting_notes.md
+  - Code documentation:
+       - Data processing: resources/data_processing.md
+       - Data analysis: resources/data_analysis.md
+       - Visualizations: resources/visualizations.md 
+  - Manuscript drafts:
+       - Manuscript: resources/manuscript.md
+  - References:
+       - Notes from readings: resources/notes_from_readings.md
+       - Citations: resources/citations.md
 
 # Configuration
 theme:
