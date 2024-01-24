@@ -13,12 +13,12 @@ Welcome to the [Your Name] repository, part of the Environmental Data Science In
 
 [Link to the detailed project proposal document or include the proposal directly in the repository. This should outline the goals, methodologies, anticipated challenges, and projected timelines.]
 
-## Group Members
+## Collaborators and Co-Authors 
 
-[List the names and a brief description of each group member, possibly linking to their personal or professional web pages.]
+[List the names and a brief description of people you work with, possibly linking to their personal or professional web pages.]
 
-- **Member 1**: Brief description or role within the group.
-- **Member 2**: Brief description or role within the group.
+- **Collaborator 1**: Brief description.
+- **Collaborator 2**: Brief description.
 - ...
 
 ## Code Repository
@@ -31,11 +31,11 @@ This section of the repository will include all the code developed for the proje
 
 ## Meeting Notes and Agendas
 
-Meeting notes and agendas will be regularly updated here to keep all group members informed and engaged with the progress and direction of the project.
+When you meet with your advisor, collaborators, or a team, you should take notes here. 
 
 ## Contributing to This Repository
 
-We welcome contributions from all group members. To maintain the quality and integrity of the repository, please adhere to the following guidelines:
+To maintain the quality and integrity of the repository, please adhere to the following guidelines:
 
 - Make sure all commits have a clear and concise message.
 - Document any major changes or decisions in the meeting notes.
@@ -51,7 +51,7 @@ As a new working group, you'll want to make this repository your own. Here's how
 
 1. **Edit This Readme**: Replace the placeholder content with information about your specific project. Ensure that the introduction, project overview, and objectives clearly reflect your group's research focus.
 
-2. **Update Group Member Bios**: Add details about each group member's expertise, role in the project, and professional background. Include links to personal or professional web pages to foster community engagement and collaboration.
+2. **Update Bio**: Add details about your expertise, role in the project, and professional background. Include links to personal or professional web pages to foster community engagement and collaboration.
 
 3. **Organize Your Code**: Structure your codebase in a way that is logical and accessible. Use directories and clear naming conventions to make it easy for all members to find and contribute to different parts of the project.
 
