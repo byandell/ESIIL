@@ -1,8 +1,8 @@
-# [Your Working Group Name]
+# [Your Name]
 
-Welcome to the [Your Working Group Name] repository, part of the Environmental Data Science Innovation and Inclusion Lab (ESIIL). This repository serves as the central hub for our working group, hosting our project description, proposals, member bios, codebase, and more.
+Welcome to the [Your Name] repository, part of the Environmental Data Science Innovation and Inclusion Lab (ESIIL). This repository serves as the central hub for our research at ESIIL, hosting your project description, proposals, bio, codebase, and more.
 
-## Our Project
+## Your Project
 
 [Provide a brief overview of your project here. Explain what you aim to achieve, the importance of your project, and its expected impact.]
 
@@ -10,12 +10,7 @@ Welcome to the [Your Working Group Name] repository, part of the Environmental D
 
 [Link to the detailed project proposal document or include the proposal directly in the repository. This should outline the goals, methodologies, anticipated challenges, and projected timelines.]
 
-## Group Members
-
-[List the names and a brief description of each group member, possibly linking to their personal or professional web pages.]
-
-- **Member 1**: Brief description or role within the group.
-- **Member 2**: Brief description or role within the group.
+## Collaborators
 - ...
 
 ## Code Repository
