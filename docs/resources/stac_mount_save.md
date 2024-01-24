@@ -80,8 +80,8 @@ produce a photograph, making a photo involves a creation process,
 whereas taking a photo is about finding the scene.
 
 David Yarrow is a famous photographer who ‘makes’ his photographs.
-![](../assets/stac_mount_save/David-Yarrow-sorrel-sky-gallery-Photographic-Print-Cindys-Shotgun-Wedding.png)
-![](../assets/stac_mount_save/bison.png)
+![](../assets/esiil_content/stac_mount_save/David-Yarrow-sorrel-sky-gallery-Photographic-Print-Cindys-Shotgun-Wedding.png)
+![](../assets/esiil_content/stac_mount_save/bison.png)
 
 ## What does it mean to ‘make’ a data cube?
 
@@ -128,7 +128,7 @@ with the demand, providing the necessary computational power to process
 extensive datasets, which is vital in a field where data volumes are
 increasing exponentially.
 
-![Raster through a snake](../assets/mouseinsnake.png)
+![Raster through a snake](../assets/esiil_content/stac_mount_save/mouseinsnake.png)
 
 ## 2) The Antelope through the Python Problem: Streamlining with GDAL VSI
 
@@ -143,7 +143,7 @@ the data it needs, when it needs them, much like constriction before
 digestion. This selective access minimizes the need for local storage
 and expedites the data handling process.
 
-![Antelope through a Python](../assets/antelopeinpython.png)
+![Antelope through a Python](../assets/esiil_content/stac_mount_save/antelopeinpython.png)
 
 ## 3) Drinking from a Fire Hose: Accelerated Inference with AI and ML
 
@@ -158,7 +158,7 @@ beneficially from the torrent. AI and ML can analyze patterns, make
 predictions, and infer insights at a pace that keeps up with the fast
 stream of data, turning raw information into actionable knowledge.
 
-![Inference through a firehose](../assets/drink-firehose.png)
+![Inference through a firehose](../assets/esiil_content/stac_mount_save/drink-firehose.png)
 
 By addressing these three pivotal challenges with cloud computing, GDAL
 VSI, and AI/ML, we not only manage to consume the data effectively but
