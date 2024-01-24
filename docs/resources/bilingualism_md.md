@@ -1,1 +1,2112 @@
-{"payload":{"allShortcutsEnabled":true,"fileTree":{"docs/2_R_Python_Bilingualism":{"items":[{"name":"bilingualism_md.md","path":"docs/2_R_Python_Bilingualism/bilingualism_md.md","contentType":"file"}],"totalCount":1},"docs":{"items":[{"name":"1_GIT_on_the_Cloud","path":"docs/1_GIT_on_the_Cloud","contentType":"directory"},{"name":"2_R_Python_Bilingualism","path":"docs/2_R_Python_Bilingualism","contentType":"directory"},{"name":"3_EDS_Data_Cube","path":"docs/3_EDS_Data_Cube","contentType":"directory"},{"name":"4_Artificial_Intelligence","path":"docs/4_Artificial_Intelligence","contentType":"directory"},{"name":"Our Team","path":"docs/Our Team","contentType":"directory"},{"name":"Why data cubes","path":"docs/Why data cubes","contentType":"directory"},{"name":"assets","path":"docs/assets","contentType":"directory"},{"name":"code_for_building_cube","path":"docs/code_for_building_cube","contentType":"directory"},{"name":".DS_Store","path":"docs/.DS_Store","contentType":"file"},{"name":"dummy_file.txt","path":"docs/dummy_file.txt","contentType":"file"},{"name":"index.md","path":"docs/index.md","contentType":"file"}],"totalCount":11},"":{"items":[{"name":".github","path":".github","contentType":"directory"},{"name":"docs","path":"docs","contentType":"directory"},{"name":".DS_Store","path":".DS_Store","contentType":"file"},{"name":".gitignore","path":".gitignore","contentType":"file"},{"name":"LICENSE","path":"LICENSE","contentType":"file"},{"name":"README.md","path":"README.md","contentType":"file"},{"name":"hackathon2023_datacube.Rproj","path":"hackathon2023_datacube.Rproj","contentType":"file"},{"name":"mkdocs.yml","path":"mkdocs.yml","contentType":"file"},{"name":"requirements.txt","path":"requirements.txt","contentType":"file"}],"totalCount":9}},"fileTreeProcessingTime":13.36826,"foldersToFetch":[],"reducedMotionEnabled":"system","repo":{"id":685141441,"defaultBranch":"main","name":"hackathon2023_datacube","ownerLogin":"CU-ESIIL","currentUserCanPush":true,"isFork":false,"isEmpty":false,"createdAt":"2023-08-30T09:49:22.000-06:00","ownerAvatar":"https://avatars.githubusercontent.com/u/107436025?v=4","public":true,"private":false,"isOrgOwned":true},"symbolsExpanded":true,"treeExpanded":false,"refInfo":{"name":"main","listCacheKey":"v0:1700152465.0","canEdit":true,"refType":"branch","currentOid":"d47215418e5b8ce7c496ca3a5fc7db4676a35188"},"path":"docs/2_R_Python_Bilingualism/bilingualism_md.md","currentUser":{"id":19940116,"login":"ttuff","userEmail":"ty.tuff@colorado.edu"},"blob":{"rawLines":null,"stylingDirectives":null,"csv":null,"csvError":null,"dependabotInfo":{"showConfigurationBanner":null,"configFilePath":null,"networkDependabotPath":"/CU-ESIIL/hackathon2023_datacube/network/updates","dismissConfigurationNoticePath":"/settings/dismiss-notice/dependabot_configuration_notice","configurationNoticeDismissed":false,"repoAlertsPath":"/CU-ESIIL/hackathon2023_datacube/security/dependabot","repoSecurityAndAnalysisPath":"/CU-ESIIL/hackathon2023_datacube/settings/security_analysis","repoOwnerIsOrg":true,"currentUserCanAdminRepo":true},"displayName":"bilingualism_md.md","displayUrl":"https://github.com/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md.md?raw=true","headerInfo":{"blobSize":"62.1 KB","deleteInfo":{"deleteTooltip":"Delete this file"},"editInfo":{"editTooltip":"Edit this file"},"ghDesktopPath":"x-github-client://openRepo/https://github.com/CU-ESIIL/hackathon2023_datacube?branch=main&filepath=docs%2F2_R_Python_Bilingualism%2Fbilingualism_md.md","gitLfsPath":null,"onBranch":true,"shortPath":"5483ba7","siteNavLoginPath":"/login?return_to=https%3A%2F%2Fgithub.com%2FCU-ESIIL%2Fhackathon2023_datacube%2Fblob%2Fmain%2Fdocs%2F2_R_Python_Bilingualism%2Fbilingualism_md.md","isCSV":false,"isRichtext":true,"toc":[{"level":1,"text":"R and Python bilingualism","anchor":"r-and-python-bilingualism","htmlText":"R and Python bilingualism"},{"level":2,"text":"Install packages","anchor":"install-packages","htmlText":"Install packages"},{"level":2,"text":"reticulate","anchor":"reticulate","htmlText":"reticulate"},{"level":2,"text":"Load packages and change settings","anchor":"load-packages-and-change-settings","htmlText":"Load packages and change settings"},{"level":2,"text":"Load saved data","anchor":"load-saved-data","htmlText":"Load saved data"},{"level":2,"text":"Save data","anchor":"save-data","htmlText":"Save data"},{"level":2,"text":"functions","anchor":"functions","htmlText":"functions"},{"level":2,"text":"Data Plots","anchor":"data-plots","htmlText":"Data Plots"},{"level":2,"text":"Linear regression","anchor":"linear-regression","htmlText":"Linear regression"},{"level":2,"text":"Random Forest","anchor":"random-forest","htmlText":"Random Forest"},{"level":2,"text":"Basic streetmap from Open Street Map","anchor":"basic-streetmap-from-open-street-map","htmlText":"Basic streetmap from Open Street Map"},{"level":2,"text":"CNN on Raster data","anchor":"cnn-on-raster-data","htmlText":"CNN on Raster data"},{"level":2,"text":"Piping","anchor":"piping","htmlText":"Piping"},{"level":2,"text":"for loops","anchor":"for-loops","htmlText":"for loops"},{"level":2,"text":"Parallel","anchor":"parallel","htmlText":"Parallel"},{"level":2,"text":"Data wrangling","anchor":"data-wrangling","htmlText":"Data wrangling"},{"level":2,"text":"Data from API","anchor":"data-from-api","htmlText":"Data from API"},{"level":2,"text":"Census data","anchor":"census-data","htmlText":"Census data"},{"level":2,"text":"Lidar data","anchor":"lidar-data","htmlText":"Lidar data"},{"level":2,"text":"Data for black lives","anchor":"data-for-black-lives","htmlText":"Data for black lives"},{"level":2,"text":"Propublica Congress API","anchor":"propublica-congress-api","htmlText":"Propublica Congress API"},{"level":2,"text":"Nonprofit Explorer API by ProPublica","anchor":"nonprofit-explorer-api-by-propublica","htmlText":"Nonprofit Explorer API by ProPublica"},{"level":2,"text":"Campaign Finance API by ProPublica","anchor":"campaign-finance-api-by-propublica","htmlText":"Campaign Finance API by ProPublica"},{"level":2,"text":"Historic Redlining","anchor":"historic-redlining","htmlText":"Historic Redlining"},{"level":2,"text":"American Indian and Alaska Native Areas (AIANNH)","anchor":"american-indian-and-alaska-native-areas-aiannh","htmlText":"American Indian and Alaska Native Areas (AIANNH)"},{"level":2,"text":"Indian Entities Recognized and Eligible To Receive Services by BIA","anchor":"indian-entities-recognized-and-eligible-to-receive-services-by-bia","htmlText":"Indian Entities Recognized and Eligible To Receive Services by BIA"},{"level":2,"text":"National Atlas - Indian Lands of the United States dataset","anchor":"national-atlas---indian-lands-of-the-united-states-dataset","htmlText":"National Atlas - Indian Lands of the United States dataset"}],"lineInfo":{"truncatedLoc":"2112","truncatedSloc":"1591"},"mode":"file"},"image":false,"isCodeownersFile":null,"isPlain":false,"isValidLegacyIssueTemplate":false,"issueTemplateHelpUrl":"https://docs.github.com/articles/about-issue-and-pull-request-templates","issueTemplate":null,"discussionTemplate":null,"language":"Markdown","languageID":222,"large":false,"loggedIn":true,"newDiscussionPath":"/CU-ESIIL/hackathon2023_datacube/discussions/new","newIssuePath":"/CU-ESIIL/hackathon2023_datacube/issues/new","planSupportInfo":{"repoIsFork":null,"repoOwnedByCurrentUser":null,"requestFullPath":"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md.md","showFreeOrgGatedFeatureMessage":null,"showPlanSupportBanner":null,"upgradeDataAttributes":null,"upgradePath":null},"publishBannersInfo":{"dismissActionNoticePath":"/settings/dismiss-notice/publish_action_from_dockerfile","dismissStackNoticePath":"/settings/dismiss-notice/publish_stack_from_file","releasePath":"/CU-ESIIL/hackathon2023_datacube/releases/new?marketplace=true","showPublishActionBanner":false,"showPublishStackBanner":false},"rawBlobUrl":"https://github.com/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md.md","renderImageOrRaw":false,"richText":"<article class=\"markdown-body entry-content container-lg\" itemprop=\"text\"><h1 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-r-and-python-bilingualism\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#r-and-python-bilingualism\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>R and Python bilingualism</h1>\n<p dir=\"auto\">Welcome to the R and Python bilingualism reference guide! If you’re\nfluent in one of these languages but hesitant to learn the other, you’re\nin the right place. The good news is that there are many similarities\nbetween R and Python that make it easy to switch between the two.</p>\n<p dir=\"auto\">Both R and Python are widely used in data science and are open-source,\nmeaning that they are free to use and constantly being improved by the\ncommunity. They both have extensive libraries for data analysis,\nvisualization, and machine learning. In fact, many of the libraries in\nboth languages have similar names and functions, such as Pandas in\nPython and data.table in R.</p>\n<p dir=\"auto\">While there are differences between the two languages, they can\ncomplement each other well. Python is versatile and scalable, making it\nideal for large and complex projects such as web development and\nartificial intelligence. R, on the other hand, is known for its\nexceptional statistical capabilities and is often used in data analysis\nand modeling. Visualization is also easier in R, making it a popular\nchoice for creating graphs and charts.</p>\n<p dir=\"auto\">By learning both R and Python, you’ll be able to take advantage of the\nstrengths of each language and create more efficient and robust data\nanalysis workflows. Don’t let the differences between the two languages\nintimidate you - once you become familiar with one, learning the other\nwill be much easier.</p>\n<p dir=\"auto\">So, whether you’re a Python enthusiast looking to expand your\nstatistical analysis capabilities, or an R user interested in exploring\nthe world of web development and artificial intelligence, this guide\nwill help you become bilingual in R and Python.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-install-packages\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#install-packages\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Install packages</h2>\n<p dir=\"auto\">In R, packages can be installed from CRAN repository by using the\ninstall.packages() function:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install the dplyr package from CRAN\ninstall.packages(&quot;dplyr&quot;)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install the dplyr package from CRAN</span>\ninstall.packages(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>dplyr<span class=\"pl-pds\">\"</span></span>)</pre></div>\n<p dir=\"auto\">In Python, packages can be installed from the Anaconda repository by\nusing the conda install command:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install the pandas package from Anaconda\n!conda install pandas\"><pre><span class=\"pl-c\"># Install the pandas package from Anaconda</span>\n!c<span class=\"pl-s1\">onda</span> <span class=\"pl-s1\">install</span> <span class=\"pl-s1\">pandas</span></pre></div>\n<p dir=\"auto\">Loading libraries in R and Python</p>\n<p dir=\"auto\">In R, libraries can be loaded in the same way as before, using the\nlibrary() function:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the dplyr library\nlibrary(dplyr)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the dplyr library</span>\nlibrary(<span class=\"pl-smi\">dplyr</span>)</pre></div>\n<p dir=\"auto\">In Python, libraries can be loaded in the same way as before, using the\nimport statement. Here’s an example:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the pandas library\nimport pandas as pd\"><pre><span class=\"pl-c\"># Load the pandas library</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span></pre></div>\n<p dir=\"auto\">Note that the package or library must be installed from the respective\nrepository before it can be loaded. Also, make sure you have the correct\nrepository specified in your system before installing packages. By\ndefault, R uses CRAN as its primary repository, whereas Anaconda uses\nits own repository by default.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-reticulate\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#reticulate\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>reticulate</h2>\n<p dir=\"auto\">The reticulate package lets you run both R and Python together in the R\nenvironment.</p>\n<p dir=\"auto\">R libraries are stored and managed in a repository called CRAN. You can\ndownload R packages with the install.packages() function</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"install.packages(&quot;reticulate&quot;)\"><pre>install.packages(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>reticulate<span class=\"pl-pds\">\"</span></span>)</pre></div>\n<p dir=\"auto\">You only need to install packages once, but you need to mount those\npackages with the library() function each time you open R.</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(reticulate)\"><pre>library(<span class=\"pl-smi\">reticulate</span>)</pre></div>\n<p dir=\"auto\">Python libraries are stored and managed in a few different libraries and\ntheir dependencies are not regulated as strictly as R libraries are in\nCRAN. It’s easier to publish a python package but it can also be more\ncumbersome for users because you need to manage dependencies yourself.\nYou can download python packages using both R and Python code</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"py_install(&quot;laspy&quot;)\"><pre>py_install(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>laspy<span class=\"pl-pds\">\"</span></span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## + '/Users/ty/opt/miniconda3/bin/conda' 'install' '--yes' '--prefix' '/Users/ty/opt/miniconda3/envs/earth-analytics-python' '-c' 'conda-forge' 'laspy'\"><pre class=\"notranslate\"><code>## + '/Users/ty/opt/miniconda3/bin/conda' 'install' '--yes' '--prefix' '/Users/ty/opt/miniconda3/envs/earth-analytics-python' '-c' 'conda-forge' 'laspy'\n</code></pre></div>\n<p dir=\"auto\">Now, let’s create a Python list and assign it to a variable py_list:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"py_list &lt;- r_to_py(list(1, 2, 3))\"><pre><span class=\"pl-smi\">py_list</span> <span class=\"pl-k\">&lt;-</span> r_to_py(<span class=\"pl-k\">list</span>(<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">2</span>, <span class=\"pl-c1\">3</span>))</pre></div>\n<p dir=\"auto\">We can now print out the py_list variable in Python using the\npy_run_string() function:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"py_run_string(&quot;print(r.py_list)&quot;)\"><pre>py_run_string(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>print(r.py_list)<span class=\"pl-pds\">\"</span></span>)</pre></div>\n<p dir=\"auto\">This will output [1, 2, 3] in the Python console.</p>\n<p dir=\"auto\">Now, let’s create an R vector and assign it to a variable r_vec:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"r_vec &lt;- c(4, 5, 6)\"><pre><span class=\"pl-smi\">r_vec</span> <span class=\"pl-k\">&lt;-</span> c(<span class=\"pl-c1\">4</span>, <span class=\"pl-c1\">5</span>, <span class=\"pl-c1\">6</span>)</pre></div>\n<p dir=\"auto\">We can now print out the r_vec variable in R using the py$ syntax to\naccess Python variables:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"print(py$py_list)\"><pre>print(<span class=\"pl-smi\">py</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">py_list</span>)</pre></div>\n<p dir=\"auto\">This will output [1, 2, 3] in the R console.</p>\n<p dir=\"auto\">We can also call Python functions from R using the py_call() function.\nFor example, let’s call the Python sum() function on the py_list\nvariable and assign the result to an R variable r_sum:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"r_sum &lt;- py_call(&quot;sum&quot;, args = list(py_list))\"><pre><span class=\"pl-smi\">r_sum</span> <span class=\"pl-k\">&lt;-</span> py_call(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>sum<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-v\">args</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">list</span>(<span class=\"pl-smi\">py_list</span>))</pre></div>\n<p dir=\"auto\">We can now print out the r_sum variable in R:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"print(r_sum)\"><pre>print(<span class=\"pl-smi\">r_sum</span>)</pre></div>\n<p dir=\"auto\">This will output 6 in the R console.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-load-packages-and-change-settings\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#load-packages-and-change-settings\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Load packages and change settings</h2>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"options(java.parameters = &quot;-Xmx5G&quot;)\n\nlibrary(r5r)\nlibrary(sf)\nlibrary(data.table)\nlibrary(ggplot2)\nlibrary(interp)\nlibrary(dplyr)\nlibrary(osmdata)\nlibrary(ggthemes)\nlibrary(sf)\nlibrary(data.table)\nlibrary(ggplot2)\nlibrary(akima)\nlibrary(dplyr)\nlibrary(raster)\nlibrary(osmdata)\nlibrary(mapview)\nlibrary(cowplot)\nlibrary(here)\nlibrary(testthat)\"><pre>options(<span class=\"pl-v\">java.parameters</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>-Xmx5G<span class=\"pl-pds\">\"</span></span>)\n\nlibrary(<span class=\"pl-smi\">r5r</span>)\nlibrary(<span class=\"pl-smi\">sf</span>)\nlibrary(<span class=\"pl-smi\">data.table</span>)\nlibrary(<span class=\"pl-smi\">ggplot2</span>)\nlibrary(<span class=\"pl-smi\">interp</span>)\nlibrary(<span class=\"pl-smi\">dplyr</span>)\nlibrary(<span class=\"pl-smi\">osmdata</span>)\nlibrary(<span class=\"pl-smi\">ggthemes</span>)\nlibrary(<span class=\"pl-smi\">sf</span>)\nlibrary(<span class=\"pl-smi\">data.table</span>)\nlibrary(<span class=\"pl-smi\">ggplot2</span>)\nlibrary(<span class=\"pl-smi\">akima</span>)\nlibrary(<span class=\"pl-smi\">dplyr</span>)\nlibrary(<span class=\"pl-smi\">raster</span>)\nlibrary(<span class=\"pl-smi\">osmdata</span>)\nlibrary(<span class=\"pl-smi\">mapview</span>)\nlibrary(<span class=\"pl-smi\">cowplot</span>)\nlibrary(<span class=\"pl-smi\">here</span>)\nlibrary(<span class=\"pl-smi\">testthat</span>)</pre></div>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import sys\nsys.argv.append([&quot;--max-memory&quot;, &quot;5G&quot;])\n\nimport pandas as pd\nimport geopandas\nimport matplotlib.pyplot as plt\nimport numpy as np\nimport plotnine\nimport contextily as cx\nimport r5py\nimport seaborn as sns\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">sys</span>\n<span class=\"pl-s1\">sys</span>.<span class=\"pl-s1\">argv</span>.<span class=\"pl-en\">append</span>([<span class=\"pl-s\">\"--max-memory\"</span>, <span class=\"pl-s\">\"5G\"</span>])\n\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">geopandas</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">matplotlib</span>.<span class=\"pl-s1\">pyplot</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">plt</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">numpy</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">np</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">plotnine</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">contextily</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">cx</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">r5py</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">seaborn</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">sns</span></pre></div>\n<p dir=\"auto\">R and Python are two popular programming languages used for data\nanalysis, statistics, and machine learning. Although they share some\nsimilarities, there are some fundamental differences between them.\nHere’s an example code snippet in R and Python to illustrate some of the\ndifferences:</p>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Create a vector of numbers from 1 to 10\nx &lt;- 1:10\n\n# Compute the mean of the vector\nmean_x &lt;- mean(x)\n\n# Print the result\nprint(mean_x)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a vector of numbers from 1 to 10</span>\nx <span class=\"pl-k\">&lt;-</span> <span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span><span class=\"pl-c1\">10</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Compute the mean of the vector</span>\nm<span class=\"pl-smi\">ean_x</span> <span class=\"pl-k\">&lt;-</span> mean(<span class=\"pl-smi\">x</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Print the result</span>\nprint(<span class=\"pl-smi\">mean_x</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## [1] 5.5\"><pre class=\"notranslate\"><code>## [1] 5.5\n</code></pre></div>\n<p dir=\"auto\">Python Code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Import the numpy library for numerical operations\nimport numpy as np\n\n# Create a numpy array of numbers from 1 to 10\nx = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])\n\n# Compute the mean of the array\nmean_x = np.mean(x)\n\n# Print the result\nprint(mean_x)\"><pre><span class=\"pl-c\"># Import the numpy library for numerical operations</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">numpy</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">np</span>\n\n<span class=\"pl-c\"># Create a numpy array of numbers from 1 to 10</span>\n<span class=\"pl-s1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">np</span>.<span class=\"pl-en\">array</span>([<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">2</span>, <span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">4</span>, <span class=\"pl-c1\">5</span>, <span class=\"pl-c1\">6</span>, <span class=\"pl-c1\">7</span>, <span class=\"pl-c1\">8</span>, <span class=\"pl-c1\">9</span>, <span class=\"pl-c1\">10</span>])\n\n<span class=\"pl-c\"># Compute the mean of the array</span>\n<span class=\"pl-s1\">mean_x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">np</span>.<span class=\"pl-en\">mean</span>(<span class=\"pl-s1\">x</span>)\n\n<span class=\"pl-c\"># Print the result</span>\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">mean_x</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## 5.5\"><pre class=\"notranslate\"><code>## 5.5\n</code></pre></div>\n<p dir=\"auto\">In this example, we can see that there are several differences between R\nand Python:</p>\n<p dir=\"auto\">Syntax: R uses the assignment operator &lt;- while Python uses the equals\nsign = for variable assignment.</p>\n<p dir=\"auto\">Libraries: Python relies heavily on external libraries such as numpy,\npandas, and matplotlib for data analysis, while R has built-in functions\nfor many data analysis tasks.</p>\n<p dir=\"auto\">Data types: R is designed to work with vectors and matrices, while\nPython uses lists and arrays. In the example above, we used the numpy\nlibrary to create a numerical array in Python.</p>\n<p dir=\"auto\">Function names: Function names in R and Python can differ significantly.\nIn the example above, we used the mean() function in R and the np.mean()\nfunction in Python to calculate the mean of the vector/array.</p>\n<p dir=\"auto\">These are just a few of the many differences between R and Python.\nUltimately, the choice between the two languages will depend on your\nspecific needs and preferences.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-load-saved-data\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#load-saved-data\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Load saved data</h2>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"data(&quot;iris&quot;)\nhere()\nload(file=here(&quot;2_R_and_Py_bilingualism&quot;, &quot;data&quot;, &quot;iris_example_data.rdata&quot;))\nobjects()\"><pre>data(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>iris<span class=\"pl-pds\">\"</span></span>)\nhere()\nload(<span class=\"pl-v\">file</span><span class=\"pl-k\">=</span>here(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>2_R_and_Py_bilingualism<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>data<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>iris_example_data.rdata<span class=\"pl-pds\">\"</span></span>))\nobjects()</pre></div>\n<p dir=\"auto\">Python code:</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-save-data\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#save-data\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Save data</h2>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"save(iris, file=here(&quot;2_R_and_Py_bilingualism&quot;, &quot;data&quot;, &quot;iris_example_data.rdata&quot;))\n\nwrite.csv(iris, file=here(&quot;2_R_and_Py_bilingualism&quot;, &quot;data&quot;, &quot;iris_example_data.csv&quot;))\"><pre>save(<span class=\"pl-smi\">iris</span>, <span class=\"pl-v\">file</span><span class=\"pl-k\">=</span>here(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>2_R_and_Py_bilingualism<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>data<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>iris_example_data.rdata<span class=\"pl-pds\">\"</span></span>))\n\nwrite.csv(<span class=\"pl-smi\">iris</span>, <span class=\"pl-v\">file</span><span class=\"pl-k\">=</span>here(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>2_R_and_Py_bilingualism<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>data<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>iris_example_data.csv<span class=\"pl-pds\">\"</span></span>))</pre></div>\n<p dir=\"auto\">Python code:</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-functions\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#functions\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>functions</h2>\n<p dir=\"auto\">Both R and Python are powerful languages for writing functions that can\ntake input, perform a specific task, and return output. R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Define a function that takes two arguments and returns their sum\nsum_r &lt;- function(a, b) {\n  return(a + b)\n}\n\n# Call the function with two arguments and print the result\nresult_r &lt;- sum_r(3, 5)\nprint(result_r)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Define a function that takes two arguments and returns their sum</span>\ns<span class=\"pl-en\">um_r</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-k\">function</span>(<span class=\"pl-smi\">a</span>, <span class=\"pl-smi\">b</span>) {\n  <span class=\"pl-k\">return</span>(<span class=\"pl-smi\">a</span> <span class=\"pl-k\">+</span> <span class=\"pl-smi\">b</span>)\n}\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Call the function with two arguments and print the result</span>\nr<span class=\"pl-smi\">esult_r</span> <span class=\"pl-k\">&lt;-</span> sum_r(<span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">5</span>)\nprint(<span class=\"pl-smi\">result_r</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## [1] 8\"><pre class=\"notranslate\"><code>## [1] 8\n</code></pre></div>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Define a function that takes two arguments and returns their sum\ndef sum_py(a, b):\n    return a + b\n\n# Call the function with two arguments and print the result\nresult_py = sum_py(3, 5)\nprint(result_py)\"><pre><span class=\"pl-c\"># Define a function that takes two arguments and returns their sum</span>\n<span class=\"pl-k\">def</span> <span class=\"pl-en\">sum_py</span>(<span class=\"pl-s1\">a</span>, <span class=\"pl-s1\">b</span>):\n    <span class=\"pl-k\">return</span> <span class=\"pl-s1\">a</span> <span class=\"pl-c1\">+</span> <span class=\"pl-s1\">b</span>\n\n<span class=\"pl-c\"># Call the function with two arguments and print the result</span>\n<span class=\"pl-s1\">result_py</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">sum_py</span>(<span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">5</span>)\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">result_py</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## 8\"><pre class=\"notranslate\"><code>## 8\n</code></pre></div>\n<p dir=\"auto\">In both cases, we define a function that takes two arguments and returns\ntheir sum. In R, we use the function keyword to define a function, while\nin Python, we use the def keyword. The function body in R is enclosed in\ncurly braces, while in Python it is indented.</p>\n<p dir=\"auto\">There are a few differences in the syntax and functionality between the\ntwo approaches:</p>\n<p dir=\"auto\">Function arguments: In R, function arguments are separated by commas,\nwhile in Python they are enclosed in parentheses. The syntax for\nspecifying default arguments and variable-length argument lists can also\ndiffer between the two languages. Return statement: In R, we use the\nreturn keyword to specify the return value of a function, while in\nPython, we simply use the return statement. Function names: Function\nnames in R and Python can differ significantly. In the example above, we\nused the sum_r() function in R and the sum_py() function in Python to\ncalculate the sum of two numbers.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-data-plots\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#data-plots\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Data Plots</h2>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;ggplot2&quot; package for plotting\nlibrary(ggplot2)\n\n# Generate some sample data\nx &lt;- seq(1, 10, 1)\ny &lt;- x + rnorm(10)\n\n# Create a scatter plot\nggplot(data.frame(x, y), aes(x = x, y = y)) +\n  geom_point()\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"ggplot2\" package for plotting</span>\nlibrary(<span class=\"pl-smi\">ggplot2</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Generate some sample data</span>\nx <span class=\"pl-k\">&lt;-</span> seq(<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">10</span>, <span class=\"pl-c1\">1</span>)\n<span class=\"pl-smi\">y</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">x</span> <span class=\"pl-k\">+</span> rnorm(<span class=\"pl-c1\">10</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a scatter plot</span>\nggplot(<span class=\"pl-k\">data.frame</span>(<span class=\"pl-smi\">x</span>, <span class=\"pl-smi\">y</span>), aes(<span class=\"pl-v\">x</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">x</span>, <span class=\"pl-v\">y</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">y</span>)) <span class=\"pl-k\">+</span>\n  geom_point()</pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-25-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-25-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a>\nPython code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;matplotlib&quot; library\nimport matplotlib.pyplot as plt\n\n# Generate some sample data\nimport numpy as np\nx = np.arange(1, 11)\ny = x + np.random.normal(0, 1, 10)\n\n#clear last plot\nplt.clf()\n\n# Create a scatter plot\nplt.scatter(x, y)\nplt.show()\"><pre><span class=\"pl-c\"># Load the \"matplotlib\" library</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">matplotlib</span>.<span class=\"pl-s1\">pyplot</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">plt</span>\n\n<span class=\"pl-c\"># Generate some sample data</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">numpy</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">np</span>\n<span class=\"pl-s1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">np</span>.<span class=\"pl-en\">arange</span>(<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">11</span>)\n<span class=\"pl-s1\">y</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">x</span> <span class=\"pl-c1\">+</span> <span class=\"pl-s1\">np</span>.<span class=\"pl-s1\">random</span>.<span class=\"pl-en\">normal</span>(<span class=\"pl-c1\">0</span>, <span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">10</span>)\n\n<span class=\"pl-c\">#clear last plot</span>\n<span class=\"pl-s1\">plt</span>.<span class=\"pl-en\">clf</span>()\n\n<span class=\"pl-c\"># Create a scatter plot</span>\n<span class=\"pl-s1\">plt</span>.<span class=\"pl-en\">scatter</span>(<span class=\"pl-s1\">x</span>, <span class=\"pl-s1\">y</span>)\n<span class=\"pl-s1\">plt</span>.<span class=\"pl-en\">show</span>()</pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-26-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-26-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">In both cases, we generate some sample data and create a scatter plot to\nvisualize the relationship between the variables.</p>\n<p dir=\"auto\">There are a few differences in the syntax and functionality between the\ntwo approaches:</p>\n<p dir=\"auto\">Library and package names: In R, we use the ggplot2 package for\nplotting, while in Python, we use the matplotlib library. Data format:\nIn R, we use a data frame to store the input data, while in Python, we\nuse numpy arrays. Plotting functions: In R, we use the ggplot() function\nto create a new plot object, and then use the geom_point() function to\ncreate a scatter plot layer. In Python, we use the scatter() function\nfrom the matplotlib.pyplot module to create a scatter plot directly.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-linear-regression\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#linear-regression\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Linear regression</h2>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;ggplot2&quot; package for plotting\nlibrary(ggplot2)\n\n# Generate some sample data\nx &lt;- seq(1, 10, 1)\ny &lt;- x + rnorm(10)\n\n# Perform linear regression\nmodel_r &lt;- lm(y ~ x)\n\n# Print the model summary\nsummary(model_r)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"ggplot2\" package for plotting</span>\nlibrary(<span class=\"pl-smi\">ggplot2</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Generate some sample data</span>\nx <span class=\"pl-k\">&lt;-</span> seq(<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">10</span>, <span class=\"pl-c1\">1</span>)\n<span class=\"pl-smi\">y</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">x</span> <span class=\"pl-k\">+</span> rnorm(<span class=\"pl-c1\">10</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Perform linear regression</span>\nm<span class=\"pl-smi\">odel_r</span> <span class=\"pl-k\">&lt;-</span> lm(<span class=\"pl-smi\">y</span> <span class=\"pl-k\">~</span> <span class=\"pl-smi\">x</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Print the model summary</span>\nsummary(<span class=\"pl-smi\">model_r</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## \n## Call:\n## lm(formula = y ~ x)\n## \n## Residuals:\n##      Min       1Q   Median       3Q      Max \n## -1.69344 -0.42336  0.08961  0.34778  1.56728 \n## \n## Coefficients:\n##             Estimate Std. Error t value Pr(&gt;|t|)    \n## (Intercept)  -0.1676     0.6781  -0.247    0.811    \n## x             0.9750     0.1093   8.921 1.98e-05 ***\n## ---\n## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n## \n## Residual standard error: 0.9926 on 8 degrees of freedom\n## Multiple R-squared:  0.9087, Adjusted R-squared:  0.8972 \n## F-statistic: 79.59 on 1 and 8 DF,  p-value: 1.976e-05\"><pre class=\"notranslate\"><code>## \n## Call:\n## lm(formula = y ~ x)\n## \n## Residuals:\n##      Min       1Q   Median       3Q      Max \n## -1.69344 -0.42336  0.08961  0.34778  1.56728 \n## \n## Coefficients:\n##             Estimate Std. Error t value Pr(&gt;|t|)    \n## (Intercept)  -0.1676     0.6781  -0.247    0.811    \n## x             0.9750     0.1093   8.921 1.98e-05 ***\n## ---\n## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n## \n## Residual standard error: 0.9926 on 8 degrees of freedom\n## Multiple R-squared:  0.9087, Adjusted R-squared:  0.8972 \n## F-statistic: 79.59 on 1 and 8 DF,  p-value: 1.976e-05\n</code></pre></div>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Plot the data and regression line\nggplot(data.frame(x, y), aes(x = x, y = y)) +\n  geom_point() +\n  geom_smooth(method = &quot;lm&quot;, se = FALSE)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Plot the data and regression line</span>\nggplot(<span class=\"pl-k\">data.frame</span>(<span class=\"pl-smi\">x</span>, <span class=\"pl-smi\">y</span>), aes(<span class=\"pl-v\">x</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">x</span>, <span class=\"pl-v\">y</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">y</span>)) <span class=\"pl-k\">+</span>\n  geom_point() <span class=\"pl-k\">+</span>\n  geom_smooth(<span class=\"pl-v\">method</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>lm<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-v\">se</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">FALSE</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## `geom_smooth()` using formula = 'y ~ x'\"><pre class=\"notranslate\"><code>## `geom_smooth()` using formula = 'y ~ x'\n</code></pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-27-3.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-27-3.pdf\" alt=\"\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;matplotlib&quot; and &quot;scikit-learn&quot; libraries\nimport matplotlib.pyplot as plt\nfrom sklearn.linear_model import LinearRegression\n\n# Generate some sample data\nimport numpy as np\nx = np.arange(1, 11)\ny = x + np.random.normal(0, 1, 10)\n\n# Perform linear regression\nmodel_py = LinearRegression().fit(x.reshape(-1, 1), y)\n\n# Print the model coefficients\nprint(&quot;Coefficients: &quot;, model_py.coef_)\"><pre><span class=\"pl-c\"># Load the \"matplotlib\" and \"scikit-learn\" libraries</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">matplotlib</span>.<span class=\"pl-s1\">pyplot</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">plt</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">sklearn</span>.<span class=\"pl-s1\">linear_model</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">LinearRegression</span>\n\n<span class=\"pl-c\"># Generate some sample data</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">numpy</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">np</span>\n<span class=\"pl-s1\">x</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">np</span>.<span class=\"pl-en\">arange</span>(<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">11</span>)\n<span class=\"pl-s1\">y</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">x</span> <span class=\"pl-c1\">+</span> <span class=\"pl-s1\">np</span>.<span class=\"pl-s1\">random</span>.<span class=\"pl-en\">normal</span>(<span class=\"pl-c1\">0</span>, <span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">10</span>)\n\n<span class=\"pl-c\"># Perform linear regression</span>\n<span class=\"pl-s1\">model_py</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">LinearRegression</span>().<span class=\"pl-en\">fit</span>(<span class=\"pl-s1\">x</span>.<span class=\"pl-en\">reshape</span>(<span class=\"pl-c1\">-</span><span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">1</span>), <span class=\"pl-s1\">y</span>)\n\n<span class=\"pl-c\"># Print the model coefficients</span>\n<span class=\"pl-en\">print</span>(<span class=\"pl-s\">\"Coefficients: \"</span>, <span class=\"pl-s1\">model_py</span>.<span class=\"pl-s1\">coef_</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## Coefficients:  [1.15539692]\"><pre class=\"notranslate\"><code>## Coefficients:  [1.15539692]\n</code></pre></div>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"print(&quot;Intercept: &quot;, model_py.intercept_)\n\n#clear last plot\"><pre><span class=\"pl-en\">print</span>(<span class=\"pl-s\">\"Intercept: \"</span>, <span class=\"pl-s1\">model_py</span>.<span class=\"pl-s1\">intercept_</span>)\n\n<span class=\"pl-c\">#clear last plot</span></pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## Intercept:  -1.1291396173221218\"><pre class=\"notranslate\"><code>## Intercept:  -1.1291396173221218\n</code></pre></div>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"plt.clf()\n\n# Plot the data and regression line\nplt.scatter(x, y)\nplt.plot(x, model_py.predict(x.reshape(-1, 1)), color='red')\nplt.show()\"><pre><span class=\"pl-s1\">plt</span>.<span class=\"pl-en\">clf</span>()\n\n<span class=\"pl-c\"># Plot the data and regression line</span>\n<span class=\"pl-s1\">plt</span>.<span class=\"pl-en\">scatter</span>(<span class=\"pl-s1\">x</span>, <span class=\"pl-s1\">y</span>)\n<span class=\"pl-s1\">plt</span>.<span class=\"pl-en\">plot</span>(<span class=\"pl-s1\">x</span>, <span class=\"pl-s1\">model_py</span>.<span class=\"pl-en\">predict</span>(<span class=\"pl-s1\">x</span>.<span class=\"pl-en\">reshape</span>(<span class=\"pl-c1\">-</span><span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">1</span>)), <span class=\"pl-s1\">color</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">'red'</span>)\n<span class=\"pl-s1\">plt</span>.<span class=\"pl-en\">show</span>()</pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-28-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-28-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">In both cases, we generate some sample data with a linear relationship\nbetween x and y, and then perform a simple linear regression to estimate\nthe slope and intercept of the line. We then plot the data and\nregression line to visualize the fit.</p>\n<p dir=\"auto\">There are a few differences in the syntax and functionality between the\ntwo approaches:</p>\n<p dir=\"auto\">Library and package names: In R, we use the lm() function from the base\npackage to perform linear regression, while in Python, we use the\nLinearRegression() class from the scikit-learn library. Additionally, we\nuse the ggplot2 package in R for plotting, while we use the matplotlib\nlibrary in Python. Data format: In R, we can specify the dependent and\nindependent variables in the formula used for regression. In Python, we\nneed to reshape the input data to a two-dimensional array before fitting\nthe model. Model summary: In R, we can use the summary() function to\nprint a summary of the model, including the estimated coefficients,\nstandard errors, and p-values. In Python, we need to print the\ncoefficients and intercept separately.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-random-forest\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#random-forest\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Random Forest</h2>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;randomForest&quot; package\nlibrary(randomForest)\n\n# Load the &quot;iris&quot; dataset\ndata(iris)\n\n# Split the data into training and testing sets\nset.seed(123)\ntrain_idx &lt;- sample(1:nrow(iris), nrow(iris) * 0.7, replace = FALSE)\ntrain_data &lt;- iris[train_idx, ]\ntest_data &lt;- iris[-train_idx, ]\n\n# Build a random forest model\nrf_model &lt;- randomForest(Species ~ ., data = train_data, ntree = 500)\n\n# Make predictions on the testing set\npredictions &lt;- predict(rf_model, test_data)\n\n# Calculate accuracy of the model\naccuracy &lt;- sum(predictions == test_data$Species) / nrow(test_data)\nprint(paste(&quot;Accuracy:&quot;, accuracy))\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"randomForest\" package</span>\nlibrary(<span class=\"pl-smi\">randomForest</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"iris\" dataset</span>\ndata(<span class=\"pl-smi\">iris</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Split the data into training and testing sets</span>\nset.seed(<span class=\"pl-c1\">123</span>)\n<span class=\"pl-smi\">train_idx</span> <span class=\"pl-k\">&lt;-</span> sample(<span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span>nrow(<span class=\"pl-smi\">iris</span>), nrow(<span class=\"pl-smi\">iris</span>) <span class=\"pl-k\">*</span> <span class=\"pl-c1\">0.7</span>, <span class=\"pl-v\">replace</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">FALSE</span>)\n<span class=\"pl-smi\">train_data</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">iris</span>[<span class=\"pl-smi\">train_idx</span>, ]\n<span class=\"pl-smi\">test_data</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">iris</span>[<span class=\"pl-k\">-</span><span class=\"pl-smi\">train_idx</span>, ]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Build a random forest model</span>\nr<span class=\"pl-smi\">f_model</span> <span class=\"pl-k\">&lt;-</span> randomForest(<span class=\"pl-smi\">Species</span> <span class=\"pl-k\">~</span> <span class=\"pl-smi\">.</span>, <span class=\"pl-v\">data</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">train_data</span>, <span class=\"pl-v\">ntree</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">500</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Make predictions on the testing set</span>\np<span class=\"pl-smi\">redictions</span> <span class=\"pl-k\">&lt;-</span> predict(<span class=\"pl-smi\">rf_model</span>, <span class=\"pl-smi\">test_data</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Calculate accuracy of the model</span>\na<span class=\"pl-smi\">ccuracy</span> <span class=\"pl-k\">&lt;-</span> sum(<span class=\"pl-smi\">predictions</span> <span class=\"pl-k\">==</span> <span class=\"pl-smi\">test_data</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">Species</span>) <span class=\"pl-k\">/</span> nrow(<span class=\"pl-smi\">test_data</span>)\nprint(paste(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Accuracy:<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-smi\">accuracy</span>))</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## [1] &quot;Accuracy: 0.977777777777778&quot;\"><pre class=\"notranslate\"><code>## [1] \"Accuracy: 0.977777777777778\"\n</code></pre></div>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;pandas&quot;, &quot;numpy&quot;, and &quot;sklearn&quot; libraries\nimport pandas as pd\nimport numpy as np\nfrom sklearn.ensemble import RandomForestClassifier\nfrom sklearn.datasets import load_iris\nfrom sklearn.model_selection import train_test_split\n\n# Load the &quot;iris&quot; dataset\niris = load_iris()\n\n# Split the data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3, random_state=123)\n\n# Build a random forest model\nrf_model = RandomForestClassifier(n_estimators=500, random_state=123)\nrf_model.fit(X_train, y_train)\n\n# Make predictions on the testing set\"><pre><span class=\"pl-c\"># Load the \"pandas\", \"numpy\", and \"sklearn\" libraries</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">numpy</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">np</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">sklearn</span>.<span class=\"pl-s1\">ensemble</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">RandomForestClassifier</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">sklearn</span>.<span class=\"pl-s1\">datasets</span> <span class=\"pl-k\">import</span> <span class=\"pl-s1\">load_iris</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">sklearn</span>.<span class=\"pl-s1\">model_selection</span> <span class=\"pl-k\">import</span> <span class=\"pl-s1\">train_test_split</span>\n\n<span class=\"pl-c\"># Load the \"iris\" dataset</span>\n<span class=\"pl-s1\">iris</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">load_iris</span>()\n\n<span class=\"pl-c\"># Split the data into training and testing sets</span>\n<span class=\"pl-v\">X_train</span>, <span class=\"pl-v\">X_test</span>, <span class=\"pl-s1\">y_train</span>, <span class=\"pl-s1\">y_test</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">train_test_split</span>(<span class=\"pl-s1\">iris</span>.<span class=\"pl-s1\">data</span>, <span class=\"pl-s1\">iris</span>.<span class=\"pl-s1\">target</span>, <span class=\"pl-s1\">test_size</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">0.3</span>, <span class=\"pl-s1\">random_state</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">123</span>)\n\n<span class=\"pl-c\"># Build a random forest model</span>\n<span class=\"pl-s1\">rf_model</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">RandomForestClassifier</span>(<span class=\"pl-s1\">n_estimators</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">500</span>, <span class=\"pl-s1\">random_state</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">123</span>)\n<span class=\"pl-s1\">rf_model</span>.<span class=\"pl-en\">fit</span>(<span class=\"pl-v\">X_train</span>, <span class=\"pl-s1\">y_train</span>)\n\n<span class=\"pl-c\"># Make predictions on the testing set</span></pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## RandomForestClassifier(n_estimators=500, random_state=123)\"><pre class=\"notranslate\"><code>## RandomForestClassifier(n_estimators=500, random_state=123)\n</code></pre></div>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"predictions = rf_model.predict(X_test)\n\n# Calculate accuracy of the model\naccuracy = sum(predictions == y_test) / len(y_test)\nprint(&quot;Accuracy:&quot;, accuracy)\"><pre><span class=\"pl-s1\">predictions</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">rf_model</span>.<span class=\"pl-en\">predict</span>(<span class=\"pl-v\">X_test</span>)\n\n<span class=\"pl-c\"># Calculate accuracy of the model</span>\n<span class=\"pl-s1\">accuracy</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">sum</span>(<span class=\"pl-s1\">predictions</span> <span class=\"pl-c1\">==</span> <span class=\"pl-s1\">y_test</span>) <span class=\"pl-c1\">/</span> <span class=\"pl-en\">len</span>(<span class=\"pl-s1\">y_test</span>)\n<span class=\"pl-en\">print</span>(<span class=\"pl-s\">\"Accuracy:\"</span>, <span class=\"pl-s1\">accuracy</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## Accuracy: 0.9555555555555556\"><pre class=\"notranslate\"><code>## Accuracy: 0.9555555555555556\n</code></pre></div>\n<p dir=\"auto\">In both cases, we load the iris dataset and split it into training and\ntesting sets. We then build a random forest model using the training\ndata and evaluate its accuracy on the testing data.</p>\n<p dir=\"auto\">There are a few differences in the syntax and functionality between the\ntwo approaches:</p>\n<p dir=\"auto\">Library and package names: In R, we use the randomForest package to\nbuild random forest models, while in Python, we use the\nRandomForestClassifier class from the sklearn.ensemble module. We also\nuse different libraries for loading and manipulating data (pandas and\nnumpy in Python, and built-in datasets in R). Model parameters: The\nsyntax for setting model parameters is slightly different in R and\nPython. For example, in R, we specify the number of trees using the\nntree parameter, while in Python, we use the n_estimators parameter.\nData format: In R, we use a data frame to store the input data, while in\nPython, we use numpy arrays.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-basic-streetmap-from-open-street-map\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#basic-streetmap-from-open-street-map\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Basic streetmap from Open Street Map</h2>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;osmdata&quot; package for mapping\nlibrary(osmdata)\nlibrary(tmap)\n\n# Define the map location and zoom level\nbbox &lt;- c(left = -0.16, bottom = 51.49, right = -0.13, top = 51.51)\n\n# Get the OpenStreetMap data\nosm_data &lt;- opq(bbox) %&gt;% \n  add_osm_feature(key = &quot;highway&quot;) %&gt;% \n  osmdata_sf()\n\n# Plot the map using tmap\ntm_shape(osm_data$osm_lines) + \n  tm_lines()\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"osmdata\" package for mapping</span>\nlibrary(<span class=\"pl-smi\">osmdata</span>)\nlibrary(<span class=\"pl-smi\">tmap</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Define the map location and zoom level</span>\nb<span class=\"pl-smi\">box</span> <span class=\"pl-k\">&lt;-</span> c(<span class=\"pl-v\">left</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">-</span><span class=\"pl-c1\">0.16</span>, <span class=\"pl-v\">bottom</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">51.49</span>, <span class=\"pl-v\">right</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">-</span><span class=\"pl-c1\">0.13</span>, <span class=\"pl-v\">top</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">51.51</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get the OpenStreetMap data</span>\no<span class=\"pl-smi\">sm_data</span> <span class=\"pl-k\">&lt;-</span> opq(<span class=\"pl-smi\">bbox</span>) %<span class=\"pl-k\">&gt;</span>% \n  add_osm_feature(<span class=\"pl-v\">key</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>highway<span class=\"pl-pds\">\"</span></span>) %<span class=\"pl-k\">&gt;</span>% \n  osmdata_sf()\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Plot the map using tmap</span>\ntm_shape(<span class=\"pl-smi\">osm_data</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">osm_lines</span>) <span class=\"pl-k\">+</span> \n  tm_lines()</pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-31-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-31-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a>\nPython code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;osmnx&quot; package for mapping\nimport osmnx as ox\n\n# Define the map location and zoom level\nbbox = (51.49, -0.16, 51.51, -0.13)\n\n# Get the OpenStreetMap data\nosm_data = ox.graph_from_bbox(north=bbox[2], south=bbox[0], east=bbox[3], west=bbox[1], network_type='all')\n\n# Plot the map using osmnx\nox.plot_graph(osm_data)\"><pre><span class=\"pl-c\"># Load the \"osmnx\" package for mapping</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">osmnx</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">ox</span>\n\n<span class=\"pl-c\"># Define the map location and zoom level</span>\n<span class=\"pl-s1\">bbox</span> <span class=\"pl-c1\">=</span> (<span class=\"pl-c1\">51.49</span>, <span class=\"pl-c1\">-</span><span class=\"pl-c1\">0.16</span>, <span class=\"pl-c1\">51.51</span>, <span class=\"pl-c1\">-</span><span class=\"pl-c1\">0.13</span>)\n\n<span class=\"pl-c\"># Get the OpenStreetMap data</span>\n<span class=\"pl-s1\">osm_data</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">ox</span>.<span class=\"pl-en\">graph_from_bbox</span>(<span class=\"pl-s1\">north</span><span class=\"pl-c1\">=</span><span class=\"pl-s1\">bbox</span>[<span class=\"pl-c1\">2</span>], <span class=\"pl-s1\">south</span><span class=\"pl-c1\">=</span><span class=\"pl-s1\">bbox</span>[<span class=\"pl-c1\">0</span>], <span class=\"pl-s1\">east</span><span class=\"pl-c1\">=</span><span class=\"pl-s1\">bbox</span>[<span class=\"pl-c1\">3</span>], <span class=\"pl-s1\">west</span><span class=\"pl-c1\">=</span><span class=\"pl-s1\">bbox</span>[<span class=\"pl-c1\">1</span>], <span class=\"pl-s1\">network_type</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">'all'</span>)\n\n<span class=\"pl-c\"># Plot the map using osmnx</span>\n<span class=\"pl-s1\">ox</span>.<span class=\"pl-en\">plot_graph</span>(<span class=\"pl-s1\">osm_data</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## (&lt;Figure size 1600x1600 with 0 Axes&gt;, &lt;AxesSubplot:&gt;)\"><pre class=\"notranslate\"><code>## (&lt;Figure size 1600x1600 with 0 Axes&gt;, &lt;AxesSubplot:&gt;)\n</code></pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-32-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-32-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">In both cases, we define the map location and zoom level, retrieve the\nOpenStreetMap data using the specified bounding box, and plot the map.</p>\n<p dir=\"auto\">The main differences between the two approaches are:</p>\n<p dir=\"auto\">Package names and syntax: In R, we use the osmdata package and its\nsyntax to download and process the OpenStreetMap data, while in Python,\nwe use the osmnx package and its syntax. Mapping libraries: In R, we use\nthe tmap package to create a static map of the OpenStreetMap data, while\nin Python, we use the built-in ox.plot_graph function from the osmnx\npackage to plot the map.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-cnn-on-raster-data\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#cnn-on-raster-data\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>CNN on Raster data</h2>\n<p dir=\"auto\">R Code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load the &quot;keras&quot; package for building the CNN\nlibrary(tensorflow)\nlibrary(keras)\n\n# Load the &quot;raster&quot; package for working with raster data\nlibrary(raster)\n\n# Load the &quot;magrittr&quot; package for pipe operator\nlibrary(magrittr)\n\n# Load the data as a raster brick\nraster_data &lt;- brick(&quot;raster_data.tif&quot;)\n\n# Split the data into training and testing sets\nsplit_data &lt;- sample(1:nlayers(raster_data), size = nlayers(raster_data)*0.8, replace = FALSE)\ntrain_data &lt;- raster_data[[split_data]]\ntest_data &lt;- raster_data[[setdiff(1:nlayers(raster_data), split_data)]]\n\n# Define the CNN model\nmodel &lt;- keras_model_sequential() %&gt;% \n  layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = &quot;relu&quot;, input_shape = c(ncol(train_data), nrow(train_data), ncell(train_data))) %&gt;% \n  layer_max_pooling_2d(pool_size = c(2, 2)) %&gt;% \n  layer_dropout(rate = 0.25) %&gt;% \n  layer_flatten() %&gt;% \n  layer_dense(units = 128, activation = &quot;relu&quot;) %&gt;% \n  layer_dropout(rate = 0.5) %&gt;% \n  layer_dense(units = nlayers(train_data), activation = &quot;softmax&quot;)\n\n# Compile the model\nmodel %&gt;% compile(loss = &quot;categorical_crossentropy&quot;, optimizer = &quot;adam&quot;, metrics = &quot;accuracy&quot;)\n\n# Train the model\nhistory &lt;- model %&gt;% fit(x = array(train_data), y = to_categorical(1:nlayers(train_data)), epochs = 10, validation_split = 0.2)\n\n# Evaluate the model\nmodel %&gt;% evaluate(x = array(test_data), y = to_categorical(1:nlayers(test_data)))\n\n# Plot the model accuracy over time\nplot(history)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"keras\" package for building the CNN</span>\nlibrary(<span class=\"pl-smi\">tensorflow</span>)\nlibrary(<span class=\"pl-smi\">keras</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"raster\" package for working with raster data</span>\nlibrary(<span class=\"pl-smi\">raster</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the \"magrittr\" package for pipe operator</span>\nlibrary(<span class=\"pl-smi\">magrittr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Load the data as a raster brick</span>\nr<span class=\"pl-smi\">aster_data</span> <span class=\"pl-k\">&lt;-</span> brick(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>raster_data.tif<span class=\"pl-pds\">\"</span></span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Split the data into training and testing sets</span>\ns<span class=\"pl-smi\">plit_data</span> <span class=\"pl-k\">&lt;-</span> sample(<span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span>nlayers(<span class=\"pl-smi\">raster_data</span>), <span class=\"pl-v\">size</span> <span class=\"pl-k\">=</span> nlayers(<span class=\"pl-smi\">raster_data</span>)<span class=\"pl-k\">*</span><span class=\"pl-c1\">0.8</span>, <span class=\"pl-v\">replace</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">FALSE</span>)\n<span class=\"pl-smi\">train_data</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">raster_data</span>[[<span class=\"pl-smi\">split_data</span>]]\n<span class=\"pl-smi\">test_data</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">raster_data</span>[[setdiff(<span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span>nlayers(<span class=\"pl-smi\">raster_data</span>), <span class=\"pl-smi\">split_data</span>)]]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Define the CNN model</span>\nm<span class=\"pl-smi\">odel</span> <span class=\"pl-k\">&lt;-</span> keras_model_sequential() %<span class=\"pl-k\">&gt;</span>% \n  layer_conv_2d(<span class=\"pl-v\">filters</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">32</span>, <span class=\"pl-v\">kernel_size</span> <span class=\"pl-k\">=</span> c(<span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">3</span>), <span class=\"pl-v\">activation</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>relu<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-v\">input_shape</span> <span class=\"pl-k\">=</span> c(ncol(<span class=\"pl-smi\">train_data</span>), nrow(<span class=\"pl-smi\">train_data</span>), ncell(<span class=\"pl-smi\">train_data</span>))) %<span class=\"pl-k\">&gt;</span>% \n  layer_max_pooling_2d(<span class=\"pl-v\">pool_size</span> <span class=\"pl-k\">=</span> c(<span class=\"pl-c1\">2</span>, <span class=\"pl-c1\">2</span>)) %<span class=\"pl-k\">&gt;</span>% \n  layer_dropout(<span class=\"pl-v\">rate</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">0.25</span>) %<span class=\"pl-k\">&gt;</span>% \n  layer_flatten() %<span class=\"pl-k\">&gt;</span>% \n  layer_dense(<span class=\"pl-v\">units</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">128</span>, <span class=\"pl-v\">activation</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>relu<span class=\"pl-pds\">\"</span></span>) %<span class=\"pl-k\">&gt;</span>% \n  layer_dropout(<span class=\"pl-v\">rate</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">0.5</span>) %<span class=\"pl-k\">&gt;</span>% \n  layer_dense(<span class=\"pl-v\">units</span> <span class=\"pl-k\">=</span> nlayers(<span class=\"pl-smi\">train_data</span>), <span class=\"pl-v\">activation</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>softmax<span class=\"pl-pds\">\"</span></span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Compile the model</span>\nm<span class=\"pl-smi\">odel</span> %<span class=\"pl-k\">&gt;</span>% compile(<span class=\"pl-v\">loss</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>categorical_crossentropy<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-v\">optimizer</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>adam<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-v\">metrics</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>accuracy<span class=\"pl-pds\">\"</span></span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Train the model</span>\nh<span class=\"pl-smi\">istory</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">model</span> %<span class=\"pl-k\">&gt;</span>% fit(<span class=\"pl-v\">x</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">array</span>(<span class=\"pl-smi\">train_data</span>), <span class=\"pl-v\">y</span> <span class=\"pl-k\">=</span> to_categorical(<span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span>nlayers(<span class=\"pl-smi\">train_data</span>)), <span class=\"pl-v\">epochs</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">10</span>, <span class=\"pl-v\">validation_split</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">0.2</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Evaluate the model</span>\nm<span class=\"pl-smi\">odel</span> %<span class=\"pl-k\">&gt;</span>% evaluate(<span class=\"pl-v\">x</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">array</span>(<span class=\"pl-smi\">test_data</span>), <span class=\"pl-v\">y</span> <span class=\"pl-k\">=</span> to_categorical(<span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span>nlayers(<span class=\"pl-smi\">test_data</span>)))\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Plot the model accuracy over time</span>\nplot(<span class=\"pl-smi\">history</span>)</pre></div>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-piping\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#piping\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Piping</h2>\n<p dir=\"auto\">Piping is a powerful feature in both R and Python that allows for a more\nstreamlined and readable code. However, the syntax for piping is\nslightly different between the two languages.</p>\n<p dir=\"auto\">In R, piping is done using the %&gt;% operator from the magrittr package,\nwhile in Python, it is done using the | operator from the pandas\npackage.</p>\n<p dir=\"auto\">Let’s compare and contrast piping in R and Python with some examples:</p>\n<p dir=\"auto\">Piping in R In R, we can use the %&gt;% operator to pipe output from one\nfunction to another, which can make our code more readable and easier to\nfollow. Here’s an example:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(dplyr)\n\n# create a data frame\ndf &lt;- data.frame(x = c(1,2,3), y = c(4,5,6))\n\n# calculate the sum of column x and y\ndf %&gt;%\n  mutate(z = x + y) %&gt;%\n  summarize(sum_z = sum(z))\"><pre>library(<span class=\"pl-smi\">dplyr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> create a data frame</span>\nd<span class=\"pl-smi\">f</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-k\">data.frame</span>(<span class=\"pl-v\">x</span> <span class=\"pl-k\">=</span> c(<span class=\"pl-c1\">1</span>,<span class=\"pl-c1\">2</span>,<span class=\"pl-c1\">3</span>), <span class=\"pl-v\">y</span> <span class=\"pl-k\">=</span> c(<span class=\"pl-c1\">4</span>,<span class=\"pl-c1\">5</span>,<span class=\"pl-c1\">6</span>))\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> calculate the sum of column x and y</span>\nd<span class=\"pl-smi\">f</span> %<span class=\"pl-k\">&gt;</span>%\n  mutate(<span class=\"pl-v\">z</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">x</span> <span class=\"pl-k\">+</span> <span class=\"pl-smi\">y</span>) %<span class=\"pl-k\">&gt;</span>%\n  summarize(<span class=\"pl-v\">sum_z</span> <span class=\"pl-k\">=</span> sum(<span class=\"pl-smi\">z</span>))</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"##   sum_z\n## 1    21\"><pre class=\"notranslate\"><code>##   sum_z\n## 1    21\n</code></pre></div>\n<p dir=\"auto\">In this example, we first create a data frame df with two columns x and\ny. We then pipe the output of df to mutate, which adds a new column z to\nthe data frame that is the sum of x and y. Finally, we pipe the output\nto summarize, which calculates the sum of z and returns the result.</p>\n<p dir=\"auto\">Piping in Python In Python, we can use the | operator to pipe output\nfrom one function to another. However, instead of piping output from one\nfunction to another, we pipe a DataFrame to a method of the DataFrame.\nHere’s an example:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import pandas as pd\n\n# create a DataFrame\ndf = pd.DataFrame({'x': [1,2,3], 'y': [4,5,6]})\n\n# calculate the sum of column x and y\n(df.assign(z = df['x'] + df['y'])\n   .agg(sum_z = ('z', 'sum')))\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># create a DataFrame</span>\n<span class=\"pl-s1\">df</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pd</span>.<span class=\"pl-v\">DataFrame</span>({<span class=\"pl-s\">'x'</span>: [<span class=\"pl-c1\">1</span>,<span class=\"pl-c1\">2</span>,<span class=\"pl-c1\">3</span>], <span class=\"pl-s\">'y'</span>: [<span class=\"pl-c1\">4</span>,<span class=\"pl-c1\">5</span>,<span class=\"pl-c1\">6</span>]})\n\n<span class=\"pl-c\"># calculate the sum of column x and y</span>\n(<span class=\"pl-s1\">df</span>.<span class=\"pl-en\">assign</span>(<span class=\"pl-s1\">z</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">df</span>[<span class=\"pl-s\">'x'</span>] <span class=\"pl-c1\">+</span> <span class=\"pl-s1\">df</span>[<span class=\"pl-s\">'y'</span>])\n   .<span class=\"pl-en\">agg</span>(<span class=\"pl-s1\">sum_z</span> <span class=\"pl-c1\">=</span> (<span class=\"pl-s\">'z'</span>, <span class=\"pl-s\">'sum'</span>)))</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"##         z\n## sum_z  21\"><pre class=\"notranslate\"><code>##         z\n## sum_z  21\n</code></pre></div>\n<p dir=\"auto\">In this example, we first create a DataFrame df with two columns x and\ny. We then use the assign() method to add a new column z to the\nDataFrame that is the sum of x and y. Finally, we use the agg() method\nto calculate the sum of z and return the result.</p>\n<p dir=\"auto\">As we can see, the syntax for piping is slightly different between R and\nPython, but the concept remains the same. Piping can make our code more\nreadable and easier to follow, which is an important aspect of creating\nefficient and effective code.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(dplyr)\nlibrary(ggplot2)\n\niris %&gt;%\n  filter(Species == &quot;setosa&quot;) %&gt;%\n  group_by(Sepal.Width) %&gt;%\n  summarise(mean.Petal.Length = mean(Petal.Length)) %&gt;%\n  mutate(Sepal.Width = as.factor(Sepal.Width)) %&gt;%\n  ggplot(aes(x = Sepal.Width, y = mean.Petal.Length)) +\n  geom_bar(stat = &quot;identity&quot;, fill = &quot;dodgerblue&quot;) +\n  labs(title = &quot;Mean Petal Length of Setosa by Sepal Width&quot;,\n       x = &quot;Sepal Width&quot;,\n       y = &quot;Mean Petal Length&quot;)\"><pre>library(<span class=\"pl-smi\">dplyr</span>)\nlibrary(<span class=\"pl-smi\">ggplot2</span>)\n\n<span class=\"pl-smi\">iris</span> %<span class=\"pl-k\">&gt;</span>%\n  filter(<span class=\"pl-smi\">Species</span> <span class=\"pl-k\">==</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>setosa<span class=\"pl-pds\">\"</span></span>) %<span class=\"pl-k\">&gt;</span>%\n  group_by(<span class=\"pl-smi\">Sepal.Width</span>) %<span class=\"pl-k\">&gt;</span>%\n  summarise(<span class=\"pl-v\">mean.Petal.Length</span> <span class=\"pl-k\">=</span> mean(<span class=\"pl-smi\">Petal.Length</span>)) %<span class=\"pl-k\">&gt;</span>%\n  mutate(<span class=\"pl-v\">Sepal.Width</span> <span class=\"pl-k\">=</span> as.factor(<span class=\"pl-smi\">Sepal.Width</span>)) %<span class=\"pl-k\">&gt;</span>%\n  ggplot(aes(<span class=\"pl-v\">x</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">Sepal.Width</span>, <span class=\"pl-v\">y</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">mean.Petal.Length</span>)) <span class=\"pl-k\">+</span>\n  geom_bar(<span class=\"pl-v\">stat</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>identity<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-v\">fill</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>dodgerblue<span class=\"pl-pds\">\"</span></span>) <span class=\"pl-k\">+</span>\n  labs(<span class=\"pl-v\">title</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Mean Petal Length of Setosa by Sepal Width<span class=\"pl-pds\">\"</span></span>,\n       <span class=\"pl-v\">x</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Sepal Width<span class=\"pl-pds\">\"</span></span>,\n       <span class=\"pl-v\">y</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Mean Petal Length<span class=\"pl-pds\">\"</span></span>)</pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-37-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-37-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">In this example, we start with the iris dataset and filter it to only\ninclude rows where the Species column is “setosa”. We then group the\nremaining rows by the Sepal.Width column and calculate the mean\nPetal.Length for each group. Next, we convert Sepal.Width to a factor\nvariable to ensure that it is treated as a categorical variable in the\nvisualization. Finally, we create a bar plot using ggplot2, with\nSepal.Width on the x-axis and mean.Petal.Length on the y-axis. The\nresulting plot shows the mean petal length of setosa flowers for each\nsepal width category.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import pandas as pd\n\n# Load the iris dataset and pipe it into the next function\n( pd.read_csv(&quot;https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data&quot;, header=None, names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class'])\n  \n  # Select columns and pivot the dataset\n  .loc[:, ['sepal_length', 'sepal_width', 'petal_length']]\n  .melt(var_name='variable', value_name='value')\n  \n  # Group by variable and calculate mean\n  .groupby('variable', as_index=False)\n  .mean()\n  \n  # Filter for mean greater than 3.5 and sort by descending mean\n  .query('value &gt; 3.5')\n  .sort_values('value', ascending=False)\n)\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># Load the iris dataset and pipe it into the next function</span>\n( <span class=\"pl-s1\">pd</span>.<span class=\"pl-en\">read_csv</span>(<span class=\"pl-s\">\"https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data\"</span>, <span class=\"pl-s1\">header</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">None</span>, <span class=\"pl-s1\">names</span><span class=\"pl-c1\">=</span>[<span class=\"pl-s\">'sepal_length'</span>, <span class=\"pl-s\">'sepal_width'</span>, <span class=\"pl-s\">'petal_length'</span>, <span class=\"pl-s\">'petal_width'</span>, <span class=\"pl-s\">'class'</span>])\n  \n  <span class=\"pl-c\"># Select columns and pivot the dataset</span>\n  .<span class=\"pl-s1\">loc</span>[:, [<span class=\"pl-s\">'sepal_length'</span>, <span class=\"pl-s\">'sepal_width'</span>, <span class=\"pl-s\">'petal_length'</span>]]\n  .<span class=\"pl-en\">melt</span>(<span class=\"pl-s1\">var_name</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">'variable'</span>, <span class=\"pl-s1\">value_name</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">'value'</span>)\n  \n  <span class=\"pl-c\"># Group by variable and calculate mean</span>\n  .<span class=\"pl-en\">groupby</span>(<span class=\"pl-s\">'variable'</span>, <span class=\"pl-s1\">as_index</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">False</span>)\n  .<span class=\"pl-en\">mean</span>()\n  \n  <span class=\"pl-c\"># Filter for mean greater than 3.5 and sort by descending mean</span>\n  .<span class=\"pl-en\">query</span>(<span class=\"pl-s\">'value &gt; 3.5'</span>)\n  .<span class=\"pl-en\">sort_values</span>(<span class=\"pl-s\">'value'</span>, <span class=\"pl-s1\">ascending</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">False</span>)\n)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"##        variable     value\n## 1  sepal_length  5.843333\n## 0  petal_length  3.758667\"><pre class=\"notranslate\"><code>##        variable     value\n## 1  sepal_length  5.843333\n## 0  petal_length  3.758667\n</code></pre></div>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-for-loops\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#for-loops\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>for loops</h2>\n<p dir=\"auto\">Here is an example of a for loop in R:</p>\n<p dir=\"auto\">R code</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Create a vector of numbers\nnumbers &lt;- c(1, 2, 3, 4, 5)\n\n# Use a for loop to print out each number in the vector\nfor (i in numbers) {\n  print(i)\n}\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Create a vector of numbers</span>\nn<span class=\"pl-smi\">umbers</span> <span class=\"pl-k\">&lt;-</span> c(<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">2</span>, <span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">4</span>, <span class=\"pl-c1\">5</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Use a for loop to print out each number in the vector</span>\nfor (<span class=\"pl-smi\">i</span> <span class=\"pl-k\">in</span> <span class=\"pl-smi\">numbers</span>) {\n  print(<span class=\"pl-smi\">i</span>)\n}</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## [1] 1\n## [1] 2\n## [1] 3\n## [1] 4\n## [1] 5\"><pre class=\"notranslate\"><code>## [1] 1\n## [1] 2\n## [1] 3\n## [1] 4\n## [1] 5\n</code></pre></div>\n<p dir=\"auto\">In this example, the for loop iterates over each element in the numbers\nvector, assigning the current element to the variable i. The print(i)\nstatement is then executed for each iteration, outputting the value of\ni.</p>\n<p dir=\"auto\">Here is the equivalent example in Python:</p>\n<p dir=\"auto\">Python code</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Create a list of numbers\nnumbers = [1, 2, 3, 4, 5]\n\n# Use a for loop to print out each number in the list\nfor i in numbers:\n  print(i)\"><pre><span class=\"pl-c\"># Create a list of numbers</span>\n<span class=\"pl-s1\">numbers</span> <span class=\"pl-c1\">=</span> [<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">2</span>, <span class=\"pl-c1\">3</span>, <span class=\"pl-c1\">4</span>, <span class=\"pl-c1\">5</span>]\n\n<span class=\"pl-c\"># Use a for loop to print out each number in the list</span>\n<span class=\"pl-k\">for</span> <span class=\"pl-s1\">i</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">numbers</span>:\n  <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">i</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## 1\n## 2\n## 3\n## 4\n## 5\"><pre class=\"notranslate\"><code>## 1\n## 2\n## 3\n## 4\n## 5\n</code></pre></div>\n<p dir=\"auto\">In Python, the for loop iterates over each element in the numbers list,\nassigning the current element to the variable i. The print(i) statement\nis then executed for each iteration, outputting the value of i.</p>\n<p dir=\"auto\">Both languages also support nested for loops, which can be used to\nperform iterations over multiple dimensions, such as looping through a\n2D array.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-parallel\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#parallel\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Parallel</h2>\n<p dir=\"auto\">Parallel computing is a technique used to execute multiple computational\ntasks simultaneously, which can significantly reduce the time required\nto complete a task. Both R and Python have built-in support for parallel\ncomputing, although the approaches are slightly different. In this\nanswer, we will compare and contrast the parallel computing capabilities\nof R and Python, and provide working examples in code.</p>\n<p dir=\"auto\">Parallel computing in R In R, there are several packages that support\nparallel computing, such as parallel, foreach, and doParallel. The\nparallel package provides basic functionality for parallel computing,\nwhile foreach and doParallel provide higher-level abstractions that make\nit easier to write parallel code.</p>\n<p dir=\"auto\">Here is an example of using the foreach package to execute a loop in\nparallel:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(foreach)\nlibrary(doParallel)\n\n# Set up a parallel backend with 4 workers\ncl &lt;- makeCluster(4)\nregisterDoParallel(cl)\n\n# Define a function to apply in parallel\nmyfunc &lt;- function(x) {\n  # some computation here\n  return(x^2)\n}\n\n# Generate some data\nmydata &lt;- 1:1000\n\n# Apply the function to the data in parallel\nresult &lt;- foreach(i = mydata) %dopar% {\n  myfunc(i)\n}\n\n# Stop the cluster\nstopCluster(cl)\"><pre>library(<span class=\"pl-smi\">foreach</span>)\nlibrary(<span class=\"pl-smi\">doParallel</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Set up a parallel backend with 4 workers</span>\nc<span class=\"pl-smi\">l</span> <span class=\"pl-k\">&lt;-</span> makeCluster(<span class=\"pl-c1\">4</span>)\nregisterDoParallel(<span class=\"pl-smi\">cl</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Define a function to apply in parallel</span>\nm<span class=\"pl-en\">yfunc</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-k\">function</span>(<span class=\"pl-smi\">x</span>) {\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> some computation here</span>\n  <span class=\"pl-k\">return</span>(<span class=\"pl-smi\">x</span><span class=\"pl-k\">^</span><span class=\"pl-c1\">2</span>)\n}\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Generate some data</span>\nm<span class=\"pl-smi\">ydata</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span><span class=\"pl-c1\">1000</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Apply the function to the data in parallel</span>\nr<span class=\"pl-smi\">esult</span> <span class=\"pl-k\">&lt;-</span> foreach(<span class=\"pl-v\">i</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">mydata</span>) %<span class=\"pl-smi\">dopar</span>% {\n  myfunc(<span class=\"pl-smi\">i</span>)\n}\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Stop the cluster</span>\nstopCluster(<span class=\"pl-smi\">cl</span>)</pre></div>\n<p dir=\"auto\">In this example, we use the makeCluster() function to set up a cluster\nwith 4 workers, and the registerDoParallel() function to register the\ncluster as the parallel backend for foreach. We then define a function\nmyfunc() that takes an input x and returns x^2. We generate some data\nmydata and use foreach to apply myfunc() to each element of mydata in\nparallel, using the %dopar% operator.</p>\n<p dir=\"auto\">R Tidyverse parallel</p>\n<p dir=\"auto\">In R Tidyverse, we can use the furrr package for parallel computing.\nHere’s an example of using furrr to parallelize a map function:</p>\n<p dir=\"auto\">R Tidy code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(tidyverse)\nlibrary(furrr)\n\n# Generate a list of numbers\nnumbers &lt;- 1:10\n\n# Use the future_map function from furrr to parallelize the map function\nplan(multisession)\nsquares &lt;- future_map(numbers, function(x) x^2)\"><pre>library(<span class=\"pl-smi\">tidyverse</span>)\nlibrary(<span class=\"pl-smi\">furrr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Generate a list of numbers</span>\nn<span class=\"pl-smi\">umbers</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-c1\">1</span><span class=\"pl-k\">:</span><span class=\"pl-c1\">10</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Use the future_map function from furrr to parallelize the map function</span>\nplan(<span class=\"pl-smi\">multisession</span>)\n<span class=\"pl-smi\">squares</span> <span class=\"pl-k\">&lt;-</span> future_map(<span class=\"pl-smi\">numbers</span>, <span class=\"pl-k\">function</span>(<span class=\"pl-smi\">x</span>) <span class=\"pl-smi\">x</span><span class=\"pl-k\">^</span><span class=\"pl-c1\">2</span>)</pre></div>\n<p dir=\"auto\">In this example, we first load the Tidyverse and furrr libraries. We\nthen generate a list of numbers from 1 to 10. We then use the plan\nfunction to set the parallelization strategy to “multisession”, which\nwill use multiple CPU cores to execute the code. Finally, we use the\nfuture_map function from furrr to apply the function x^2 to each number\nin the list in parallel.</p>\n<p dir=\"auto\">Parallel computing in Python In Python, the standard library includes\nthe multiprocessing module, which provides basic support for parallel\ncomputing. Additionally, there are several third-party packages that\nprovide higher-level abstractions, such as joblib and dask.</p>\n<p dir=\"auto\">Here is an example of using the multiprocessing module to execute a loop\nin parallel:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"def square(x):\n    return x**2\n  \nfrom multiprocessing import Pool\n\n# Generate a list of numbers\nnumbers = list(range(1, 11))\n\n# Use the map function and a pool of workers to parallelize the square function\nwith Pool() as pool:\n    squares = pool.map(square, numbers)\n    \nprint(squares)\"><pre><span class=\"pl-k\">def</span> <span class=\"pl-en\">square</span>(<span class=\"pl-s1\">x</span>):\n    <span class=\"pl-k\">return</span> <span class=\"pl-s1\">x</span><span class=\"pl-c1\">**</span><span class=\"pl-c1\">2</span>\n  \n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">multiprocessing</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">Pool</span>\n\n<span class=\"pl-c\"># Generate a list of numbers</span>\n<span class=\"pl-s1\">numbers</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">list</span>(<span class=\"pl-en\">range</span>(<span class=\"pl-c1\">1</span>, <span class=\"pl-c1\">11</span>))\n\n<span class=\"pl-c\"># Use the map function and a pool of workers to parallelize the square function</span>\n<span class=\"pl-k\">with</span> <span class=\"pl-v\">Pool</span>() <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pool</span>:\n    <span class=\"pl-s1\">squares</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pool</span>.<span class=\"pl-en\">map</span>(<span class=\"pl-s1\">square</span>, <span class=\"pl-s1\">numbers</span>)\n    \n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">squares</span>)</pre></div>\n<p dir=\"auto\">In this example, we define a function myfunc() that takes an input x and\nreturns x^2. We generate some data mydata and use the Pool class from\nthe multiprocessing module to set up a pool of 4 workers. We then use\nthe map() method of the Pool class to apply myfunc() to each element of\nmydata in parallel.</p>\n<p dir=\"auto\">Comparison and contrast Both R and Python have built-in support for\nparallel computing, with similar basic functionality for creating and\nmanaging parallel processes. However, the higher-level abstractions\ndiffer between the two languages. In R, the foreach package provides a\nhigh-level interface that makes it easy to write parallel code, while in\nPython, the multiprocessing module provides a basic interface that can\nbe extended using third-party packages like joblib and dask.</p>\n<p dir=\"auto\">Additionally, Python has better support for distributed computing using\nframeworks like Apache Spark, while R has better support for\nshared-memory parallelism using tools like data.table and ff.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-data-wrangling\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#data-wrangling\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Data wrangling</h2>\n<p dir=\"auto\">Data wrangling is an important part of any data analysis project, and\nboth R and Python provide tools and libraries for performing this task.\nIn this answer, we will compare and contrast data wrangling in R’s\ntidyverse and Python’s pandas library, with working examples in code.</p>\n<p dir=\"auto\">Data Wrangling in R Tidyverse</p>\n<p dir=\"auto\">The tidyverse is a collection of R packages designed for data science,\nand it includes several packages that are useful for data wrangling. One\nof the most popular packages is dplyr, which provides a grammar of data\nmanipulation for data frames.</p>\n<p dir=\"auto\">Here is an example of using dplyr to filter, mutate, and summarize a\ndata frame:</p>\n<p dir=\"auto\">R code</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(dplyr)\n\n# Load data\ndata(mtcars)\n\n# Filter for cars with more than 100 horsepower\nmtcars %&gt;%\n  filter(hp &gt; 100) %&gt;%\n  # Add a new column with fuel efficiency in km per liter\n  mutate(kmpl = 0.425 * mpg) %&gt;%\n  # Group by number of cylinders and summarize\n  group_by(cyl) %&gt;%\n  summarize(mean_hp = mean(hp),\n            mean_kmpl = mean(kmpl))\"><pre>library(<span class=\"pl-smi\">dplyr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Load data</span>\ndata(<span class=\"pl-smi\">mtcars</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Filter for cars with more than 100 horsepower</span>\nm<span class=\"pl-smi\">tcars</span> %<span class=\"pl-k\">&gt;</span>%\n  filter(<span class=\"pl-smi\">hp</span> <span class=\"pl-k\">&gt;</span> <span class=\"pl-c1\">100</span>) %<span class=\"pl-k\">&gt;</span>%\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Add a new column with fuel efficiency in km per liter</span>\n  mutate(<span class=\"pl-v\">kmpl</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">0.425</span> <span class=\"pl-k\">*</span> <span class=\"pl-smi\">mpg</span>) %<span class=\"pl-k\">&gt;</span>%\n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Group by number of cylinders and summarize</span>\n  group_by(<span class=\"pl-smi\">cyl</span>) %<span class=\"pl-k\">&gt;</span>%\n  summarize(<span class=\"pl-v\">mean_hp</span> <span class=\"pl-k\">=</span> mean(<span class=\"pl-smi\">hp</span>),\n            <span class=\"pl-v\">mean_kmpl</span> <span class=\"pl-k\">=</span> mean(<span class=\"pl-smi\">kmpl</span>))</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## # A tibble: 3 × 3\n##     cyl mean_hp mean_kmpl\n##   &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;\n## 1     4    111      11.0 \n## 2     6    122.      8.39\n## 3     8    209.      6.42\"><pre class=\"notranslate\"><code>## # A tibble: 3 × 3\n##     cyl mean_hp mean_kmpl\n##   &lt;dbl&gt;   &lt;dbl&gt;     &lt;dbl&gt;\n## 1     4    111      11.0 \n## 2     6    122.      8.39\n## 3     8    209.      6.42\n</code></pre></div>\n<p dir=\"auto\">In this example, we first filter the mtcars data frame to only include\ncars with more than 100 horsepower. We then use mutate to create a new\ncolumn with fuel efficiency in kilometers per liter. Finally, we group\nthe data by the number of cylinders and calculate the mean horsepower\nand fuel efficiency.</p>\n<p dir=\"auto\">Data Wrangling in Python Pandas</p>\n<p dir=\"auto\">Pandas is a popular library for data manipulation in Python. It provides\na data frame object similar to R’s data frames, along with a wide range\nof functions for data wrangling.</p>\n<p dir=\"auto\">Here is an example of using pandas to filter, transform, and group a\ndata frame:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import pandas as pd\n\n# Load data\nmtcars = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/mtcars.csv')\n\n# Filter for cars with more than 100 horsepower\nfiltered_mtcars = mtcars[mtcars['hp'] &gt; 100]\n\n# Add a new column with fuel efficiency in km per liter\nfiltered_mtcars['kmpl'] = 0.425 * filtered_mtcars['mpg']\n\n# Group by number of cylinders and calculate mean horsepower and fuel efficiency\ngrouped_mtcars = filtered_mtcars.groupby('cyl').agg({'hp': 'mean',\n                                                     'kmpl': 'mean'})\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># Load data</span>\n<span class=\"pl-s1\">mtcars</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pd</span>.<span class=\"pl-en\">read_csv</span>(<span class=\"pl-s\">'https://raw.githubusercontent.com/mwaskom/seaborn-data/master/mtcars.csv'</span>)\n\n<span class=\"pl-c\"># Filter for cars with more than 100 horsepower</span>\n<span class=\"pl-s1\">filtered_mtcars</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">mtcars</span>[<span class=\"pl-s1\">mtcars</span>[<span class=\"pl-s\">'hp'</span>] <span class=\"pl-c1\">&gt;</span> <span class=\"pl-c1\">100</span>]\n\n<span class=\"pl-c\"># Add a new column with fuel efficiency in km per liter</span>\n<span class=\"pl-s1\">filtered_mtcars</span>[<span class=\"pl-s\">'kmpl'</span>] <span class=\"pl-c1\">=</span> <span class=\"pl-c1\">0.425</span> <span class=\"pl-c1\">*</span> <span class=\"pl-s1\">filtered_mtcars</span>[<span class=\"pl-s\">'mpg'</span>]\n\n<span class=\"pl-c\"># Group by number of cylinders and calculate mean horsepower and fuel efficiency</span>\n<span class=\"pl-s1\">grouped_mtcars</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">filtered_mtcars</span>.<span class=\"pl-en\">groupby</span>(<span class=\"pl-s\">'cyl'</span>).<span class=\"pl-en\">agg</span>({<span class=\"pl-s\">'hp'</span>: <span class=\"pl-s\">'mean'</span>,\n                                                     <span class=\"pl-s\">'kmpl'</span>: <span class=\"pl-s\">'mean'</span>})</pre></div>\n<p dir=\"auto\">In this example, we first load the mtcars data from a CSV file. We then\nfilter the data to only include cars with more than 100 horsepower,\nusing boolean indexing. We use the assign function to create a new\ncolumn with fuel efficiency in kilometers per liter. Finally, we group\nthe data by the number of cylinders and calculate the mean horsepower\nand fuel efficiency.</p>\n<p dir=\"auto\">Comparison</p>\n<p dir=\"auto\">Overall, both R’s tidyverse and Python’s pandas provide similar\nfunctionality for data wrangling. Both allow for filtering,\ntransforming, and aggregating data frames. The syntax for performing\nthese operations is slightly different between the two languages, with R\nusing the %&gt;% operator for chaining operations and Python using method\nchaining or the apply family of functions.</p>\n<p dir=\"auto\">One key difference between the two languages is that R’s tidyverse\nprovides a consistent grammar for data manipulation across its various\npackages, making it easier to learn and use. However, Python’s pandas\nlibrary has a larger developer community and is more versatile for use\nin other applications, such as web development or machine learning.</p>\n<p dir=\"auto\">In conclusion, both R and Python provide powerful tools for data\nwrangling, and the choice between the two ultimately depends on the\nspecific needs of the user and their familiarity</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-data-from-api\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#data-from-api\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Data from API</h2>\n<p dir=\"auto\">Retrieving data from an API is a common task in both R and Python. Here\nare examples of how to retrieve data from an API in both languages:</p>\n<p dir=\"auto\">Python</p>\n<p dir=\"auto\">To retrieve data from an API in Python, we can use the requests library.\nHere’s an example of how to retrieve weather data from the\nOpenWeatherMap API:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import requests\n\nurl = 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&amp;appid=API_KEY'\n\nresponse = requests.get(url)\n\ndata = response.json()\n\nprint(data)\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">'https://api.openweathermap.org/data/2.5/weather?q=London,uk&amp;appid=API_KEY'</span>\n\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>)\n\n<span class=\"pl-s1\">data</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-en\">json</span>()\n\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">data</span>)</pre></div>\n<p dir=\"auto\">This code retrieves the current weather data for London from the\nOpenWeatherMap API. We first construct the API URL with the location and\nAPI key, then use the requests.get() function to make a request to the\nAPI. We then extract the JSON data from the response using the .json()\nmethod and print the resulting data.</p>\n<p dir=\"auto\">R</p>\n<p dir=\"auto\">In R, we can use the httr package to retrieve data from an API. Here’s\nan example of how to retrieve weather data from the OpenWeatherMap API\nin R:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(httr)\n\nurl &lt;- 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&amp;appid=API_KEY'\n\nresponse &lt;- GET(url)\n\ndata &lt;- content(response, 'text')\n\nprint(data)\"><pre>library(<span class=\"pl-smi\">httr</span>)\n\n<span class=\"pl-smi\">url</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">'</span>https://api.openweathermap.org/data/2.5/weather?q=London,uk&amp;appid=API_KEY<span class=\"pl-pds\">'</span></span>\n\n<span class=\"pl-smi\">response</span> <span class=\"pl-k\">&lt;-</span> GET(<span class=\"pl-smi\">url</span>)\n\n<span class=\"pl-smi\">data</span> <span class=\"pl-k\">&lt;-</span> content(<span class=\"pl-smi\">response</span>, <span class=\"pl-s\"><span class=\"pl-pds\">'</span>text<span class=\"pl-pds\">'</span></span>)\n\nprint(<span class=\"pl-smi\">data</span>)</pre></div>\n<p dir=\"auto\">This code is similar to the Python code above. We first load the httr\nlibrary, then construct the API URL and use the GET() function to make a\nrequest to the API. We then extract the data from the response using the\ncontent() function and print the resulting data.</p>\n<p dir=\"auto\">Retrieving Data from an API in R Tidyverse In R Tidyverse, we can use\nthe httr and jsonlite packages to retrieve and process data from an API.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load required packages\nlibrary(httr)\nlibrary(jsonlite)\n\n# Define API endpoint\nendpoint &lt;- &quot;https://jsonplaceholder.typicode.com/posts&quot;\n\n# Retrieve data from API\nresponse &lt;- GET(endpoint)\n\n# Extract content from response\ncontent &lt;- content(response, &quot;text&quot;)\n\n# Convert content to JSON\njson &lt;- fromJSON(content)\n\n# Convert JSON to a data frame\ndf &lt;- as.data.frame(json)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Load required packages</span>\nlibrary(<span class=\"pl-smi\">httr</span>)\nlibrary(<span class=\"pl-smi\">jsonlite</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Define API endpoint</span>\ne<span class=\"pl-smi\">ndpoint</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://jsonplaceholder.typicode.com/posts<span class=\"pl-pds\">\"</span></span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Retrieve data from API</span>\nr<span class=\"pl-smi\">esponse</span> <span class=\"pl-k\">&lt;-</span> GET(<span class=\"pl-smi\">endpoint</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Extract content from response</span>\nc<span class=\"pl-smi\">ontent</span> <span class=\"pl-k\">&lt;-</span> content(<span class=\"pl-smi\">response</span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>text<span class=\"pl-pds\">\"</span></span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Convert content to JSON</span>\nj<span class=\"pl-smi\">son</span> <span class=\"pl-k\">&lt;-</span> fromJSON(<span class=\"pl-smi\">content</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Convert JSON to a data frame</span>\nd<span class=\"pl-smi\">f</span> <span class=\"pl-k\">&lt;-</span> as.data.frame(<span class=\"pl-smi\">json</span>)</pre></div>\n<p dir=\"auto\">In the above example, we use the GET() function from the httr package to\nretrieve data from an API endpoint, and the content() function to\nextract the content of the response. We then use the fromJSON() function\nfrom the jsonlite package to convert the JSON content to a list, and the\nas.data.frame() function to convert the list to a data frame.</p>\n<p dir=\"auto\">Retrieving Data from an API in Python In Python, we can use the requests\nlibrary to retrieve data from an API, and the json library to process\nthe JSON data.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Load required libraries\nimport requests\nimport json\n\n# Define API endpoint\nendpoint = &quot;https://jsonplaceholder.typicode.com/posts&quot;\n\n# Retrieve data from API\nresponse = requests.get(endpoint)\n\n# Extract content from response\ncontent = response.content\n\n# Convert content to JSON\njson_data = json.loads(content)\n\n# Convert JSON to a list of dictionaries\ndata = [dict(row) for row in json_data]\"><pre><span class=\"pl-c\"># Load required libraries</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">json</span>\n\n<span class=\"pl-c\"># Define API endpoint</span>\n<span class=\"pl-s1\">endpoint</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://jsonplaceholder.typicode.com/posts\"</span>\n\n<span class=\"pl-c\"># Retrieve data from API</span>\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">endpoint</span>)\n\n<span class=\"pl-c\"># Extract content from response</span>\n<span class=\"pl-s1\">content</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">content</span>\n\n<span class=\"pl-c\"># Convert content to JSON</span>\n<span class=\"pl-s1\">json_data</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">json</span>.<span class=\"pl-en\">loads</span>(<span class=\"pl-s1\">content</span>)\n\n<span class=\"pl-c\"># Convert JSON to a list of dictionaries</span>\n<span class=\"pl-s1\">data</span> <span class=\"pl-c1\">=</span> [<span class=\"pl-en\">dict</span>(<span class=\"pl-s1\">row</span>) <span class=\"pl-k\">for</span> <span class=\"pl-s1\">row</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">json_data</span>]</pre></div>\n<p dir=\"auto\">In the above example, we use the get() function from the requests\nlibrary to retrieve data from an API endpoint, and the content attribute\nto extract the content of the response. We then use the loads() function\nfrom the json library to convert the JSON content to a list of\ndictionaries.</p>\n<p dir=\"auto\">Comparison Both R Tidyverse and Python provide powerful tools for\nretrieving and processing data from an API. In terms of syntax, the two\nlanguages are somewhat similar. In both cases, we use a library to\nretrieve data from the API, extract the content of the response, and\nthen process the JSON data. However, there are some differences in the\nspecific functions and methods used. For example, in R Tidyverse, we use\nthe content() function to extract the content of the response, whereas\nin Python, we use the content attribute. Additionally, in R Tidyverse,\nwe use the fromJSON() function to convert the JSON data to a list,\nwhereas in Python, we use the loads() function.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-census-data\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#census-data\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Census data</h2>\n<p dir=\"auto\">Retrieving USA census data in R, R Tidy, and Python can be done using\ndifferent packages and libraries. Here are some working examples in code\nfor each language:</p>\n<p dir=\"auto\">R:</p>\n<p dir=\"auto\">To retrieve census data in R, we can use the tidycensus package. Here’s\nan example of how to retrieve the total population for the state of\nCalifornia:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(tidycensus)\nlibrary(tidyverse)\n\n# Set your Census API key\ncensus_api_key(&quot;your_api_key&quot;)\n\n# Get the total population for the state of California\nca_pop &lt;- get_acs(\n  geography = &quot;state&quot;,\n  variables = &quot;B01003_001&quot;,\n  state = &quot;CA&quot;\n) %&gt;% \n  rename(total_population = estimate) %&gt;% \n  select(total_population)\n\n# View the result\nca_pop\"><pre>library(<span class=\"pl-smi\">tidycensus</span>)\nlibrary(<span class=\"pl-smi\">tidyverse</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Set your Census API key</span>\ncensus_api_key(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>your_api_key<span class=\"pl-pds\">\"</span></span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get the total population for the state of California</span>\nc<span class=\"pl-smi\">a_pop</span> <span class=\"pl-k\">&lt;-</span> get_acs(\n  <span class=\"pl-v\">geography</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>state<span class=\"pl-pds\">\"</span></span>,\n  <span class=\"pl-v\">variables</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>B01003_001<span class=\"pl-pds\">\"</span></span>,\n  <span class=\"pl-v\">state</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>CA<span class=\"pl-pds\">\"</span></span>\n) %<span class=\"pl-k\">&gt;</span>% \n  rename(<span class=\"pl-v\">total_population</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">estimate</span>) %<span class=\"pl-k\">&gt;</span>% \n  select(<span class=\"pl-smi\">total_population</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> View the result</span>\nc<span class=\"pl-smi\">a_pop</span></pre></div>\n<p dir=\"auto\">R Tidy:</p>\n<p dir=\"auto\">To retrieve census data in R Tidy, we can also use the tidycensus\npackage. Here’s an example of how to retrieve the total population for\nthe state of California using pipes and dplyr functions:</p>\n<p dir=\"auto\">R tidy code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(tidycensus)\nlibrary(tidyverse)\n\n# Set your Census API key\ncensus_api_key(&quot;your_api_key&quot;)\n\n# Get the total population for the state of California\nca_pop &lt;- get_acs(\n  geography = &quot;state&quot;,\n  variables = &quot;B01003_001&quot;,\n  state = &quot;CA&quot;\n) %&gt;% \n  rename(total_population = estimate) %&gt;% \n  select(total_population)\n\n# View the result\nca_pop\"><pre>library(<span class=\"pl-smi\">tidycensus</span>)\nlibrary(<span class=\"pl-smi\">tidyverse</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Set your Census API key</span>\ncensus_api_key(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>your_api_key<span class=\"pl-pds\">\"</span></span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Get the total population for the state of California</span>\nc<span class=\"pl-smi\">a_pop</span> <span class=\"pl-k\">&lt;-</span> get_acs(\n  <span class=\"pl-v\">geography</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>state<span class=\"pl-pds\">\"</span></span>,\n  <span class=\"pl-v\">variables</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>B01003_001<span class=\"pl-pds\">\"</span></span>,\n  <span class=\"pl-v\">state</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>CA<span class=\"pl-pds\">\"</span></span>\n) %<span class=\"pl-k\">&gt;</span>% \n  rename(<span class=\"pl-v\">total_population</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">estimate</span>) %<span class=\"pl-k\">&gt;</span>% \n  select(<span class=\"pl-smi\">total_population</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> View the result</span>\nc<span class=\"pl-smi\">a_pop</span></pre></div>\n<p dir=\"auto\">Python:</p>\n<p dir=\"auto\">To retrieve census data in Python, we can use the census library. Here’s\nan example of how to retrieve the total population for the state of\nCalifornia:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"from census import Census\nfrom us import states\nimport pandas as pd\n\n# Set your Census API key\nc = Census(&quot;your_api_key&quot;)\n\n# Get the total population for the state of California\nca_pop = c.acs5.state((&quot;B01003_001&quot;), states.CA.fips, year=2019)\n\n# Convert the result to a Pandas DataFrame\nca_pop_df = pd.DataFrame(ca_pop)\n\n# Rename the column\nca_pop_df = ca_pop_df.rename(columns={&quot;B01003_001E&quot;: &quot;total_population&quot;})\n\n# Select only the total population column\nca_pop_df = ca_pop_df[[&quot;total_population&quot;]]\n\n# View the result\nca_pop_df\"><pre><span class=\"pl-k\">from</span> <span class=\"pl-s1\">census</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">Census</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">us</span> <span class=\"pl-k\">import</span> <span class=\"pl-s1\">states</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># Set your Census API key</span>\n<span class=\"pl-s1\">c</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Census</span>(<span class=\"pl-s\">\"your_api_key\"</span>)\n\n<span class=\"pl-c\"># Get the total population for the state of California</span>\n<span class=\"pl-s1\">ca_pop</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">c</span>.<span class=\"pl-s1\">acs5</span>.<span class=\"pl-en\">state</span>((<span class=\"pl-s\">\"B01003_001\"</span>), <span class=\"pl-s1\">states</span>.<span class=\"pl-v\">CA</span>.<span class=\"pl-s1\">fips</span>, <span class=\"pl-s1\">year</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">2019</span>)\n\n<span class=\"pl-c\"># Convert the result to a Pandas DataFrame</span>\n<span class=\"pl-s1\">ca_pop_df</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pd</span>.<span class=\"pl-v\">DataFrame</span>(<span class=\"pl-s1\">ca_pop</span>)\n\n<span class=\"pl-c\"># Rename the column</span>\n<span class=\"pl-s1\">ca_pop_df</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">ca_pop_df</span>.<span class=\"pl-en\">rename</span>(<span class=\"pl-s1\">columns</span><span class=\"pl-c1\">=</span>{<span class=\"pl-s\">\"B01003_001E\"</span>: <span class=\"pl-s\">\"total_population\"</span>})\n\n<span class=\"pl-c\"># Select only the total population column</span>\n<span class=\"pl-s1\">ca_pop_df</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">ca_pop_df</span>[[<span class=\"pl-s\">\"total_population\"</span>]]\n\n<span class=\"pl-c\"># View the result</span>\n<span class=\"pl-s1\">ca_pop_df</span></pre></div>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-lidar-data\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#lidar-data\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Lidar data</h2>\n<p dir=\"auto\">To find Lidar data in R and Python, you typically need to start by\nidentifying sources of Lidar data and then accessing them using\nappropriate packages and functions. Here are some examples of how to\nfind Lidar data in R and Python:</p>\n<p dir=\"auto\">R:</p>\n<p dir=\"auto\">Identify sources of Lidar data: The USGS National Map Viewer provides\naccess to Lidar data for the United States. You can also find Lidar data\non state and local government websites, as well as on commercial data\nproviders’ websites. Access the data: You can use the lidR package in R\nto download and read Lidar data in the LAS format. For example, the\nfollowing code downloads and reads Lidar data for a specific area:</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"library(lidR)\n\n# Download Lidar data\nLASfile &lt;- system.file(&quot;extdata&quot;, &quot;Megaplot.laz&quot;, package=&quot;lidR&quot;)\nlidar &lt;- readLAS(LASfile)\n\n# Visualize the data\nplot(lidar)\"><pre>library(<span class=\"pl-smi\">lidR</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Download Lidar data</span>\nL<span class=\"pl-smi\">ASfile</span> <span class=\"pl-k\">&lt;-</span> system.file(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>extdata<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Megaplot.laz<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-v\">package</span><span class=\"pl-k\">=</span><span class=\"pl-s\"><span class=\"pl-pds\">\"</span>lidR<span class=\"pl-pds\">\"</span></span>)\n<span class=\"pl-smi\">lidar</span> <span class=\"pl-k\">&lt;-</span> readLAS(<span class=\"pl-smi\">LASfile</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Visualize the data</span>\nplot(<span class=\"pl-smi\">lidar</span>)</pre></div>\n<p dir=\"auto\">Python:</p>\n<p dir=\"auto\">Identify sources of Lidar data: The USGS 3DEP program provides access to\nLidar data for the United States. You can also find Lidar data on state\nand local government websites, as well as on commercial data providers’\nwebsites. Access the data: You can use the pylastools package in Python\nto download and read Lidar data in the LAS format. For example, the\nfollowing code downloads and reads Lidar data for a specific area:</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"py_install(&quot;requests&quot;)\npy_install(&quot;pylas&quot;)\npy_install(&quot;laspy&quot;)\"><pre>py_install(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>requests<span class=\"pl-pds\">\"</span></span>)\npy_install(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>pylas<span class=\"pl-pds\">\"</span></span>)\npy_install(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>laspy<span class=\"pl-pds\">\"</span></span>)</pre></div>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import requests\nfrom pylas import read\nimport laspy\nimport numpy as np\n\n# Download Lidar data\nurl = &quot;https://s3-us-west-2.amazonaws.com/usgs-lidar-public/USGS_LPC_CA_SanFrancisco_2016_LAS_2018.zip&quot;\nlasfile = &quot;USGS_LPC_CA_SanFrancisco_2016_LAS_2018.las&quot;\nr = requests.get(url, allow_redirects=True)\nopen(lasfile, 'wb').write(r.content)\n\n# Read the data\nlidar = read(lasfile)\n\n# Visualize the data\nlaspy.plot.plot(lidar)\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">pylas</span> <span class=\"pl-k\">import</span> <span class=\"pl-s1\">read</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">laspy</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">numpy</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">np</span>\n\n<span class=\"pl-c\"># Download Lidar data</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://s3-us-west-2.amazonaws.com/usgs-lidar-public/USGS_LPC_CA_SanFrancisco_2016_LAS_2018.zip\"</span>\n<span class=\"pl-s1\">lasfile</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"USGS_LPC_CA_SanFrancisco_2016_LAS_2018.las\"</span>\n<span class=\"pl-s1\">r</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>, <span class=\"pl-s1\">allow_redirects</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">True</span>)\n<span class=\"pl-en\">open</span>(<span class=\"pl-s1\">lasfile</span>, <span class=\"pl-s\">'wb'</span>).<span class=\"pl-en\">write</span>(<span class=\"pl-s1\">r</span>.<span class=\"pl-s1\">content</span>)\n\n<span class=\"pl-c\"># Read the data</span>\n<span class=\"pl-s1\">lidar</span> <span class=\"pl-c1\">=</span> <span class=\"pl-en\">read</span>(<span class=\"pl-s1\">lasfile</span>)\n\n<span class=\"pl-c\"># Visualize the data</span>\n<span class=\"pl-s1\">laspy</span>.<span class=\"pl-s1\">plot</span>.<span class=\"pl-en\">plot</span>(<span class=\"pl-s1\">lidar</span>)</pre></div>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-data-for-black-lives\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#data-for-black-lives\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Data for black lives</h2>\n<p dir=\"auto\">Data for Black Lives (<a href=\"https://d4bl.org/\" rel=\"nofollow\">https://d4bl.org/</a>) is a movement that uses data\nscience to create measurable change in the lives of Black people. While\nthe Data for Black Lives website provides resources, reports, articles,\nand datasets related to racial equity, it doesn’t provide a direct API\nfor downloading data.</p>\n<p dir=\"auto\">Instead, you can access the Data for Black Lives GitHub repository\n(<a href=\"https://github.com/Data4BlackLives\">https://github.com/Data4BlackLives</a>) to find datasets and resources to\nwork with. In this example, we’ll use a sample dataset available at\n<a href=\"https://github.com/Data4BlackLives/covid-19/tree/master/data\">https://github.com/Data4BlackLives/covid-19/tree/master/data</a>. The\ndataset “COVID19_race_data.csv” contains COVID-19 race-related data.</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘readr’ and ‘dplyr’ packages to read, process,\nand analyze the dataset.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install and load necessary libraries\n\nlibrary(readr)\nlibrary(dplyr)\n\n# Read the CSV file\nurl &lt;- &quot;https://raw.githubusercontent.com/Data4BlackLives/covid-19/master/data/COVID19_race_data.csv&quot;\ndata &lt;- read_csv(url)\n\n# Basic information about the dataset\nprint(dim(data))\nprint(head(data))\n\n# Example analysis: calculate the mean of 'cases_total' by 'state'\ndata %&gt;%\n  group_by(state) %&gt;%\n  summarize(mean_cases_total = mean(cases_total, na.rm = TRUE)) %&gt;%\n  arrange(desc(mean_cases_total))\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install and load necessary libraries</span>\n\nlibrary(<span class=\"pl-smi\">readr</span>)\nlibrary(<span class=\"pl-smi\">dplyr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Read the CSV file</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://raw.githubusercontent.com/Data4BlackLives/covid-19/master/data/COVID19_race_data.csv<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">data</span> <span class=\"pl-k\">&lt;-</span> read_csv(<span class=\"pl-smi\">url</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Basic information about the dataset</span>\nprint(dim(<span class=\"pl-smi\">data</span>))\nprint(head(<span class=\"pl-smi\">data</span>))\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Example analysis: calculate the mean of 'cases_total' by 'state'</span>\nd<span class=\"pl-smi\">ata</span> %<span class=\"pl-k\">&gt;</span>%\n  group_by(<span class=\"pl-smi\">state</span>) %<span class=\"pl-k\">&gt;</span>%\n  summarize(<span class=\"pl-v\">mean_cases_total</span> <span class=\"pl-k\">=</span> mean(<span class=\"pl-smi\">cases_total</span>, <span class=\"pl-v\">na.rm</span> <span class=\"pl-k\">=</span> <span class=\"pl-c1\">TRUE</span>)) %<span class=\"pl-k\">&gt;</span>%\n  arrange(desc(<span class=\"pl-smi\">mean_cases_total</span>))</pre></div>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘pandas’ library to read, process, and\nanalyze the dataset.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import pandas as pd\n\n# Read the CSV file\nurl = &quot;https://raw.githubusercontent.com/Data4BlackLives/covid-19/master/data/COVID19_race_data.csv&quot;\ndata = pd.read_csv(url)\n\n# Basic information about the dataset\nprint(data.shape)\nprint(data.head())\n\n# Example analysis: calculate the mean of 'cases_total' by 'state'\nmean_cases_total = data.groupby(&quot;state&quot;)[&quot;cases_total&quot;].mean().sort_values(ascending=False)\nprint(mean_cases_total)\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># Read the CSV file</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://raw.githubusercontent.com/Data4BlackLives/covid-19/master/data/COVID19_race_data.csv\"</span>\n<span class=\"pl-s1\">data</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pd</span>.<span class=\"pl-en\">read_csv</span>(<span class=\"pl-s1\">url</span>)\n\n<span class=\"pl-c\"># Basic information about the dataset</span>\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">data</span>.<span class=\"pl-s1\">shape</span>)\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">data</span>.<span class=\"pl-en\">head</span>())\n\n<span class=\"pl-c\"># Example analysis: calculate the mean of 'cases_total' by 'state'</span>\n<span class=\"pl-s1\">mean_cases_total</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">data</span>.<span class=\"pl-en\">groupby</span>(<span class=\"pl-s\">\"state\"</span>)[<span class=\"pl-s\">\"cases_total\"</span>].<span class=\"pl-en\">mean</span>().<span class=\"pl-en\">sort_values</span>(<span class=\"pl-s1\">ascending</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">False</span>)\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">mean_cases_total</span>)</pre></div>\n<p dir=\"auto\">In conclusion, both R and Python provide powerful libraries and tools\nfor downloading, processing, and analyzing datasets, such as those found\nin the Data for Black Lives repository. The ‘readr’ and ‘dplyr’\nlibraries in R offer a simple and intuitive way to read and manipulate\ndata, while the ‘pandas’ library in Python offers similar functionality\nwith a different syntax. Depending on your preferred programming\nlanguage and environment, both options can be effective in working with\nsocial justice datasets.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-propublica-congress-api\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#propublica-congress-api\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Propublica Congress API</h2>\n<p dir=\"auto\">The ProPublica Congress API provides information about the U.S. Congress\nmembers and their voting records. In this example, we’ll fetch data\nabout the current Senate members and calculate the number of members in\neach party.</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘httr’ and ‘jsonlite’ packages to fetch and\nprocess data from the ProPublica Congress API.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# load necessary libraries\nlibrary(httr)\nlibrary(jsonlite)\n\n# Replace 'your_api_key' with your ProPublica API key\n\n#\n\n# Fetch data about the current Senate members\nurl &lt;- &quot;https://api.propublica.org/congress/v1/117/senate/members.json&quot;\nresponse &lt;- GET(url, add_headers(`X-API-Key` = api_key))\n\n# Check if the request was successful\nif (http_status(response)$category == &quot;Success&quot;) {\n  data &lt;- content(response, &quot;parsed&quot;)\n  members &lt;- data$results[[1]]$members\n  \n  # Calculate the number of members in each party\n  party_counts &lt;- table(sapply(members, function(x) x$party))\n  print(party_counts)\n} else {\n  print(http_status(response)$message)\n}\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> load necessary libraries</span>\nlibrary(<span class=\"pl-smi\">httr</span>)\nlibrary(<span class=\"pl-smi\">jsonlite</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Replace 'your_api_key' with your ProPublica API key</span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span></span>\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Fetch data about the current Senate members</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://api.propublica.org/congress/v1/117/senate/members.json<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">response</span> <span class=\"pl-k\">&lt;-</span> GET(<span class=\"pl-smi\">url</span>, add_headers(<span class=\"pl-smi\">`X-API-Key`</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">api_key</span>))\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Check if the request was successful</span>\nif (http_status(<span class=\"pl-smi\">response</span>)<span class=\"pl-k\">$</span><span class=\"pl-smi\">category</span> <span class=\"pl-k\">==</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Success<span class=\"pl-pds\">\"</span></span>) {\n  <span class=\"pl-smi\">data</span> <span class=\"pl-k\">&lt;-</span> content(<span class=\"pl-smi\">response</span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>parsed<span class=\"pl-pds\">\"</span></span>)\n  <span class=\"pl-smi\">members</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">data</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">results</span>[[<span class=\"pl-c1\">1</span>]]<span class=\"pl-k\">$</span><span class=\"pl-smi\">members</span>\n  \n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Calculate the number of members in each party</span>\n  <span class=\"pl-smi\">party_counts</span> <span class=\"pl-k\">&lt;-</span> table(sapply(<span class=\"pl-smi\">members</span>, <span class=\"pl-k\">function</span>(<span class=\"pl-smi\">x</span>) <span class=\"pl-smi\">x</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">party</span>))\n  print(<span class=\"pl-smi\">party_counts</span>)\n} <span class=\"pl-k\">else</span> {\n  print(http_status(<span class=\"pl-smi\">response</span>)<span class=\"pl-k\">$</span><span class=\"pl-smi\">message</span>)\n}</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## \n##  D  I ID  R \n## 49  1  2 51\"><pre class=\"notranslate\"><code>## \n##  D  I ID  R \n## 49  1  2 51\n</code></pre></div>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘requests’ library to fetch data from\nthe ProPublica Congress API and ‘pandas’ library to process the data.</p>\n<p dir=\"auto\">python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install necessary libraries\n\nimport requests\nimport pandas as pd\n\n# Replace 'your_api_key' with your ProPublica API key\napi_key = &quot;your_api_key&quot;\nheaders = {&quot;X-API-Key&quot;: api_key}\n\n# Fetch data about the current Senate members\nurl = &quot;https://api.propublica.org/congress/v1/117/senate/members.json&quot;\nresponse = requests.get(url, headers=headers)\n\n# Check if the request was successful\nif response.status_code == 200:\n    data = response.json()\n    members = data[&quot;results&quot;][0][&quot;members&quot;]\n    \n    # Calculate the number of members in each party\n    party_counts = pd.DataFrame(members)[&quot;party&quot;].value_counts()\n    print(party_counts)\nelse:\n    print(f&quot;Error: {response.status_code}&quot;)\"><pre><span class=\"pl-c\"># Install necessary libraries</span>\n\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># Replace 'your_api_key' with your ProPublica API key</span>\n<span class=\"pl-s1\">api_key</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"your_api_key\"</span>\n<span class=\"pl-s1\">headers</span> <span class=\"pl-c1\">=</span> {<span class=\"pl-s\">\"X-API-Key\"</span>: <span class=\"pl-s1\">api_key</span>}\n\n<span class=\"pl-c\"># Fetch data about the current Senate members</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://api.propublica.org/congress/v1/117/senate/members.json\"</span>\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>, <span class=\"pl-s1\">headers</span><span class=\"pl-c1\">=</span><span class=\"pl-s1\">headers</span>)\n\n<span class=\"pl-c\"># Check if the request was successful</span>\n<span class=\"pl-k\">if</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">status_code</span> <span class=\"pl-c1\">==</span> <span class=\"pl-c1\">200</span>:\n    <span class=\"pl-s1\">data</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-en\">json</span>()\n    <span class=\"pl-s1\">members</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">data</span>[<span class=\"pl-s\">\"results\"</span>][<span class=\"pl-c1\">0</span>][<span class=\"pl-s\">\"members\"</span>]\n    \n    <span class=\"pl-c\"># Calculate the number of members in each party</span>\n    <span class=\"pl-s1\">party_counts</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pd</span>.<span class=\"pl-v\">DataFrame</span>(<span class=\"pl-s1\">members</span>)[<span class=\"pl-s\">\"party\"</span>].<span class=\"pl-en\">value_counts</span>()\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">party_counts</span>)\n<span class=\"pl-k\">else</span>:\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s\">f\"Error: <span class=\"pl-s1\"><span class=\"pl-kos\">{</span><span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">status_code</span><span class=\"pl-kos\">}</span></span>\"</span>)</pre></div>\n<p dir=\"auto\">In conclusion, both R and Python offer efficient ways to fetch and\nprocess data from APIs like the ProPublica Congress API. The ‘httr’ and\n‘jsonlite’ libraries in R provide a straightforward way to make HTTP\nrequests and parse JSON data, while the ‘requests’ library in Python\noffers similar functionality. The ‘pandas’ library in Python can be used\nfor data manipulation and analysis, and R provides built-in functions\nlike table() for aggregating data. Depending on your preferred\nprogramming language and environment, both options can be effective for\nworking with the ProPublica Congress API.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-nonprofit-explorer-api-by-propublica\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#nonprofit-explorer-api-by-propublica\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Nonprofit Explorer API by ProPublica</h2>\n<p dir=\"auto\">The Nonprofit Explorer API by ProPublica provides data on tax-exempt\norganizations in the United States. In this example, we’ll search for\norganizations with the keyword “education” and analyze the results.</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘httr’ and ‘jsonlite’ packages to fetch and\nprocess data from the Nonprofit Explorer API.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install and load necessary libraries\nlibrary(httr)\nlibrary(jsonlite)\n\n# Fetch data for organizations with the keyword &quot;education&quot;\nurl &lt;- &quot;https://projects.propublica.org/nonprofits/api/v2/search.json?q=education&quot;\nresponse &lt;- GET(url)\n\n# Check if the request was successful\nif (http_status(response)$category == &quot;Success&quot;) {\n  data &lt;- content(response, &quot;parsed&quot;)\n  organizations &lt;- data$organizations\n  \n  # Count the number of organizations per state\n  state_counts &lt;- table(sapply(organizations, function(x) x$state))\n  print(state_counts)\n} else {\n  print(http_status(response)$message)\n}\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install and load necessary libraries</span>\nlibrary(<span class=\"pl-smi\">httr</span>)\nlibrary(<span class=\"pl-smi\">jsonlite</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Fetch data for organizations with the keyword \"education\"</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://projects.propublica.org/nonprofits/api/v2/search.json?q=education<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">response</span> <span class=\"pl-k\">&lt;-</span> GET(<span class=\"pl-smi\">url</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Check if the request was successful</span>\nif (http_status(<span class=\"pl-smi\">response</span>)<span class=\"pl-k\">$</span><span class=\"pl-smi\">category</span> <span class=\"pl-k\">==</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Success<span class=\"pl-pds\">\"</span></span>) {\n  <span class=\"pl-smi\">data</span> <span class=\"pl-k\">&lt;-</span> content(<span class=\"pl-smi\">response</span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>parsed<span class=\"pl-pds\">\"</span></span>)\n  <span class=\"pl-smi\">organizations</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">data</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">organizations</span>\n  \n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Count the number of organizations per state</span>\n  <span class=\"pl-smi\">state_counts</span> <span class=\"pl-k\">&lt;-</span> table(sapply(<span class=\"pl-smi\">organizations</span>, <span class=\"pl-k\">function</span>(<span class=\"pl-smi\">x</span>) <span class=\"pl-smi\">x</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">state</span>))\n  print(<span class=\"pl-smi\">state_counts</span>)\n} <span class=\"pl-k\">else</span> {\n  print(http_status(<span class=\"pl-smi\">response</span>)<span class=\"pl-k\">$</span><span class=\"pl-smi\">message</span>)\n}</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## \n##      AZ      CA      CO      DC      FL      GA      HI      IL Indiana      LA \n##       3      22       6       5       3       2       1       2       1       1 \n##      MD      MI      MN      MO      MP      MS      NC      NE      NJ      NM \n##       1       2       5       3       1       1       2       2       2       1 \n##      NY      OH      OK  Oregon      PA      TX      UT      VA      WA      WV \n##       1       5       1       2       2      12       1       4       3       1 \n##      ZZ \n##       2\"><pre class=\"notranslate\"><code>## \n##      AZ      CA      CO      DC      FL      GA      HI      IL Indiana      LA \n##       3      22       6       5       3       2       1       2       1       1 \n##      MD      MI      MN      MO      MP      MS      NC      NE      NJ      NM \n##       1       2       5       3       1       1       2       2       2       1 \n##      NY      OH      OK  Oregon      PA      TX      UT      VA      WA      WV \n##       1       5       1       2       2      12       1       4       3       1 \n##      ZZ \n##       2\n</code></pre></div>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘requests’ library to fetch data from\nthe Nonprofit Explorer API and ‘pandas’ library to process the data.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install necessary libraries\nimport requests\nimport pandas as pd\n\n# Fetch data for organizations with the keyword &quot;education&quot;\nurl = &quot;https://projects.propublica.org/nonprofits/api/v2/search.json?q=education&quot;\nresponse = requests.get(url)\n\n# Check if the request was successful\nif response.status_code == 200:\n    data = response.json()\n    organizations = data[&quot;organizations&quot;]\n    \n    # Count the number of organizations per state\n    state_counts = pd.DataFrame(organizations)[&quot;state&quot;].value_counts()\n    print(state_counts)\nelse:\n    print(f&quot;Error: {response.status_code}&quot;)\"><pre><span class=\"pl-c\"># Install necessary libraries</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># Fetch data for organizations with the keyword \"education\"</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://projects.propublica.org/nonprofits/api/v2/search.json?q=education\"</span>\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>)\n\n<span class=\"pl-c\"># Check if the request was successful</span>\n<span class=\"pl-k\">if</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">status_code</span> <span class=\"pl-c1\">==</span> <span class=\"pl-c1\">200</span>:\n    <span class=\"pl-s1\">data</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-en\">json</span>()\n    <span class=\"pl-s1\">organizations</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">data</span>[<span class=\"pl-s\">\"organizations\"</span>]\n    \n    <span class=\"pl-c\"># Count the number of organizations per state</span>\n    <span class=\"pl-s1\">state_counts</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pd</span>.<span class=\"pl-v\">DataFrame</span>(<span class=\"pl-s1\">organizations</span>)[<span class=\"pl-s\">\"state\"</span>].<span class=\"pl-en\">value_counts</span>()\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">state_counts</span>)\n<span class=\"pl-k\">else</span>:\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s\">f\"Error: <span class=\"pl-s1\"><span class=\"pl-kos\">{</span><span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">status_code</span><span class=\"pl-kos\">}</span></span>\"</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## CA         22\n## TX         12\n## CO          6\n## MN          5\n## OH          5\n## DC          5\n## VA          4\n## AZ          3\n## WA          3\n## MO          3\n## FL          3\n## IL          2\n## GA          2\n## NC          2\n## MI          2\n## Oregon      2\n## NE          2\n## ZZ          2\n## PA          2\n## NJ          2\n## HI          1\n## MS          1\n## NY          1\n## Indiana     1\n## NM          1\n## LA          1\n## UT          1\n## MD          1\n## MP          1\n## WV          1\n## OK          1\n## Name: state, dtype: int64\"><pre class=\"notranslate\"><code>## CA         22\n## TX         12\n## CO          6\n## MN          5\n## OH          5\n## DC          5\n## VA          4\n## AZ          3\n## WA          3\n## MO          3\n## FL          3\n## IL          2\n## GA          2\n## NC          2\n## MI          2\n## Oregon      2\n## NE          2\n## ZZ          2\n## PA          2\n## NJ          2\n## HI          1\n## MS          1\n## NY          1\n## Indiana     1\n## NM          1\n## LA          1\n## UT          1\n## MD          1\n## MP          1\n## WV          1\n## OK          1\n## Name: state, dtype: int64\n</code></pre></div>\n<p dir=\"auto\">In conclusion, both R and Python offer efficient ways to fetch and\nprocess data from APIs like the Nonprofit Explorer API. The ‘httr’ and\n‘jsonlite’ libraries in R provide a straightforward way to make HTTP\nrequests and parse JSON data, while the ‘requests’ library in Python\noffers similar functionality. The ‘pandas’ library in Python can be used\nfor data manipulation and analysis, and R provides built-in functions\nlike table() for aggregating data. Depending on your preferred\nprogramming language and environment, both options can be effective for\nworking with the Nonprofit Explorer API.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-campaign-finance-api-by-propublica\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#campaign-finance-api-by-propublica\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Campaign Finance API by ProPublica</h2>\n<p dir=\"auto\">The Campaign Finance API by the Federal Election Commission (FEC)\nprovides data on campaign finance in U.S. federal elections. In this\nexample, we’ll fetch data about individual contributions for the 2020\nelection cycle and analyze the results.</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘httr’ and ‘jsonlite’ packages to fetch and\nprocess data from the Campaign Finance API.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install and load necessary libraries\nlibrary(httr)\nlibrary(jsonlite)\n\n# Fetch data about individual contributions for the 2020 election cycle\nurl &lt;- &quot;https://api.open.fec.gov/v1/schedules/schedule_a/?api_key='OGwpkX7tH5Jihs1qQcisKfVAMddJzmzouWKtKoby'&amp;two_year_transaction_period=2020&amp;sort_hide_null=false&amp;sort_null_only=false&amp;per_page=20&amp;page=1&quot;\nresponse &lt;- GET(url)\n\n# Check if the request was successful\nif (http_status(response)$category == &quot;Success&quot;) {\n  data &lt;- content(response, &quot;parsed&quot;)\n  contributions &lt;- data$results\n  \n  # Calculate the total contributions per state\n  state_totals &lt;- aggregate(contributions$contributor_state, by = list(contributions$contributor_state), FUN = sum)\n  colnames(state_totals) &lt;- c(&quot;State&quot;, &quot;Total_Contributions&quot;)\n  print(state_totals)\n} else {\n  print(http_status(response)$message)\n}\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install and load necessary libraries</span>\nlibrary(<span class=\"pl-smi\">httr</span>)\nlibrary(<span class=\"pl-smi\">jsonlite</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Fetch data about individual contributions for the 2020 election cycle</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://api.open.fec.gov/v1/schedules/schedule_a/?api_key='OGwpkX7tH5Jihs1qQcisKfVAMddJzmzouWKtKoby'&amp;two_year_transaction_period=2020&amp;sort_hide_null=false&amp;sort_null_only=false&amp;per_page=20&amp;page=1<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">response</span> <span class=\"pl-k\">&lt;-</span> GET(<span class=\"pl-smi\">url</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Check if the request was successful</span>\nif (http_status(<span class=\"pl-smi\">response</span>)<span class=\"pl-k\">$</span><span class=\"pl-smi\">category</span> <span class=\"pl-k\">==</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Success<span class=\"pl-pds\">\"</span></span>) {\n  <span class=\"pl-smi\">data</span> <span class=\"pl-k\">&lt;-</span> content(<span class=\"pl-smi\">response</span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>parsed<span class=\"pl-pds\">\"</span></span>)\n  <span class=\"pl-smi\">contributions</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">data</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">results</span>\n  \n  <span class=\"pl-c\"><span class=\"pl-c\">#</span> Calculate the total contributions per state</span>\n  <span class=\"pl-smi\">state_totals</span> <span class=\"pl-k\">&lt;-</span> aggregate(<span class=\"pl-smi\">contributions</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">contributor_state</span>, <span class=\"pl-v\">by</span> <span class=\"pl-k\">=</span> <span class=\"pl-k\">list</span>(<span class=\"pl-smi\">contributions</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">contributor_state</span>), <span class=\"pl-v\">FUN</span> <span class=\"pl-k\">=</span> <span class=\"pl-smi\">sum</span>)\n  colnames(<span class=\"pl-smi\">state_totals</span>) <span class=\"pl-k\">&lt;-</span> c(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>State<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Total_Contributions<span class=\"pl-pds\">\"</span></span>)\n  print(<span class=\"pl-smi\">state_totals</span>)\n} <span class=\"pl-k\">else</span> {\n  print(http_status(<span class=\"pl-smi\">response</span>)<span class=\"pl-k\">$</span><span class=\"pl-smi\">message</span>)\n}</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## [1] &quot;Client error: (403) Forbidden&quot;\"><pre class=\"notranslate\"><code>## [1] \"Client error: (403) Forbidden\"\n</code></pre></div>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘requests’ library to fetch data from\nthe Campaign Finance API and ‘pandas’ library to process the data.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install necessary libraries\n\nimport requests\nimport pandas as pd\n\n# Fetch data about individual contributions for the 2020 election cycle\nurl = &quot;https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=your_api_key&amp;two_year_transaction_period=2020&amp;sort_hide_null=false&amp;sort_null_only=false&amp;per_page=20&amp;page=1&quot;\nresponse = requests.get(url)\n\n# Check if the request was successful\nif response.status_code == 200:\n    data = response.json()\n    contributions = data[&quot;results&quot;]\n    \n    # Calculate the total contributions per state\n    df = pd.DataFrame(contributions)\n    state_totals = df.groupby(&quot;contributor_state&quot;)[&quot;contribution_receipt_amount&quot;].sum()\n    print(state_totals)\nelse:\n    print(f&quot;Error: {response.status_code}&quot;)\"><pre><span class=\"pl-c\"># Install necessary libraries</span>\n\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n\n<span class=\"pl-c\"># Fetch data about individual contributions for the 2020 election cycle</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=your_api_key&amp;two_year_transaction_period=2020&amp;sort_hide_null=false&amp;sort_null_only=false&amp;per_page=20&amp;page=1\"</span>\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>)\n\n<span class=\"pl-c\"># Check if the request was successful</span>\n<span class=\"pl-k\">if</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">status_code</span> <span class=\"pl-c1\">==</span> <span class=\"pl-c1\">200</span>:\n    <span class=\"pl-s1\">data</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">response</span>.<span class=\"pl-en\">json</span>()\n    <span class=\"pl-s1\">contributions</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">data</span>[<span class=\"pl-s\">\"results\"</span>]\n    \n    <span class=\"pl-c\"># Calculate the total contributions per state</span>\n    <span class=\"pl-s1\">df</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">pd</span>.<span class=\"pl-v\">DataFrame</span>(<span class=\"pl-s1\">contributions</span>)\n    <span class=\"pl-s1\">state_totals</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">df</span>.<span class=\"pl-en\">groupby</span>(<span class=\"pl-s\">\"contributor_state\"</span>)[<span class=\"pl-s\">\"contribution_receipt_amount\"</span>].<span class=\"pl-en\">sum</span>()\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s1\">state_totals</span>)\n<span class=\"pl-k\">else</span>:\n    <span class=\"pl-en\">print</span>(<span class=\"pl-s\">f\"Error: <span class=\"pl-s1\"><span class=\"pl-kos\">{</span><span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">status_code</span><span class=\"pl-kos\">}</span></span>\"</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## Error: 403\"><pre class=\"notranslate\"><code>## Error: 403\n</code></pre></div>\n<p dir=\"auto\">In conclusion, both R and Python offer efficient ways to fetch and\nprocess data from APIs like the Campaign Finance API. The ‘httr’ and\n‘jsonlite’ libraries in R provide a straightforward way to make HTTP\nrequests and parse JSON data, while the ‘requests’ library in Python\noffers similar functionality. The ‘pandas’ library in Python can be used\nfor data manipulation and analysis, and R provides built-in functions\nlike aggregate() for aggregating data. Depending on your preferred\nprogramming language and environment, both options can be effective for\nworking with the Campaign Finance API.</p>\n<p dir=\"auto\">Note: Remember to replace your_api_key with your actual FEC API key in\nthe code examples above.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-historic-redlining\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#historic-redlining\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Historic Redlining</h2>\n<p dir=\"auto\">Historic redlining data refers to data from the Home Owners’ Loan\nCorporation (HOLC) that created residential security maps in the 1930s,\nwhich contributed to racial segregation and disinvestment in minority\nneighborhoods. One popular source for this data is the Mapping\nInequality project (<a href=\"https://dsl.richmond.edu/panorama/redlining/\" rel=\"nofollow\">https://dsl.richmond.edu/panorama/redlining/</a>).</p>\n<p dir=\"auto\">In this example, we’ll download historic redlining data for Philadelphia\nin the form of a GeoJSON file and analyze the data in R and Python.</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘sf’ and ‘dplyr’ packages to read and process the\nGeoJSON data.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install and load necessary libraries\nlibrary(sf)\nlibrary(dplyr)\n\n# Download historic redlining data for Philadelphia\nurl &lt;- &quot;https://dsl.richmond.edu/panorama/redlining/static/downloads/geojson/PAPhiladelphia1937.geojson&quot;\nphilly_geojson &lt;- read_sf(url)\n\n# Count the number of areas per HOLC grade\ngrade_counts &lt;- philly_geojson %&gt;%\n  group_by(holc_grade) %&gt;%\n  summarize(count = n())\n\nplot(grade_counts)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install and load necessary libraries</span>\nlibrary(<span class=\"pl-smi\">sf</span>)\nlibrary(<span class=\"pl-smi\">dplyr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Download historic redlining data for Philadelphia</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://dsl.richmond.edu/panorama/redlining/static/downloads/geojson/PAPhiladelphia1937.geojson<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">philly_geojson</span> <span class=\"pl-k\">&lt;-</span> read_sf(<span class=\"pl-smi\">url</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Count the number of areas per HOLC grade</span>\ng<span class=\"pl-smi\">rade_counts</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">philly_geojson</span> %<span class=\"pl-k\">&gt;</span>%\n  group_by(<span class=\"pl-smi\">holc_grade</span>) %<span class=\"pl-k\">&gt;</span>%\n  summarize(<span class=\"pl-v\">count</span> <span class=\"pl-k\">=</span> n())\n\nplot(<span class=\"pl-smi\">grade_counts</span>)</pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-65-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-65-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘geopandas’ library to read and process\nthe GeoJSON data.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install necessary libraries\n\n\nimport geopandas as gpd\n\n# Download historic redlining data for Philadelphia\nurl = &quot;https://dsl.richmond.edu/panorama/redlining/static/downloads/geojson/PAPhiladelphia1937.geojson&quot;\nphilly_geojson = gpd.read_file(url)\n\n# Count the number of areas per HOLC grade\ngrade_counts = philly_geojson[&quot;holc_grade&quot;].value_counts()\nprint(grade_counts)\"><pre><span class=\"pl-c\"># Install necessary libraries</span>\n\n\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">geopandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">gpd</span>\n\n<span class=\"pl-c\"># Download historic redlining data for Philadelphia</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://dsl.richmond.edu/panorama/redlining/static/downloads/geojson/PAPhiladelphia1937.geojson\"</span>\n<span class=\"pl-s1\">philly_geojson</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">gpd</span>.<span class=\"pl-en\">read_file</span>(<span class=\"pl-s1\">url</span>)\n\n<span class=\"pl-c\"># Count the number of areas per HOLC grade</span>\n<span class=\"pl-s1\">grade_counts</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">philly_geojson</span>[<span class=\"pl-s\">\"holc_grade\"</span>].<span class=\"pl-en\">value_counts</span>()\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">grade_counts</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## B    28\n## D    26\n## C    18\n## A    10\n## Name: holc_grade, dtype: int64\"><pre class=\"notranslate\"><code>## B    28\n## D    26\n## C    18\n## A    10\n## Name: holc_grade, dtype: int64\n</code></pre></div>\n<p dir=\"auto\">In conclusion, both R and Python offer efficient ways to download and\nprocess historic redlining data in the form of GeoJSON files. The ‘sf’\npackage in R provides a simple way to read and manipulate spatial data,\nwhile the ‘geopandas’ library in Python offers similar functionality.\nThe ‘dplyr’ package in R can be used for data manipulation and analysis,\nand Python’s built-in functions like value_counts() can be used for\naggregating data. Depending on your preferred programming language and\nenvironment, both options can be effective for working with historic\nredlining data.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-american-indian-and-alaska-native-areas-aiannh\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#american-indian-and-alaska-native-areas-aiannh\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>American Indian and Alaska Native Areas (AIANNH)</h2>\n<p dir=\"auto\">In this example, we’ll download and analyze the American Indian and\nAlaska Native Areas (AIANNH) TIGER/Line Shapefile from the U.S. Census\nBureau. We’ll download the data for the year 2020, and analyze the\nnumber of AIANNH per congressional district</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘sf’ and ‘dplyr’ packages to read and process the\nShapefile data.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install and load necessary libraries\nlibrary(sf)\nlibrary(dplyr)\n\n# Download historic redlining data for Philadelphia\nurl &lt;- &quot;https://www2.census.gov/geo/tiger/TIGER2020/AIANNH/tl_2020_us_aiannh.zip&quot;\ntemp_file &lt;- tempfile(fileext = &quot;.zip&quot;)\ndownload.file(url, temp_file, mode = &quot;wb&quot;)\nunzip(temp_file, exdir = tempdir())\n\n# Read the Shapefile\nshapefile_path &lt;- file.path(tempdir(), &quot;tl_2020_us_aiannh.shp&quot;)\naiannh &lt;- read_sf(shapefile_path)\n\n# Count the number of AIANNH per congressional district\nstate_counts &lt;- aiannh %&gt;%\n  group_by(LSAD) %&gt;%\n  summarize(count = n())\n\nprint(state_counts[order(-state_counts$count),])\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install and load necessary libraries</span>\nlibrary(<span class=\"pl-smi\">sf</span>)\nlibrary(<span class=\"pl-smi\">dplyr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Download historic redlining data for Philadelphia</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://www2.census.gov/geo/tiger/TIGER2020/AIANNH/tl_2020_us_aiannh.zip<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">temp_file</span> <span class=\"pl-k\">&lt;-</span> tempfile(<span class=\"pl-v\">fileext</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>.zip<span class=\"pl-pds\">\"</span></span>)\ndownload.file(<span class=\"pl-smi\">url</span>, <span class=\"pl-smi\">temp_file</span>, <span class=\"pl-v\">mode</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>wb<span class=\"pl-pds\">\"</span></span>)\nunzip(<span class=\"pl-smi\">temp_file</span>, <span class=\"pl-v\">exdir</span> <span class=\"pl-k\">=</span> tempdir())\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Read the Shapefile</span>\ns<span class=\"pl-smi\">hapefile_path</span> <span class=\"pl-k\">&lt;-</span> file.path(tempdir(), <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>tl_2020_us_aiannh.shp<span class=\"pl-pds\">\"</span></span>)\n<span class=\"pl-smi\">aiannh</span> <span class=\"pl-k\">&lt;-</span> read_sf(<span class=\"pl-smi\">shapefile_path</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Count the number of AIANNH per congressional district</span>\ns<span class=\"pl-smi\">tate_counts</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">aiannh</span> %<span class=\"pl-k\">&gt;</span>%\n  group_by(<span class=\"pl-smi\">LSAD</span>) %<span class=\"pl-k\">&gt;</span>%\n  summarize(<span class=\"pl-v\">count</span> <span class=\"pl-k\">=</span> n())\n\nprint(<span class=\"pl-smi\">state_counts</span>[order(<span class=\"pl-k\">-</span><span class=\"pl-smi\">state_counts</span><span class=\"pl-k\">$</span><span class=\"pl-smi\">count</span>),])</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## Simple feature collection with 26 features and 2 fields\n## Geometry type: GEOMETRY\n## Dimension:     XY\n## Bounding box:  xmin: -174.236 ymin: 18.91069 xmax: -67.03552 ymax: 71.34019\n## Geodetic CRS:  NAD83\n## # A tibble: 26 × 3\n##    LSAD  count                                                          geometry\n##    &lt;chr&gt; &lt;int&gt;                                                &lt;MULTIPOLYGON [°]&gt;\n##  1 79      221 (((-166.5331 65.33918, -166.5331 65.33906, -166.533 65.33699, -1…\n##  2 86      206 (((-83.38811 35.46645, -83.38342 35.46596, -83.38316 35.46593, -…\n##  3 OT      155 (((-92.32972 47.81374, -92.3297 47.81305, -92.32967 47.81196, -9…\n##  4 78       75 (((-155.729 20.02457, -155.7288 20.02428, -155.7288 20.02427, -1…\n##  5 85       46 (((-122.3355 37.95215, -122.3354 37.95206, -122.3352 37.95199, -…\n##  6 92       35 (((-93.01356 31.56287, -93.01354 31.56251, -93.01316 31.56019, -…\n##  7 88       25 (((-97.35299 36.908, -97.35291 36.90801, -97.35287 36.908, -97.3…\n##  8 96       19 (((-116.48 32.63814, -116.48 32.63718, -116.4794 32.63716, -116.…\n##  9 84       16 (((-105.5937 36.40379, -105.5937 36.40324, -105.5937 36.40251, -…\n## 10 89       11 (((-95.91705 41.28037, -95.91653 41.28036, -95.91653 41.28125, -…\n## # ℹ 16 more rows\"><pre class=\"notranslate\"><code>## Simple feature collection with 26 features and 2 fields\n## Geometry type: GEOMETRY\n## Dimension:     XY\n## Bounding box:  xmin: -174.236 ymin: 18.91069 xmax: -67.03552 ymax: 71.34019\n## Geodetic CRS:  NAD83\n## # A tibble: 26 × 3\n##    LSAD  count                                                          geometry\n##    &lt;chr&gt; &lt;int&gt;                                                &lt;MULTIPOLYGON [°]&gt;\n##  1 79      221 (((-166.5331 65.33918, -166.5331 65.33906, -166.533 65.33699, -1…\n##  2 86      206 (((-83.38811 35.46645, -83.38342 35.46596, -83.38316 35.46593, -…\n##  3 OT      155 (((-92.32972 47.81374, -92.3297 47.81305, -92.32967 47.81196, -9…\n##  4 78       75 (((-155.729 20.02457, -155.7288 20.02428, -155.7288 20.02427, -1…\n##  5 85       46 (((-122.3355 37.95215, -122.3354 37.95206, -122.3352 37.95199, -…\n##  6 92       35 (((-93.01356 31.56287, -93.01354 31.56251, -93.01316 31.56019, -…\n##  7 88       25 (((-97.35299 36.908, -97.35291 36.90801, -97.35287 36.908, -97.3…\n##  8 96       19 (((-116.48 32.63814, -116.48 32.63718, -116.4794 32.63716, -116.…\n##  9 84       16 (((-105.5937 36.40379, -105.5937 36.40324, -105.5937 36.40251, -…\n## 10 89       11 (((-95.91705 41.28037, -95.91653 41.28036, -95.91653 41.28125, -…\n## # ℹ 16 more rows\n</code></pre></div>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘geopandas’ library to read and process\nthe Shapefile data.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import geopandas as gpd\nimport pandas as pd\nimport requests\nimport zipfile\nimport os\nfrom io import BytesIO\n\n# Download historic redlining data for Philadelphia\nurl = &quot;https://www2.census.gov/geo/tiger/TIGER2020/AIANNH/tl_2020_us_aiannh.zip&quot;\nresponse = requests.get(url)\nzip_file = zipfile.ZipFile(BytesIO(response.content))\n\n# Extract Shapefile\ntemp_dir = &quot;temp&quot;\nif not os.path.exists(temp_dir):\n    os.makedirs(temp_dir)\n\nzip_file.extractall(path=temp_dir)\nshapefile_path = os.path.join(temp_dir, &quot;tl_2020_us_aiannh.shp&quot;)\n\n# Read the Shapefile\naiannh = gpd.read_file(shapefile_path)\n\n# Count the number of AIANNH per congressional district\nstate_counts = aiannh.groupby(&quot;LSAD&quot;).size().reset_index(name=&quot;count&quot;)\n\n# Sort by descending count\nstate_counts_sorted = state_counts.sort_values(by=&quot;count&quot;, ascending=False)\n\nprint(state_counts_sorted)\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">geopandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">gpd</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">zipfile</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">os</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">io</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">BytesIO</span>\n\n<span class=\"pl-c\"># Download historic redlining data for Philadelphia</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://www2.census.gov/geo/tiger/TIGER2020/AIANNH/tl_2020_us_aiannh.zip\"</span>\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>)\n<span class=\"pl-s1\">zip_file</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">zipfile</span>.<span class=\"pl-v\">ZipFile</span>(<span class=\"pl-v\">BytesIO</span>(<span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">content</span>))\n\n<span class=\"pl-c\"># Extract Shapefile</span>\n<span class=\"pl-s1\">temp_dir</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"temp\"</span>\n<span class=\"pl-k\">if</span> <span class=\"pl-c1\">not</span> <span class=\"pl-s1\">os</span>.<span class=\"pl-s1\">path</span>.<span class=\"pl-en\">exists</span>(<span class=\"pl-s1\">temp_dir</span>):\n    <span class=\"pl-s1\">os</span>.<span class=\"pl-en\">makedirs</span>(<span class=\"pl-s1\">temp_dir</span>)\n\n<span class=\"pl-s1\">zip_file</span>.<span class=\"pl-en\">extractall</span>(<span class=\"pl-s1\">path</span><span class=\"pl-c1\">=</span><span class=\"pl-s1\">temp_dir</span>)\n<span class=\"pl-s1\">shapefile_path</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">os</span>.<span class=\"pl-s1\">path</span>.<span class=\"pl-en\">join</span>(<span class=\"pl-s1\">temp_dir</span>, <span class=\"pl-s\">\"tl_2020_us_aiannh.shp\"</span>)\n\n<span class=\"pl-c\"># Read the Shapefile</span>\n<span class=\"pl-s1\">aiannh</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">gpd</span>.<span class=\"pl-en\">read_file</span>(<span class=\"pl-s1\">shapefile_path</span>)\n\n<span class=\"pl-c\"># Count the number of AIANNH per congressional district</span>\n<span class=\"pl-s1\">state_counts</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">aiannh</span>.<span class=\"pl-en\">groupby</span>(<span class=\"pl-s\">\"LSAD\"</span>).<span class=\"pl-en\">size</span>().<span class=\"pl-en\">reset_index</span>(<span class=\"pl-s1\">name</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"count\"</span>)\n\n<span class=\"pl-c\"># Sort by descending count</span>\n<span class=\"pl-s1\">state_counts_sorted</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">state_counts</span>.<span class=\"pl-en\">sort_values</span>(<span class=\"pl-s1\">by</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"count\"</span>, <span class=\"pl-s1\">ascending</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">False</span>)\n\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">state_counts_sorted</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"##    LSAD  count\n## 2    79    221\n## 9    86    206\n## 25   OT    155\n## 1    78     75\n## 8    85     46\n## 15   92     35\n## 11   88     25\n## 19   96     19\n## 7    84     16\n## 12   89     11\n## 5    82      8\n## 3    80      7\n## 4    81      6\n## 21   98      5\n## 20   97      5\n## 13   90      4\n## 18   95      3\n## 6    83      3\n## 17   94      2\n## 16   93      1\n## 14   91      1\n## 10   87      1\n## 22   99      1\n## 23   9C      1\n## 24   9D      1\n## 0    00      1\"><pre class=\"notranslate\"><code>##    LSAD  count\n## 2    79    221\n## 9    86    206\n## 25   OT    155\n## 1    78     75\n## 8    85     46\n## 15   92     35\n## 11   88     25\n## 19   96     19\n## 7    84     16\n## 12   89     11\n## 5    82      8\n## 3    80      7\n## 4    81      6\n## 21   98      5\n## 20   97      5\n## 13   90      4\n## 18   95      3\n## 6    83      3\n## 17   94      2\n## 16   93      1\n## 14   91      1\n## 10   87      1\n## 22   99      1\n## 23   9C      1\n## 24   9D      1\n## 0    00      1\n</code></pre></div>\n<p dir=\"auto\">In conclusion, both R and Python offer efficient ways to download and\nprocess AIANNH TIGER/Line Shapefile data from the U.S. Census Bureau.\nThe ‘sf’ package in R provides a simple way to read and manipulate\nspatial data, while the ‘geopandas’ library in Python offers similar\nfunctionality. The ‘dplyr’ package in R can be used for data\nmanipulation and analysis, and Python’s built-in functions like\nvalue_counts() can be used for aggregating data. Depending on your\npreferred programming language and environment, both options can be\neffective for working with AIANNH data.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-indian-entities-recognized-and-eligible-to-receive-services-by-bia\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#indian-entities-recognized-and-eligible-to-receive-services-by-bia\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>Indian Entities Recognized and Eligible To Receive Services by BIA</h2>\n<p dir=\"auto\">The Bureau of Indian Affairs (BIA) provides a PDF document containing a\nlist of Indian Entities Recognized and Eligible To Receive Services. To\nanalyze the data, we’ll first need to extract the information from the\nPDF. In this example, we’ll extract the names of the recognized tribes\nand count the number of tribes per state.</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘pdftools’ package to extract text from the PDF\nand the ‘stringr’ package to process the text data.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install and load necessary libraries\nlibrary(pdftools)\nlibrary(stringr)\nlibrary(dplyr)\n\n# Download the BIA PDF\nurl &lt;- &quot;https://www.govinfo.gov/content/pkg/FR-2022-01-28/pdf/2022-01789.pdf&quot;\ntemp_file &lt;- tempfile(fileext = &quot;.pdf&quot;)\ndownload.file(url, temp_file, mode = &quot;wb&quot;)\n\n# Extract text from the PDF\npdf_text &lt;- pdf_text(temp_file)\ntribe_text &lt;- pdf_text[4:length(pdf_text)]\n\n# Define helper functions\ntribe_state_extractor &lt;- function(text_line) {\n  regex_pattern &lt;- &quot;(.*),\\\\s+([A-Z]{2})$&quot;\n  tribe_state &lt;- str_match(text_line, regex_pattern)\n  return(tribe_state)\n}\n\nis_valid_tribe_line &lt;- function(text_line) {\n  regex_pattern &lt;- &quot;^\\\\d+\\\\s+&quot;\n  return(!is.na(str_match(text_line, regex_pattern)))\n}\n\n# Process text data to extract tribes and states\ntribe_states &lt;- sapply(tribe_text, tribe_state_extractor)\nvalid_lines &lt;- sapply(tribe_text, is_valid_tribe_line)\ntribe_states &lt;- tribe_states[valid_lines, 2:3]\n\n# Count the number of tribes per state\ntribe_data &lt;- as.data.frame(tribe_states)\ncolnames(tribe_data) &lt;- c(&quot;Tribe&quot;, &quot;State&quot;)\nstate_counts &lt;- tribe_data %&gt;%\n  group_by(State) %&gt;%\n  summarise(Count = n())\n\nprint(state_counts)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install and load necessary libraries</span>\nlibrary(<span class=\"pl-smi\">pdftools</span>)\nlibrary(<span class=\"pl-smi\">stringr</span>)\nlibrary(<span class=\"pl-smi\">dplyr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Download the BIA PDF</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://www.govinfo.gov/content/pkg/FR-2022-01-28/pdf/2022-01789.pdf<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">temp_file</span> <span class=\"pl-k\">&lt;-</span> tempfile(<span class=\"pl-v\">fileext</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>.pdf<span class=\"pl-pds\">\"</span></span>)\ndownload.file(<span class=\"pl-smi\">url</span>, <span class=\"pl-smi\">temp_file</span>, <span class=\"pl-v\">mode</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>wb<span class=\"pl-pds\">\"</span></span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Extract text from the PDF</span>\np<span class=\"pl-smi\">df_text</span> <span class=\"pl-k\">&lt;-</span> pdf_text(<span class=\"pl-smi\">temp_file</span>)\n<span class=\"pl-smi\">tribe_text</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">pdf_text</span>[<span class=\"pl-c1\">4</span><span class=\"pl-k\">:</span>length(<span class=\"pl-smi\">pdf_text</span>)]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Define helper functions</span>\nt<span class=\"pl-en\">ribe_state_extractor</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-k\">function</span>(<span class=\"pl-smi\">text_line</span>) {\n  <span class=\"pl-smi\">regex_pattern</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>(.*),<span class=\"pl-cce\">\\\\</span>s+([A-Z]{2})$<span class=\"pl-pds\">\"</span></span>\n  <span class=\"pl-smi\">tribe_state</span> <span class=\"pl-k\">&lt;-</span> str_match(<span class=\"pl-smi\">text_line</span>, <span class=\"pl-smi\">regex_pattern</span>)\n  <span class=\"pl-k\">return</span>(<span class=\"pl-smi\">tribe_state</span>)\n}\n\n<span class=\"pl-en\">is_valid_tribe_line</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-k\">function</span>(<span class=\"pl-smi\">text_line</span>) {\n  <span class=\"pl-smi\">regex_pattern</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>^<span class=\"pl-cce\">\\\\</span>d+<span class=\"pl-cce\">\\\\</span>s+<span class=\"pl-pds\">\"</span></span>\n  <span class=\"pl-k\">return</span>(<span class=\"pl-k\">!</span>is.na(str_match(<span class=\"pl-smi\">text_line</span>, <span class=\"pl-smi\">regex_pattern</span>)))\n}\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Process text data to extract tribes and states</span>\nt<span class=\"pl-smi\">ribe_states</span> <span class=\"pl-k\">&lt;-</span> sapply(<span class=\"pl-smi\">tribe_text</span>, <span class=\"pl-smi\">tribe_state_extractor</span>)\n<span class=\"pl-smi\">valid_lines</span> <span class=\"pl-k\">&lt;-</span> sapply(<span class=\"pl-smi\">tribe_text</span>, <span class=\"pl-smi\">is_valid_tribe_line</span>)\n<span class=\"pl-smi\">tribe_states</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">tribe_states</span>[<span class=\"pl-smi\">valid_lines</span>, <span class=\"pl-c1\">2</span><span class=\"pl-k\">:</span><span class=\"pl-c1\">3</span>]\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Count the number of tribes per state</span>\nt<span class=\"pl-smi\">ribe_data</span> <span class=\"pl-k\">&lt;-</span> as.data.frame(<span class=\"pl-smi\">tribe_states</span>)\ncolnames(<span class=\"pl-smi\">tribe_data</span>) <span class=\"pl-k\">&lt;-</span> c(<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Tribe<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>State<span class=\"pl-pds\">\"</span></span>)\n<span class=\"pl-smi\">state_counts</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-smi\">tribe_data</span> %<span class=\"pl-k\">&gt;</span>%\n  group_by(<span class=\"pl-smi\">State</span>) %<span class=\"pl-k\">&gt;</span>%\n  summarise(<span class=\"pl-v\">Count</span> <span class=\"pl-k\">=</span> n())\n\nprint(<span class=\"pl-smi\">state_counts</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## # A tibble: 0 × 2\n## # ℹ 2 variables: State &lt;chr&gt;, Count &lt;int&gt;\"><pre class=\"notranslate\"><code>## # A tibble: 0 × 2\n## # ℹ 2 variables: State &lt;chr&gt;, Count &lt;int&gt;\n</code></pre></div>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘PyPDF2’ library to extract text from\nthe PDF and the ‘re’ module to process the text data.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install necessary libraries\nimport requests\nimport PyPDF2\nimport io\nimport re\nfrom collections import Counter\n\n# Download the BIA PDF\nurl = &quot;https://www.bia.gov/sites/bia.gov/files/assets/public/raca/online-tribal-leaders-directory/tribal_leaders_2021-12-27.pdf&quot;\nresponse = requests.get(url)\n\n# Extract text from the PDF\npdf_reader = PyPDF2.PdfFileReader(io.BytesIO(response.content))\ntribe_text = [pdf_reader.getPage(i).extractText() for i in range(3, pdf_reader.numPages)]\n\n# Process text data to extract tribes and states\ntribes = [re.findall(r'^\\d+\\s+(.+),\\s+([A-Z]{2})', line) for text in tribe_text for line in text.split('\\n') if line]\ntribe_states = [state for tribe, state in tribes]\n\n# Count the number of tribes per state\nstate_counts = Counter(tribe_states)\nprint(state_counts)\"><pre><span class=\"pl-c\"># Install necessary libraries</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-v\">PyPDF2</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">io</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">re</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">collections</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">Counter</span>\n\n<span class=\"pl-c\"># Download the BIA PDF</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://www.bia.gov/sites/bia.gov/files/assets/public/raca/online-tribal-leaders-directory/tribal_leaders_2021-12-27.pdf\"</span>\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>)\n\n<span class=\"pl-c\"># Extract text from the PDF</span>\n<span class=\"pl-s1\">pdf_reader</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">PyPDF2</span>.<span class=\"pl-v\">PdfFileReader</span>(<span class=\"pl-s1\">io</span>.<span class=\"pl-v\">BytesIO</span>(<span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">content</span>))\n<span class=\"pl-s1\">tribe_text</span> <span class=\"pl-c1\">=</span> [<span class=\"pl-s1\">pdf_reader</span>.<span class=\"pl-en\">getPage</span>(<span class=\"pl-s1\">i</span>).<span class=\"pl-en\">extractText</span>() <span class=\"pl-k\">for</span> <span class=\"pl-s1\">i</span> <span class=\"pl-c1\">in</span> <span class=\"pl-en\">range</span>(<span class=\"pl-c1\">3</span>, <span class=\"pl-s1\">pdf_reader</span>.<span class=\"pl-s1\">numPages</span>)]\n\n<span class=\"pl-c\"># Process text data to extract tribes and states</span>\n<span class=\"pl-s1\">tribes</span> <span class=\"pl-c1\">=</span> [<span class=\"pl-s1\">re</span>.<span class=\"pl-en\">findall</span>(<span class=\"pl-s\">r'^\\d+\\s+(.+),\\s+([A-Z]{2})'</span>, <span class=\"pl-s1\">line</span>) <span class=\"pl-k\">for</span> <span class=\"pl-s1\">text</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">tribe_text</span> <span class=\"pl-k\">for</span> <span class=\"pl-s1\">line</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">text</span>.<span class=\"pl-en\">split</span>(<span class=\"pl-s\">'<span class=\"pl-cce\">\\n</span>'</span>) <span class=\"pl-k\">if</span> <span class=\"pl-s1\">line</span>]\n<span class=\"pl-s1\">tribe_states</span> <span class=\"pl-c1\">=</span> [<span class=\"pl-s1\">state</span> <span class=\"pl-k\">for</span> <span class=\"pl-s1\">tribe</span>, <span class=\"pl-s1\">state</span> <span class=\"pl-c1\">in</span> <span class=\"pl-s1\">tribes</span>]\n\n<span class=\"pl-c\"># Count the number of tribes per state</span>\n<span class=\"pl-s1\">state_counts</span> <span class=\"pl-c1\">=</span> <span class=\"pl-v\">Counter</span>(<span class=\"pl-s1\">tribe_states</span>)\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">state_counts</span>)</pre></div>\n<p dir=\"auto\">In conclusion, both R and Python offer efficient ways to download and\nprocess the list of Indian Entities Recognized and Eligible To Receive\nServices from the BIA. The ‘pdftools’ package in R provides a simple way\nto extract text from PDF files, while the ‘PyPDF2’ library in Python\noffers similar functionality. The ‘stringr’ package in R and the ‘re’\nmodule in Python can be used to process and analyze text data. Depending\non your preferred programming language and environment, both options can\nbe effective for working with BIA data.</p>\n<h2 tabindex=\"-1\" dir=\"auto\"><a id=\"user-content-national-atlas---indian-lands-of-the-united-states-dataset\" class=\"anchor\" aria-hidden=\"true\" tabindex=\"-1\" href=\"#national-atlas---indian-lands-of-the-united-states-dataset\"><svg class=\"octicon octicon-link\" viewBox=\"0 0 16 16\" version=\"1.1\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z\"></path></svg></a>National Atlas - Indian Lands of the United States dataset</h2>\n<p dir=\"auto\">In this example, we will download and analyze the National Atlas -\nIndian Lands of the United States dataset in both R and Python. We will\nread the dataset and count the number of Indian lands per state.</p>\n<p dir=\"auto\">R: In R, we’ll use the ‘sf’ package to read the Shapefile and the\n‘dplyr’ package to process the data.</p>\n<p dir=\"auto\">R code:</p>\n<div class=\"highlight highlight-source-r notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"# Install and load necessary libraries\n\nlibrary(sf)\nlibrary(dplyr)\n\n# Download the Indian Lands dataset\nurl &lt;- &quot;https://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/data/Boundaries/indlanp010g.shp_nt00968.tar.gz&quot;\ntemp_file &lt;- tempfile(fileext = &quot;.tar.gz&quot;)\ndownload.file(url, temp_file, mode = &quot;wb&quot;)\nuntar(temp_file, exdir = tempdir())\n\n# Read the Shapefile\nshapefile_path &lt;- file.path(tempdir(), &quot;indlanp010g.shp&quot;)\nindian_lands &lt;- read_sf(shapefile_path)\n\n# Count the number of Indian lands per state\n# state_counts &lt;- indian_lands %&gt;%\n#   group_by(STATE) %&gt;%\n#   summarize(count = n())\n\nplot(indian_lands)\"><pre><span class=\"pl-c\"><span class=\"pl-c\">#</span> Install and load necessary libraries</span>\n\nlibrary(<span class=\"pl-smi\">sf</span>)\nlibrary(<span class=\"pl-smi\">dplyr</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Download the Indian Lands dataset</span>\nu<span class=\"pl-smi\">rl</span> <span class=\"pl-k\">&lt;-</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>https://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/data/Boundaries/indlanp010g.shp_nt00968.tar.gz<span class=\"pl-pds\">\"</span></span>\n<span class=\"pl-smi\">temp_file</span> <span class=\"pl-k\">&lt;-</span> tempfile(<span class=\"pl-v\">fileext</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>.tar.gz<span class=\"pl-pds\">\"</span></span>)\ndownload.file(<span class=\"pl-smi\">url</span>, <span class=\"pl-smi\">temp_file</span>, <span class=\"pl-v\">mode</span> <span class=\"pl-k\">=</span> <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>wb<span class=\"pl-pds\">\"</span></span>)\nuntar(<span class=\"pl-smi\">temp_file</span>, <span class=\"pl-v\">exdir</span> <span class=\"pl-k\">=</span> tempdir())\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Read the Shapefile</span>\ns<span class=\"pl-smi\">hapefile_path</span> <span class=\"pl-k\">&lt;-</span> file.path(tempdir(), <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>indlanp010g.shp<span class=\"pl-pds\">\"</span></span>)\n<span class=\"pl-smi\">indian_lands</span> <span class=\"pl-k\">&lt;-</span> read_sf(<span class=\"pl-smi\">shapefile_path</span>)\n\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> Count the number of Indian lands per state</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span> state_counts &lt;- indian_lands %&gt;%</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span>   group_by(STATE) %&gt;%</span>\n<span class=\"pl-c\"><span class=\"pl-c\">#</span>   summarize(count = n())</span>\n\nplot(<span class=\"pl-smi\">indian_lands</span>)</pre></div>\n<div class=\"snippet-clipboard-content notranslate position-relative overflow-auto\" data-snippet-clipboard-copy-content=\"## Warning: plotting the first 9 out of 23 attributes; use max.plot = 23 to plot\n## all\"><pre class=\"notranslate\"><code>## Warning: plotting the first 9 out of 23 attributes; use max.plot = 23 to plot\n## all\n</code></pre></div>\n<p dir=\"auto\"><a target=\"_blank\" rel=\"noopener noreferrer\" href=\"/CU-ESIIL/hackathon2023_datacube/blob/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-71-1.pdf\"><img src=\"/CU-ESIIL/hackathon2023_datacube/raw/main/docs/2_R_Python_Bilingualism/bilingualism_md_files/figure-gfm/unnamed-chunk-71-1.pdf\" alt=\"\" style=\"max-width: 100%;\"></a></p>\n<p dir=\"auto\">Python: In Python, we’ll use the ‘geopandas’ and ‘pandas’ libraries to\nread the Shapefile and process the data.</p>\n<p dir=\"auto\">Python code:</p>\n<div class=\"highlight highlight-source-python notranslate position-relative overflow-auto\" dir=\"auto\" data-snippet-clipboard-copy-content=\"import geopandas as gpd\nimport pandas as pd\nimport requests\nimport tarfile\nimport os\nfrom io import BytesIO\n\n# Download the Indian Lands dataset\nurl = &quot;https://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/data/Boundaries/indlanp010g.shp_nt00966.tar.gz&quot;\nresponse = requests.get(url)\ntar_file = tarfile.open(fileobj=BytesIO(response.content), mode='r:gz')\n\n# Extract Shapefile\ntemp_dir = &quot;temp&quot;\nif not os.path.exists(temp_dir):\n    os.makedirs(temp_dir)\n\ntar_file.extractall(path=temp_dir)\nshapefile_path = os.path.join(temp_dir, &quot;indlanp010g.shp&quot;)\n\n# Read the Shapefile\nindian_lands = gpd.read_file(shapefile_path)\n\n# Count the number of Indian lands per state\nstate_counts = indian_lands.groupby(&quot;STATE&quot;).size().reset_index(name=&quot;count&quot;)\n\nprint(state_counts)\"><pre><span class=\"pl-k\">import</span> <span class=\"pl-s1\">geopandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">gpd</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">pandas</span> <span class=\"pl-k\">as</span> <span class=\"pl-s1\">pd</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">requests</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">tarfile</span>\n<span class=\"pl-k\">import</span> <span class=\"pl-s1\">os</span>\n<span class=\"pl-k\">from</span> <span class=\"pl-s1\">io</span> <span class=\"pl-k\">import</span> <span class=\"pl-v\">BytesIO</span>\n\n<span class=\"pl-c\"># Download the Indian Lands dataset</span>\n<span class=\"pl-s1\">url</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"https://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/data/Boundaries/indlanp010g.shp_nt00966.tar.gz\"</span>\n<span class=\"pl-s1\">response</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">requests</span>.<span class=\"pl-en\">get</span>(<span class=\"pl-s1\">url</span>)\n<span class=\"pl-s1\">tar_file</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">tarfile</span>.<span class=\"pl-en\">open</span>(<span class=\"pl-s1\">fileobj</span><span class=\"pl-c1\">=</span><span class=\"pl-v\">BytesIO</span>(<span class=\"pl-s1\">response</span>.<span class=\"pl-s1\">content</span>), <span class=\"pl-s1\">mode</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">'r:gz'</span>)\n\n<span class=\"pl-c\"># Extract Shapefile</span>\n<span class=\"pl-s1\">temp_dir</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s\">\"temp\"</span>\n<span class=\"pl-k\">if</span> <span class=\"pl-c1\">not</span> <span class=\"pl-s1\">os</span>.<span class=\"pl-s1\">path</span>.<span class=\"pl-en\">exists</span>(<span class=\"pl-s1\">temp_dir</span>):\n    <span class=\"pl-s1\">os</span>.<span class=\"pl-en\">makedirs</span>(<span class=\"pl-s1\">temp_dir</span>)\n\n<span class=\"pl-s1\">tar_file</span>.<span class=\"pl-en\">extractall</span>(<span class=\"pl-s1\">path</span><span class=\"pl-c1\">=</span><span class=\"pl-s1\">temp_dir</span>)\n<span class=\"pl-s1\">shapefile_path</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">os</span>.<span class=\"pl-s1\">path</span>.<span class=\"pl-en\">join</span>(<span class=\"pl-s1\">temp_dir</span>, <span class=\"pl-s\">\"indlanp010g.shp\"</span>)\n\n<span class=\"pl-c\"># Read the Shapefile</span>\n<span class=\"pl-s1\">indian_lands</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">gpd</span>.<span class=\"pl-en\">read_file</span>(<span class=\"pl-s1\">shapefile_path</span>)\n\n<span class=\"pl-c\"># Count the number of Indian lands per state</span>\n<span class=\"pl-s1\">state_counts</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">indian_lands</span>.<span class=\"pl-en\">groupby</span>(<span class=\"pl-s\">\"STATE\"</span>).<span class=\"pl-en\">size</span>().<span class=\"pl-en\">reset_index</span>(<span class=\"pl-s1\">name</span><span class=\"pl-c1\">=</span><span class=\"pl-s\">\"count\"</span>)\n\n<span class=\"pl-en\">print</span>(<span class=\"pl-s1\">state_counts</span>)</pre></div>\n<p dir=\"auto\">Both R and Python codes download the dataset and read the Shapefile\nusing the respective packages. They then group the data by the ‘STATE’\nattribute and calculate the count of Indian lands per state.</p>\n</article>","renderedFileInfo":null,"shortPath":null,"tabSize":8,"topBannersInfo":{"overridingGlobalFundingFile":false,"globalPreferredFundingPath":null,"repoOwner":"CU-ESIIL","repoName":"hackathon2023_datacube","showInvalidCitationWarning":false,"citationHelpUrl":"https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/about-citation-files","showDependabotConfigurationBanner":null,"actionsOnboardingTip":null},"truncated":false,"viewable":true,"workflowRedirectUrl":null,"symbols":{"timed_out":false,"not_analyzed":false,"symbols":[{"name":"R and Python bilingualism","kind":"section_1","ident_start":2,"ident_end":27,"extent_start":0,"extent_end":63592,"fully_qualified_name":"R and Python bilingualism","ident_utf16":{"start":{"line_number":0,"utf16_col":2},"end":{"line_number":0,"utf16_col":27}},"extent_utf16":{"start":{"line_number":0,"utf16_col":0},"end":{"line_number":2112,"utf16_col":0}}},{"name":"Install packages","kind":"section_2","ident_start":1697,"ident_end":1713,"extent_start":1694,"extent_end":2777,"fully_qualified_name":"Install packages","ident_utf16":{"start":{"line_number":33,"utf16_col":3},"end":{"line_number":33,"utf16_col":19}},"extent_utf16":{"start":{"line_number":33,"utf16_col":0},"end":{"line_number":83,"utf16_col":0}}},{"name":"reticulate","kind":"section_2","ident_start":2780,"ident_end":2790,"extent_start":2777,"extent_end":4737,"fully_qualified_name":"reticulate","ident_utf16":{"start":{"line_number":83,"utf16_col":3},"end":{"line_number":83,"utf16_col":13}},"extent_utf16":{"start":{"line_number":83,"utf16_col":0},"end":{"line_number":172,"utf16_col":0}}},{"name":"Load packages and change settings","kind":"section_2","ident_start":4740,"ident_end":4773,"extent_start":4737,"extent_end":7045,"fully_qualified_name":"Load packages and change settings","ident_utf16":{"start":{"line_number":172,"utf16_col":3},"end":{"line_number":172,"utf16_col":36}},"extent_utf16":{"start":{"line_number":172,"utf16_col":0},"end":{"line_number":273,"utf16_col":0}}},{"name":"Load saved data","kind":"section_2","ident_start":7048,"ident_end":7063,"extent_start":7045,"extent_end":7207,"fully_qualified_name":"Load saved data","ident_utf16":{"start":{"line_number":273,"utf16_col":3},"end":{"line_number":273,"utf16_col":18}},"extent_utf16":{"start":{"line_number":273,"utf16_col":0},"end":{"line_number":286,"utf16_col":0}}},{"name":"Save data","kind":"section_2","ident_start":7210,"ident_end":7219,"extent_start":7207,"extent_end":7427,"fully_qualified_name":"Save data","ident_utf16":{"start":{"line_number":286,"utf16_col":3},"end":{"line_number":286,"utf16_col":12}},"extent_utf16":{"start":{"line_number":286,"utf16_col":0},"end":{"line_number":298,"utf16_col":0}}},{"name":"functions","kind":"section_2","ident_start":7430,"ident_end":7439,"extent_start":7427,"extent_end":9006,"fully_qualified_name":"functions","ident_utf16":{"start":{"line_number":298,"utf16_col":3},"end":{"line_number":298,"utf16_col":12}},"extent_utf16":{"start":{"line_number":298,"utf16_col":0},"end":{"line_number":348,"utf16_col":0}}},{"name":"Data Plots","kind":"section_2","ident_start":9009,"ident_end":9019,"extent_start":9006,"extent_end":10375,"fully_qualified_name":"Data Plots","ident_utf16":{"start":{"line_number":348,"utf16_col":3},"end":{"line_number":348,"utf16_col":13}},"extent_utf16":{"start":{"line_number":348,"utf16_col":0},"end":{"line_number":401,"utf16_col":0}}},{"name":"Linear regression","kind":"section_2","ident_start":10378,"ident_end":10395,"extent_start":10375,"extent_end":13447,"fully_qualified_name":"Linear regression","ident_utf16":{"start":{"line_number":401,"utf16_col":3},"end":{"line_number":401,"utf16_col":20}},"extent_utf16":{"start":{"line_number":401,"utf16_col":0},"end":{"line_number":510,"utf16_col":0}}},{"name":"Random Forest","kind":"section_2","ident_start":13450,"ident_end":13463,"extent_start":13447,"extent_end":15979,"fully_qualified_name":"Random Forest","ident_utf16":{"start":{"line_number":510,"utf16_col":3},"end":{"line_number":510,"utf16_col":16}},"extent_utf16":{"start":{"line_number":510,"utf16_col":0},"end":{"line_number":593,"utf16_col":0}}},{"name":"Basic streetmap from Open Street Map","kind":"section_2","ident_start":15982,"ident_end":16018,"extent_start":15979,"extent_end":17540,"fully_qualified_name":"Basic streetmap from Open Street Map","ident_utf16":{"start":{"line_number":593,"utf16_col":3},"end":{"line_number":593,"utf16_col":39}},"extent_utf16":{"start":{"line_number":593,"utf16_col":0},"end":{"line_number":648,"utf16_col":0}}},{"name":"CNN on Raster data","kind":"section_2","ident_start":17543,"ident_end":17561,"extent_start":17540,"extent_end":19030,"fully_qualified_name":"CNN on Raster data","ident_utf16":{"start":{"line_number":648,"utf16_col":3},"end":{"line_number":648,"utf16_col":21}},"extent_utf16":{"start":{"line_number":648,"utf16_col":0},"end":{"line_number":694,"utf16_col":0}}},{"name":"Piping","kind":"section_2","ident_start":19033,"ident_end":19039,"extent_start":19030,"extent_end":23011,"fully_qualified_name":"Piping","ident_utf16":{"start":{"line_number":694,"utf16_col":3},"end":{"line_number":694,"utf16_col":9}},"extent_utf16":{"start":{"line_number":694,"utf16_col":0},"end":{"line_number":819,"utf16_col":0}}},{"name":"for loops","kind":"section_2","ident_start":23014,"ident_end":23023,"extent_start":23011,"extent_end":24128,"fully_qualified_name":"for loops","ident_utf16":{"start":{"line_number":819,"utf16_col":3},"end":{"line_number":819,"utf16_col":12}},"extent_utf16":{"start":{"line_number":819,"utf16_col":0},"end":{"line_number":873,"utf16_col":0}}},{"name":"Parallel","kind":"section_2","ident_start":24131,"ident_end":24139,"extent_start":24128,"extent_end":28209,"fully_qualified_name":"Parallel","ident_utf16":{"start":{"line_number":873,"utf16_col":3},"end":{"line_number":873,"utf16_col":11}},"extent_utf16":{"start":{"line_number":873,"utf16_col":0},"end":{"line_number":996,"utf16_col":0}}},{"name":"Data wrangling","kind":"section_2","ident_start":28212,"ident_end":28226,"extent_start":28209,"extent_end":31924,"fully_qualified_name":"Data wrangling","ident_utf16":{"start":{"line_number":996,"utf16_col":3},"end":{"line_number":996,"utf16_col":17}},"extent_utf16":{"start":{"line_number":996,"utf16_col":0},"end":{"line_number":1099,"utf16_col":0}}},{"name":"Data from API","kind":"section_2","ident_start":31927,"ident_end":31940,"extent_start":31924,"extent_end":35799,"fully_qualified_name":"Data from API","ident_utf16":{"start":{"line_number":1099,"utf16_col":3},"end":{"line_number":1099,"utf16_col":16}},"extent_utf16":{"start":{"line_number":1099,"utf16_col":0},"end":{"line_number":1231,"utf16_col":0}}},{"name":"Census data","kind":"section_2","ident_start":35802,"ident_end":35813,"extent_start":35799,"extent_end":37796,"fully_qualified_name":"Census data","ident_utf16":{"start":{"line_number":1231,"utf16_col":3},"end":{"line_number":1231,"utf16_col":14}},"extent_utf16":{"start":{"line_number":1231,"utf16_col":0},"end":{"line_number":1325,"utf16_col":0}}},{"name":"Lidar data","kind":"section_2","ident_start":37799,"ident_end":37809,"extent_start":37796,"extent_end":39613,"fully_qualified_name":"Lidar data","ident_utf16":{"start":{"line_number":1325,"utf16_col":3},"end":{"line_number":1325,"utf16_col":13}},"extent_utf16":{"start":{"line_number":1325,"utf16_col":0},"end":{"line_number":1390,"utf16_col":0}}},{"name":"Data for black lives","kind":"section_2","ident_start":39616,"ident_end":39636,"extent_start":39613,"extent_end":41999,"fully_qualified_name":"Data for black lives","ident_utf16":{"start":{"line_number":1390,"utf16_col":3},"end":{"line_number":1390,"utf16_col":23}},"extent_utf16":{"start":{"line_number":1390,"utf16_col":0},"end":{"line_number":1460,"utf16_col":0}}},{"name":"Propublica Congress API","kind":"section_2","ident_start":42002,"ident_end":42025,"extent_start":41999,"extent_end":44573,"fully_qualified_name":"Propublica Congress API","ident_utf16":{"start":{"line_number":1460,"utf16_col":3},"end":{"line_number":1460,"utf16_col":26}},"extent_utf16":{"start":{"line_number":1460,"utf16_col":0},"end":{"line_number":1543,"utf16_col":0}}},{"name":"Nonprofit Explorer API by ProPublica","kind":"section_2","ident_start":44576,"ident_end":44612,"extent_start":44573,"extent_end":48189,"fully_qualified_name":"Nonprofit Explorer API by ProPublica","ident_utf16":{"start":{"line_number":1543,"utf16_col":3},"end":{"line_number":1543,"utf16_col":39}},"extent_utf16":{"start":{"line_number":1543,"utf16_col":0},"end":{"line_number":1655,"utf16_col":0}}},{"name":"Campaign Finance API by ProPublica","kind":"section_2","ident_start":48192,"ident_end":48226,"extent_start":48189,"extent_end":51129,"fully_qualified_name":"Campaign Finance API by ProPublica","ident_utf16":{"start":{"line_number":1655,"utf16_col":3},"end":{"line_number":1655,"utf16_col":37}},"extent_utf16":{"start":{"line_number":1655,"utf16_col":0},"end":{"line_number":1735,"utf16_col":0}}},{"name":"Historic Redlining","kind":"section_2","ident_start":51132,"ident_end":51150,"extent_start":51129,"extent_end":53427,"fully_qualified_name":"Historic Redlining","ident_utf16":{"start":{"line_number":1735,"utf16_col":3},"end":{"line_number":1735,"utf16_col":21}},"extent_utf16":{"start":{"line_number":1735,"utf16_col":0},"end":{"line_number":1806,"utf16_col":0}}},{"name":"American Indian and Alaska Native Areas (AIANNH)","kind":"section_2","ident_start":53430,"ident_end":53478,"extent_start":53427,"extent_end":57997,"fully_qualified_name":"American Indian and Alaska Native Areas (AIANNH)","ident_utf16":{"start":{"line_number":1806,"utf16_col":3},"end":{"line_number":1806,"utf16_col":51}},"extent_utf16":{"start":{"line_number":1806,"utf16_col":0},"end":{"line_number":1937,"utf16_col":0}}},{"name":"Indian Entities Recognized and Eligible To Receive Services by BIA","kind":"section_2","ident_start":58000,"ident_end":58066,"extent_start":57997,"extent_end":61286,"fully_qualified_name":"Indian Entities Recognized and Eligible To Receive Services by BIA","ident_utf16":{"start":{"line_number":1937,"utf16_col":3},"end":{"line_number":1937,"utf16_col":69}},"extent_utf16":{"start":{"line_number":1937,"utf16_col":0},"end":{"line_number":2034,"utf16_col":0}}},{"name":"National Atlas - Indian Lands of the United States dataset","kind":"section_2","ident_start":61289,"ident_end":61347,"extent_start":61286,"extent_end":63592,"fully_qualified_name":"National Atlas - Indian Lands of the United States dataset","ident_utf16":{"start":{"line_number":2034,"utf16_col":3},"end":{"line_number":2034,"utf16_col":61}},"extent_utf16":{"start":{"line_number":2034,"utf16_col":0},"end":{"line_number":2112,"utf16_col":0}}}]}},"copilotInfo":null,"copilotAccessAllowed":false,"csrf_tokens":{"/CU-ESIIL/hackathon2023_datacube/branches":{"post":"F3DpUBnA7UpnaEbm8JqN0RkB1GyoyX9Br68rs5_Wj59S3JL3MG2OeySV2K8s89ktb-yjQ7gO7pYon8_ukUCyHA"},"/repos/preferences":{"post":"6HfrlSwdl4G0KFRMh2G-erxFwMn0A0rieUNSjUIucvMgYAWGMuNMHb8PQ6BGPKpmbi-rAdsq89TsVnVQz6_DDA"}}},"title":"hackathon2023_datacube/docs/2_R_Python_Bilingualism/bilingualism_md.md at main · CU-ESIIL/hackathon2023_datacube"}
+# R and Python bilingualism
+
+Welcome to the R and Python bilingualism reference guide! If you’re
+fluent in one of these languages but hesitant to learn the other, you’re
+in the right place. The good news is that there are many similarities
+between R and Python that make it easy to switch between the two.
+
+Both R and Python are widely used in data science and are open-source,
+meaning that they are free to use and constantly being improved by the
+community. They both have extensive libraries for data analysis,
+visualization, and machine learning. In fact, many of the libraries in
+both languages have similar names and functions, such as Pandas in
+Python and data.table in R.
+
+While there are differences between the two languages, they can
+complement each other well. Python is versatile and scalable, making it
+ideal for large and complex projects such as web development and
+artificial intelligence. R, on the other hand, is known for its
+exceptional statistical capabilities and is often used in data analysis
+and modeling. Visualization is also easier in R, making it a popular
+choice for creating graphs and charts.
+
+By learning both R and Python, you’ll be able to take advantage of the
+strengths of each language and create more efficient and robust data
+analysis workflows. Don’t let the differences between the two languages
+intimidate you - once you become familiar with one, learning the other
+will be much easier.
+
+So, whether you’re a Python enthusiast looking to expand your
+statistical analysis capabilities, or an R user interested in exploring
+the world of web development and artificial intelligence, this guide
+will help you become bilingual in R and Python.
+
+## Install packages
+
+In R, packages can be installed from CRAN repository by using the
+install.packages() function:
+
+R code:
+
+``` r
+# Install the dplyr package from CRAN
+install.packages("dplyr")
+```
+
+In Python, packages can be installed from the Anaconda repository by
+using the conda install command:
+
+Python code:
+
+``` python
+# Install the pandas package from Anaconda
+!conda install pandas
+```
+
+Loading libraries in R and Python
+
+In R, libraries can be loaded in the same way as before, using the
+library() function:
+
+R code:
+
+``` r
+# Load the dplyr library
+library(dplyr)
+```
+
+In Python, libraries can be loaded in the same way as before, using the
+import statement. Here’s an example:
+
+Python code:
+
+``` python
+# Load the pandas library
+import pandas as pd
+```
+
+Note that the package or library must be installed from the respective
+repository before it can be loaded. Also, make sure you have the correct
+repository specified in your system before installing packages. By
+default, R uses CRAN as its primary repository, whereas Anaconda uses
+its own repository by default.
+
+## reticulate
+
+The reticulate package lets you run both R and Python together in the R
+environment.
+
+R libraries are stored and managed in a repository called CRAN. You can
+download R packages with the install.packages() function
+
+``` r
+install.packages("reticulate")
+```
+
+You only need to install packages once, but you need to mount those
+packages with the library() function each time you open R.
+
+``` r
+library(reticulate)
+```
+
+Python libraries are stored and managed in a few different libraries and
+their dependencies are not regulated as strictly as R libraries are in
+CRAN. It’s easier to publish a python package but it can also be more
+cumbersome for users because you need to manage dependencies yourself.
+You can download python packages using both R and Python code
+
+``` r
+py_install("laspy")
+```
+
+    ## + '/Users/ty/opt/miniconda3/bin/conda' 'install' '--yes' '--prefix' '/Users/ty/opt/miniconda3/envs/earth-analytics-python' '-c' 'conda-forge' 'laspy'
+
+Now, let’s create a Python list and assign it to a variable py_list:
+
+R code:
+
+``` r
+py_list <- r_to_py(list(1, 2, 3))
+```
+
+We can now print out the py_list variable in Python using the
+py_run_string() function:
+
+R code:
+
+``` r
+py_run_string("print(r.py_list)")
+```
+
+This will output \[1, 2, 3\] in the Python console.
+
+Now, let’s create an R vector and assign it to a variable r_vec:
+
+R code:
+
+``` r
+r_vec <- c(4, 5, 6)
+```
+
+We can now print out the r_vec variable in R using the py$ syntax to
+access Python variables:
+
+R code:
+
+``` r
+print(py$py_list)
+```
+
+This will output \[1, 2, 3\] in the R console.
+
+We can also call Python functions from R using the py_call() function.
+For example, let’s call the Python sum() function on the py_list
+variable and assign the result to an R variable r_sum:
+
+R code:
+
+``` r
+r_sum <- py_call("sum", args = list(py_list))
+```
+
+We can now print out the r_sum variable in R:
+
+R code:
+
+``` r
+print(r_sum)
+```
+
+This will output 6 in the R console.
+
+## Load packages and change settings
+
+``` r
+options(java.parameters = "-Xmx5G")
+
+library(r5r)
+library(sf)
+library(data.table)
+library(ggplot2)
+library(interp)
+library(dplyr)
+library(osmdata)
+library(ggthemes)
+library(sf)
+library(data.table)
+library(ggplot2)
+library(akima)
+library(dplyr)
+library(raster)
+library(osmdata)
+library(mapview)
+library(cowplot)
+library(here)
+library(testthat)
+```
+
+``` python
+import sys
+sys.argv.append(["--max-memory", "5G"])
+
+import pandas as pd
+import geopandas
+import matplotlib.pyplot as plt
+import numpy as np
+import plotnine
+import contextily as cx
+import r5py
+import seaborn as sns
+```
+
+R and Python are two popular programming languages used for data
+analysis, statistics, and machine learning. Although they share some
+similarities, there are some fundamental differences between them.
+Here’s an example code snippet in R and Python to illustrate some of the
+differences:
+
+R Code:
+
+``` r
+# Create a vector of numbers from 1 to 10
+x <- 1:10
+
+# Compute the mean of the vector
+mean_x <- mean(x)
+
+# Print the result
+print(mean_x)
+```
+
+    ## [1] 5.5
+
+Python Code:
+
+``` python
+# Import the numpy library for numerical operations
+import numpy as np
+
+# Create a numpy array of numbers from 1 to 10
+x = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+
+# Compute the mean of the array
+mean_x = np.mean(x)
+
+# Print the result
+print(mean_x)
+```
+
+    ## 5.5
+
+In this example, we can see that there are several differences between R
+and Python:
+
+Syntax: R uses the assignment operator \<- while Python uses the equals
+sign = for variable assignment.
+
+Libraries: Python relies heavily on external libraries such as numpy,
+pandas, and matplotlib for data analysis, while R has built-in functions
+for many data analysis tasks.
+
+Data types: R is designed to work with vectors and matrices, while
+Python uses lists and arrays. In the example above, we used the numpy
+library to create a numerical array in Python.
+
+Function names: Function names in R and Python can differ significantly.
+In the example above, we used the mean() function in R and the np.mean()
+function in Python to calculate the mean of the vector/array.
+
+These are just a few of the many differences between R and Python.
+Ultimately, the choice between the two languages will depend on your
+specific needs and preferences.
+
+## Load saved data
+
+R Code:
+
+``` r
+data("iris")
+here()
+load(file=here("2_R_and_Py_bilingualism", "data", "iris_example_data.rdata"))
+objects()
+```
+
+Python code:
+
+## Save data
+
+R Code:
+
+``` r
+save(iris, file=here("2_R_and_Py_bilingualism", "data", "iris_example_data.rdata"))
+
+write.csv(iris, file=here("2_R_and_Py_bilingualism", "data", "iris_example_data.csv"))
+```
+
+Python code:
+
+## functions
+
+Both R and Python are powerful languages for writing functions that can
+take input, perform a specific task, and return output. R Code:
+
+``` r
+# Define a function that takes two arguments and returns their sum
+sum_r <- function(a, b) {
+  return(a + b)
+}
+
+# Call the function with two arguments and print the result
+result_r <- sum_r(3, 5)
+print(result_r)
+```
+
+    ## [1] 8
+
+Python code:
+
+``` python
+# Define a function that takes two arguments and returns their sum
+def sum_py(a, b):
+    return a + b
+
+# Call the function with two arguments and print the result
+result_py = sum_py(3, 5)
+print(result_py)
+```
+
+    ## 8
+
+In both cases, we define a function that takes two arguments and returns
+their sum. In R, we use the function keyword to define a function, while
+in Python, we use the def keyword. The function body in R is enclosed in
+curly braces, while in Python it is indented.
+
+There are a few differences in the syntax and functionality between the
+two approaches:
+
+Function arguments: In R, function arguments are separated by commas,
+while in Python they are enclosed in parentheses. The syntax for
+specifying default arguments and variable-length argument lists can also
+differ between the two languages. Return statement: In R, we use the
+return keyword to specify the return value of a function, while in
+Python, we simply use the return statement. Function names: Function
+names in R and Python can differ significantly. In the example above, we
+used the sum_r() function in R and the sum_py() function in Python to
+calculate the sum of two numbers.
+
+## Data Plots
+
+R Code:
+
+``` r
+# Load the "ggplot2" package for plotting
+library(ggplot2)
+
+# Generate some sample data
+x <- seq(1, 10, 1)
+y <- x + rnorm(10)
+
+# Create a scatter plot
+ggplot(data.frame(x, y), aes(x = x, y = y)) +
+  geom_point()
+```
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-25-1.pdf)<!-- -->
+Python code:
+
+``` python
+# Load the "matplotlib" library
+import matplotlib.pyplot as plt
+
+# Generate some sample data
+import numpy as np
+x = np.arange(1, 11)
+y = x + np.random.normal(0, 1, 10)
+
+#clear last plot
+plt.clf()
+
+# Create a scatter plot
+plt.scatter(x, y)
+plt.show()
+```
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-26-1.pdf)<!-- -->
+
+In both cases, we generate some sample data and create a scatter plot to
+visualize the relationship between the variables.
+
+There are a few differences in the syntax and functionality between the
+two approaches:
+
+Library and package names: In R, we use the ggplot2 package for
+plotting, while in Python, we use the matplotlib library. Data format:
+In R, we use a data frame to store the input data, while in Python, we
+use numpy arrays. Plotting functions: In R, we use the ggplot() function
+to create a new plot object, and then use the geom_point() function to
+create a scatter plot layer. In Python, we use the scatter() function
+from the matplotlib.pyplot module to create a scatter plot directly.
+
+## Linear regression
+
+R Code:
+
+``` r
+# Load the "ggplot2" package for plotting
+library(ggplot2)
+
+# Generate some sample data
+x <- seq(1, 10, 1)
+y <- x + rnorm(10)
+
+# Perform linear regression
+model_r <- lm(y ~ x)
+
+# Print the model summary
+summary(model_r)
+```
+
+    ## 
+    ## Call:
+    ## lm(formula = y ~ x)
+    ## 
+    ## Residuals:
+    ##      Min       1Q   Median       3Q      Max 
+    ## -1.69344 -0.42336  0.08961  0.34778  1.56728 
+    ## 
+    ## Coefficients:
+    ##             Estimate Std. Error t value Pr(>|t|)    
+    ## (Intercept)  -0.1676     0.6781  -0.247    0.811    
+    ## x             0.9750     0.1093   8.921 1.98e-05 ***
+    ## ---
+    ## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+    ## 
+    ## Residual standard error: 0.9926 on 8 degrees of freedom
+    ## Multiple R-squared:  0.9087, Adjusted R-squared:  0.8972 
+    ## F-statistic: 79.59 on 1 and 8 DF,  p-value: 1.976e-05
+
+``` r
+# Plot the data and regression line
+ggplot(data.frame(x, y), aes(x = x, y = y)) +
+  geom_point() +
+  geom_smooth(method = "lm", se = FALSE)
+```
+
+    ## `geom_smooth()` using formula = 'y ~ x'
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-27-3.pdf)<!-- -->
+
+Python code:
+
+``` python
+# Load the "matplotlib" and "scikit-learn" libraries
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# Generate some sample data
+import numpy as np
+x = np.arange(1, 11)
+y = x + np.random.normal(0, 1, 10)
+
+# Perform linear regression
+model_py = LinearRegression().fit(x.reshape(-1, 1), y)
+
+# Print the model coefficients
+print("Coefficients: ", model_py.coef_)
+```
+
+    ## Coefficients:  [1.15539692]
+
+``` python
+print("Intercept: ", model_py.intercept_)
+
+#clear last plot
+```
+
+    ## Intercept:  -1.1291396173221218
+
+``` python
+plt.clf()
+
+# Plot the data and regression line
+plt.scatter(x, y)
+plt.plot(x, model_py.predict(x.reshape(-1, 1)), color='red')
+plt.show()
+```
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-28-1.pdf)<!-- -->
+
+In both cases, we generate some sample data with a linear relationship
+between x and y, and then perform a simple linear regression to estimate
+the slope and intercept of the line. We then plot the data and
+regression line to visualize the fit.
+
+There are a few differences in the syntax and functionality between the
+two approaches:
+
+Library and package names: In R, we use the lm() function from the base
+package to perform linear regression, while in Python, we use the
+LinearRegression() class from the scikit-learn library. Additionally, we
+use the ggplot2 package in R for plotting, while we use the matplotlib
+library in Python. Data format: In R, we can specify the dependent and
+independent variables in the formula used for regression. In Python, we
+need to reshape the input data to a two-dimensional array before fitting
+the model. Model summary: In R, we can use the summary() function to
+print a summary of the model, including the estimated coefficients,
+standard errors, and p-values. In Python, we need to print the
+coefficients and intercept separately.
+
+## Random Forest
+
+R Code:
+
+``` r
+# Load the "randomForest" package
+library(randomForest)
+
+# Load the "iris" dataset
+data(iris)
+
+# Split the data into training and testing sets
+set.seed(123)
+train_idx <- sample(1:nrow(iris), nrow(iris) * 0.7, replace = FALSE)
+train_data <- iris[train_idx, ]
+test_data <- iris[-train_idx, ]
+
+# Build a random forest model
+rf_model <- randomForest(Species ~ ., data = train_data, ntree = 500)
+
+# Make predictions on the testing set
+predictions <- predict(rf_model, test_data)
+
+# Calculate accuracy of the model
+accuracy <- sum(predictions == test_data$Species) / nrow(test_data)
+print(paste("Accuracy:", accuracy))
+```
+
+    ## [1] "Accuracy: 0.977777777777778"
+
+Python code:
+
+``` python
+# Load the "pandas", "numpy", and "sklearn" libraries
+import pandas as pd
+import numpy as np
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.datasets import load_iris
+from sklearn.model_selection import train_test_split
+
+# Load the "iris" dataset
+iris = load_iris()
+
+# Split the data into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(iris.data, iris.target, test_size=0.3, random_state=123)
+
+# Build a random forest model
+rf_model = RandomForestClassifier(n_estimators=500, random_state=123)
+rf_model.fit(X_train, y_train)
+
+# Make predictions on the testing set
+```
+
+    ## RandomForestClassifier(n_estimators=500, random_state=123)
+
+``` python
+predictions = rf_model.predict(X_test)
+
+# Calculate accuracy of the model
+accuracy = sum(predictions == y_test) / len(y_test)
+print("Accuracy:", accuracy)
+```
+
+    ## Accuracy: 0.9555555555555556
+
+In both cases, we load the iris dataset and split it into training and
+testing sets. We then build a random forest model using the training
+data and evaluate its accuracy on the testing data.
+
+There are a few differences in the syntax and functionality between the
+two approaches:
+
+Library and package names: In R, we use the randomForest package to
+build random forest models, while in Python, we use the
+RandomForestClassifier class from the sklearn.ensemble module. We also
+use different libraries for loading and manipulating data (pandas and
+numpy in Python, and built-in datasets in R). Model parameters: The
+syntax for setting model parameters is slightly different in R and
+Python. For example, in R, we specify the number of trees using the
+ntree parameter, while in Python, we use the n_estimators parameter.
+Data format: In R, we use a data frame to store the input data, while in
+Python, we use numpy arrays.
+
+## Basic streetmap from Open Street Map
+
+R Code:
+
+``` r
+# Load the "osmdata" package for mapping
+library(osmdata)
+library(tmap)
+
+# Define the map location and zoom level
+bbox <- c(left = -0.16, bottom = 51.49, right = -0.13, top = 51.51)
+
+# Get the OpenStreetMap data
+osm_data <- opq(bbox) %>% 
+  add_osm_feature(key = "highway") %>% 
+  osmdata_sf()
+
+# Plot the map using tmap
+tm_shape(osm_data$osm_lines) + 
+  tm_lines()
+```
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-31-1.pdf)<!-- -->
+Python code:
+
+``` python
+# Load the "osmnx" package for mapping
+import osmnx as ox
+
+# Define the map location and zoom level
+bbox = (51.49, -0.16, 51.51, -0.13)
+
+# Get the OpenStreetMap data
+osm_data = ox.graph_from_bbox(north=bbox[2], south=bbox[0], east=bbox[3], west=bbox[1], network_type='all')
+
+# Plot the map using osmnx
+ox.plot_graph(osm_data)
+```
+
+    ## (<Figure size 1600x1600 with 0 Axes>, <AxesSubplot:>)
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-32-1.pdf)<!-- -->
+
+In both cases, we define the map location and zoom level, retrieve the
+OpenStreetMap data using the specified bounding box, and plot the map.
+
+The main differences between the two approaches are:
+
+Package names and syntax: In R, we use the osmdata package and its
+syntax to download and process the OpenStreetMap data, while in Python,
+we use the osmnx package and its syntax. Mapping libraries: In R, we use
+the tmap package to create a static map of the OpenStreetMap data, while
+in Python, we use the built-in ox.plot_graph function from the osmnx
+package to plot the map.
+
+## CNN on Raster data
+
+R Code:
+
+``` r
+# Load the "keras" package for building the CNN
+library(tensorflow)
+library(keras)
+
+# Load the "raster" package for working with raster data
+library(raster)
+
+# Load the "magrittr" package for pipe operator
+library(magrittr)
+
+# Load the data as a raster brick
+raster_data <- brick("raster_data.tif")
+
+# Split the data into training and testing sets
+split_data <- sample(1:nlayers(raster_data), size = nlayers(raster_data)*0.8, replace = FALSE)
+train_data <- raster_data[[split_data]]
+test_data <- raster_data[[setdiff(1:nlayers(raster_data), split_data)]]
+
+# Define the CNN model
+model <- keras_model_sequential() %>% 
+  layer_conv_2d(filters = 32, kernel_size = c(3, 3), activation = "relu", input_shape = c(ncol(train_data), nrow(train_data), ncell(train_data))) %>% 
+  layer_max_pooling_2d(pool_size = c(2, 2)) %>% 
+  layer_dropout(rate = 0.25) %>% 
+  layer_flatten() %>% 
+  layer_dense(units = 128, activation = "relu") %>% 
+  layer_dropout(rate = 0.5) %>% 
+  layer_dense(units = nlayers(train_data), activation = "softmax")
+
+# Compile the model
+model %>% compile(loss = "categorical_crossentropy", optimizer = "adam", metrics = "accuracy")
+
+# Train the model
+history <- model %>% fit(x = array(train_data), y = to_categorical(1:nlayers(train_data)), epochs = 10, validation_split = 0.2)
+
+# Evaluate the model
+model %>% evaluate(x = array(test_data), y = to_categorical(1:nlayers(test_data)))
+
+# Plot the model accuracy over time
+plot(history)
+```
+
+## Piping
+
+Piping is a powerful feature in both R and Python that allows for a more
+streamlined and readable code. However, the syntax for piping is
+slightly different between the two languages.
+
+In R, piping is done using the %\>% operator from the magrittr package,
+while in Python, it is done using the \| operator from the pandas
+package.
+
+Let’s compare and contrast piping in R and Python with some examples:
+
+Piping in R In R, we can use the %\>% operator to pipe output from one
+function to another, which can make our code more readable and easier to
+follow. Here’s an example:
+
+R code:
+
+``` r
+library(dplyr)
+
+# create a data frame
+df <- data.frame(x = c(1,2,3), y = c(4,5,6))
+
+# calculate the sum of column x and y
+df %>%
+  mutate(z = x + y) %>%
+  summarize(sum_z = sum(z))
+```
+
+    ##   sum_z
+    ## 1    21
+
+In this example, we first create a data frame df with two columns x and
+y. We then pipe the output of df to mutate, which adds a new column z to
+the data frame that is the sum of x and y. Finally, we pipe the output
+to summarize, which calculates the sum of z and returns the result.
+
+Piping in Python In Python, we can use the \| operator to pipe output
+from one function to another. However, instead of piping output from one
+function to another, we pipe a DataFrame to a method of the DataFrame.
+Here’s an example:
+
+Python code:
+
+``` python
+import pandas as pd
+
+# create a DataFrame
+df = pd.DataFrame({'x': [1,2,3], 'y': [4,5,6]})
+
+# calculate the sum of column x and y
+(df.assign(z = df['x'] + df['y'])
+   .agg(sum_z = ('z', 'sum')))
+```
+
+    ##         z
+    ## sum_z  21
+
+In this example, we first create a DataFrame df with two columns x and
+y. We then use the assign() method to add a new column z to the
+DataFrame that is the sum of x and y. Finally, we use the agg() method
+to calculate the sum of z and return the result.
+
+As we can see, the syntax for piping is slightly different between R and
+Python, but the concept remains the same. Piping can make our code more
+readable and easier to follow, which is an important aspect of creating
+efficient and effective code.
+
+R code:
+
+``` r
+library(dplyr)
+library(ggplot2)
+
+iris %>%
+  filter(Species == "setosa") %>%
+  group_by(Sepal.Width) %>%
+  summarise(mean.Petal.Length = mean(Petal.Length)) %>%
+  mutate(Sepal.Width = as.factor(Sepal.Width)) %>%
+  ggplot(aes(x = Sepal.Width, y = mean.Petal.Length)) +
+  geom_bar(stat = "identity", fill = "dodgerblue") +
+  labs(title = "Mean Petal Length of Setosa by Sepal Width",
+       x = "Sepal Width",
+       y = "Mean Petal Length")
+```
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-37-1.pdf)<!-- -->
+
+In this example, we start with the iris dataset and filter it to only
+include rows where the Species column is “setosa”. We then group the
+remaining rows by the Sepal.Width column and calculate the mean
+Petal.Length for each group. Next, we convert Sepal.Width to a factor
+variable to ensure that it is treated as a categorical variable in the
+visualization. Finally, we create a bar plot using ggplot2, with
+Sepal.Width on the x-axis and mean.Petal.Length on the y-axis. The
+resulting plot shows the mean petal length of setosa flowers for each
+sepal width category.
+
+Python code:
+
+``` python
+import pandas as pd
+
+# Load the iris dataset and pipe it into the next function
+( pd.read_csv("https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data", header=None, names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class'])
+  
+  # Select columns and pivot the dataset
+  .loc[:, ['sepal_length', 'sepal_width', 'petal_length']]
+  .melt(var_name='variable', value_name='value')
+  
+  # Group by variable and calculate mean
+  .groupby('variable', as_index=False)
+  .mean()
+  
+  # Filter for mean greater than 3.5 and sort by descending mean
+  .query('value > 3.5')
+  .sort_values('value', ascending=False)
+)
+```
+
+    ##        variable     value
+    ## 1  sepal_length  5.843333
+    ## 0  petal_length  3.758667
+
+## for loops
+
+Here is an example of a for loop in R:
+
+R code
+
+``` r
+# Create a vector of numbers
+numbers <- c(1, 2, 3, 4, 5)
+
+# Use a for loop to print out each number in the vector
+for (i in numbers) {
+  print(i)
+}
+```
+
+    ## [1] 1
+    ## [1] 2
+    ## [1] 3
+    ## [1] 4
+    ## [1] 5
+
+In this example, the for loop iterates over each element in the numbers
+vector, assigning the current element to the variable i. The print(i)
+statement is then executed for each iteration, outputting the value of
+i.
+
+Here is the equivalent example in Python:
+
+Python code
+
+``` python
+# Create a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Use a for loop to print out each number in the list
+for i in numbers:
+  print(i)
+```
+
+    ## 1
+    ## 2
+    ## 3
+    ## 4
+    ## 5
+
+In Python, the for loop iterates over each element in the numbers list,
+assigning the current element to the variable i. The print(i) statement
+is then executed for each iteration, outputting the value of i.
+
+Both languages also support nested for loops, which can be used to
+perform iterations over multiple dimensions, such as looping through a
+2D array.
+
+## Parallel
+
+Parallel computing is a technique used to execute multiple computational
+tasks simultaneously, which can significantly reduce the time required
+to complete a task. Both R and Python have built-in support for parallel
+computing, although the approaches are slightly different. In this
+answer, we will compare and contrast the parallel computing capabilities
+of R and Python, and provide working examples in code.
+
+Parallel computing in R In R, there are several packages that support
+parallel computing, such as parallel, foreach, and doParallel. The
+parallel package provides basic functionality for parallel computing,
+while foreach and doParallel provide higher-level abstractions that make
+it easier to write parallel code.
+
+Here is an example of using the foreach package to execute a loop in
+parallel:
+
+R code:
+
+``` r
+library(foreach)
+library(doParallel)
+
+# Set up a parallel backend with 4 workers
+cl <- makeCluster(4)
+registerDoParallel(cl)
+
+# Define a function to apply in parallel
+myfunc <- function(x) {
+  # some computation here
+  return(x^2)
+}
+
+# Generate some data
+mydata <- 1:1000
+
+# Apply the function to the data in parallel
+result <- foreach(i = mydata) %dopar% {
+  myfunc(i)
+}
+
+# Stop the cluster
+stopCluster(cl)
+```
+
+In this example, we use the makeCluster() function to set up a cluster
+with 4 workers, and the registerDoParallel() function to register the
+cluster as the parallel backend for foreach. We then define a function
+myfunc() that takes an input x and returns x^2. We generate some data
+mydata and use foreach to apply myfunc() to each element of mydata in
+parallel, using the %dopar% operator.
+
+R Tidyverse parallel
+
+In R Tidyverse, we can use the furrr package for parallel computing.
+Here’s an example of using furrr to parallelize a map function:
+
+R Tidy code:
+
+``` r
+library(tidyverse)
+library(furrr)
+
+# Generate a list of numbers
+numbers <- 1:10
+
+# Use the future_map function from furrr to parallelize the map function
+plan(multisession)
+squares <- future_map(numbers, function(x) x^2)
+```
+
+In this example, we first load the Tidyverse and furrr libraries. We
+then generate a list of numbers from 1 to 10. We then use the plan
+function to set the parallelization strategy to “multisession”, which
+will use multiple CPU cores to execute the code. Finally, we use the
+future_map function from furrr to apply the function x^2 to each number
+in the list in parallel.
+
+Parallel computing in Python In Python, the standard library includes
+the multiprocessing module, which provides basic support for parallel
+computing. Additionally, there are several third-party packages that
+provide higher-level abstractions, such as joblib and dask.
+
+Here is an example of using the multiprocessing module to execute a loop
+in parallel:
+
+Python code:
+
+``` python
+def square(x):
+    return x**2
+  
+from multiprocessing import Pool
+
+# Generate a list of numbers
+numbers = list(range(1, 11))
+
+# Use the map function and a pool of workers to parallelize the square function
+with Pool() as pool:
+    squares = pool.map(square, numbers)
+    
+print(squares)
+```
+
+In this example, we define a function myfunc() that takes an input x and
+returns x^2. We generate some data mydata and use the Pool class from
+the multiprocessing module to set up a pool of 4 workers. We then use
+the map() method of the Pool class to apply myfunc() to each element of
+mydata in parallel.
+
+Comparison and contrast Both R and Python have built-in support for
+parallel computing, with similar basic functionality for creating and
+managing parallel processes. However, the higher-level abstractions
+differ between the two languages. In R, the foreach package provides a
+high-level interface that makes it easy to write parallel code, while in
+Python, the multiprocessing module provides a basic interface that can
+be extended using third-party packages like joblib and dask.
+
+Additionally, Python has better support for distributed computing using
+frameworks like Apache Spark, while R has better support for
+shared-memory parallelism using tools like data.table and ff.
+
+## Data wrangling
+
+Data wrangling is an important part of any data analysis project, and
+both R and Python provide tools and libraries for performing this task.
+In this answer, we will compare and contrast data wrangling in R’s
+tidyverse and Python’s pandas library, with working examples in code.
+
+Data Wrangling in R Tidyverse
+
+The tidyverse is a collection of R packages designed for data science,
+and it includes several packages that are useful for data wrangling. One
+of the most popular packages is dplyr, which provides a grammar of data
+manipulation for data frames.
+
+Here is an example of using dplyr to filter, mutate, and summarize a
+data frame:
+
+R code
+
+``` r
+library(dplyr)
+
+# Load data
+data(mtcars)
+
+# Filter for cars with more than 100 horsepower
+mtcars %>%
+  filter(hp > 100) %>%
+  # Add a new column with fuel efficiency in km per liter
+  mutate(kmpl = 0.425 * mpg) %>%
+  # Group by number of cylinders and summarize
+  group_by(cyl) %>%
+  summarize(mean_hp = mean(hp),
+            mean_kmpl = mean(kmpl))
+```
+
+    ## # A tibble: 3 × 3
+    ##     cyl mean_hp mean_kmpl
+    ##   <dbl>   <dbl>     <dbl>
+    ## 1     4    111      11.0 
+    ## 2     6    122.      8.39
+    ## 3     8    209.      6.42
+
+In this example, we first filter the mtcars data frame to only include
+cars with more than 100 horsepower. We then use mutate to create a new
+column with fuel efficiency in kilometers per liter. Finally, we group
+the data by the number of cylinders and calculate the mean horsepower
+and fuel efficiency.
+
+Data Wrangling in Python Pandas
+
+Pandas is a popular library for data manipulation in Python. It provides
+a data frame object similar to R’s data frames, along with a wide range
+of functions for data wrangling.
+
+Here is an example of using pandas to filter, transform, and group a
+data frame:
+
+Python code:
+
+``` python
+import pandas as pd
+
+# Load data
+mtcars = pd.read_csv('https://raw.githubusercontent.com/mwaskom/seaborn-data/master/mtcars.csv')
+
+# Filter for cars with more than 100 horsepower
+filtered_mtcars = mtcars[mtcars['hp'] > 100]
+
+# Add a new column with fuel efficiency in km per liter
+filtered_mtcars['kmpl'] = 0.425 * filtered_mtcars['mpg']
+
+# Group by number of cylinders and calculate mean horsepower and fuel efficiency
+grouped_mtcars = filtered_mtcars.groupby('cyl').agg({'hp': 'mean',
+                                                     'kmpl': 'mean'})
+```
+
+In this example, we first load the mtcars data from a CSV file. We then
+filter the data to only include cars with more than 100 horsepower,
+using boolean indexing. We use the assign function to create a new
+column with fuel efficiency in kilometers per liter. Finally, we group
+the data by the number of cylinders and calculate the mean horsepower
+and fuel efficiency.
+
+Comparison
+
+Overall, both R’s tidyverse and Python’s pandas provide similar
+functionality for data wrangling. Both allow for filtering,
+transforming, and aggregating data frames. The syntax for performing
+these operations is slightly different between the two languages, with R
+using the %\>% operator for chaining operations and Python using method
+chaining or the apply family of functions.
+
+One key difference between the two languages is that R’s tidyverse
+provides a consistent grammar for data manipulation across its various
+packages, making it easier to learn and use. However, Python’s pandas
+library has a larger developer community and is more versatile for use
+in other applications, such as web development or machine learning.
+
+In conclusion, both R and Python provide powerful tools for data
+wrangling, and the choice between the two ultimately depends on the
+specific needs of the user and their familiarity
+
+## Data from API
+
+Retrieving data from an API is a common task in both R and Python. Here
+are examples of how to retrieve data from an API in both languages:
+
+Python
+
+To retrieve data from an API in Python, we can use the requests library.
+Here’s an example of how to retrieve weather data from the
+OpenWeatherMap API:
+
+Python code:
+
+``` python
+import requests
+
+url = 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=API_KEY'
+
+response = requests.get(url)
+
+data = response.json()
+
+print(data)
+```
+
+This code retrieves the current weather data for London from the
+OpenWeatherMap API. We first construct the API URL with the location and
+API key, then use the requests.get() function to make a request to the
+API. We then extract the JSON data from the response using the .json()
+method and print the resulting data.
+
+R
+
+In R, we can use the httr package to retrieve data from an API. Here’s
+an example of how to retrieve weather data from the OpenWeatherMap API
+in R:
+
+R code:
+
+``` r
+library(httr)
+
+url <- 'https://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=API_KEY'
+
+response <- GET(url)
+
+data <- content(response, 'text')
+
+print(data)
+```
+
+This code is similar to the Python code above. We first load the httr
+library, then construct the API URL and use the GET() function to make a
+request to the API. We then extract the data from the response using the
+content() function and print the resulting data.
+
+Retrieving Data from an API in R Tidyverse In R Tidyverse, we can use
+the httr and jsonlite packages to retrieve and process data from an API.
+
+R code:
+
+``` r
+# Load required packages
+library(httr)
+library(jsonlite)
+
+# Define API endpoint
+endpoint <- "https://jsonplaceholder.typicode.com/posts"
+
+# Retrieve data from API
+response <- GET(endpoint)
+
+# Extract content from response
+content <- content(response, "text")
+
+# Convert content to JSON
+json <- fromJSON(content)
+
+# Convert JSON to a data frame
+df <- as.data.frame(json)
+```
+
+In the above example, we use the GET() function from the httr package to
+retrieve data from an API endpoint, and the content() function to
+extract the content of the response. We then use the fromJSON() function
+from the jsonlite package to convert the JSON content to a list, and the
+as.data.frame() function to convert the list to a data frame.
+
+Retrieving Data from an API in Python In Python, we can use the requests
+library to retrieve data from an API, and the json library to process
+the JSON data.
+
+Python code:
+
+``` python
+# Load required libraries
+import requests
+import json
+
+# Define API endpoint
+endpoint = "https://jsonplaceholder.typicode.com/posts"
+
+# Retrieve data from API
+response = requests.get(endpoint)
+
+# Extract content from response
+content = response.content
+
+# Convert content to JSON
+json_data = json.loads(content)
+
+# Convert JSON to a list of dictionaries
+data = [dict(row) for row in json_data]
+```
+
+In the above example, we use the get() function from the requests
+library to retrieve data from an API endpoint, and the content attribute
+to extract the content of the response. We then use the loads() function
+from the json library to convert the JSON content to a list of
+dictionaries.
+
+Comparison Both R Tidyverse and Python provide powerful tools for
+retrieving and processing data from an API. In terms of syntax, the two
+languages are somewhat similar. In both cases, we use a library to
+retrieve data from the API, extract the content of the response, and
+then process the JSON data. However, there are some differences in the
+specific functions and methods used. For example, in R Tidyverse, we use
+the content() function to extract the content of the response, whereas
+in Python, we use the content attribute. Additionally, in R Tidyverse,
+we use the fromJSON() function to convert the JSON data to a list,
+whereas in Python, we use the loads() function.
+
+## Census data
+
+Retrieving USA census data in R, R Tidy, and Python can be done using
+different packages and libraries. Here are some working examples in code
+for each language:
+
+R:
+
+To retrieve census data in R, we can use the tidycensus package. Here’s
+an example of how to retrieve the total population for the state of
+California:
+
+R code:
+
+``` r
+library(tidycensus)
+library(tidyverse)
+
+# Set your Census API key
+census_api_key("your_api_key")
+
+# Get the total population for the state of California
+ca_pop <- get_acs(
+  geography = "state",
+  variables = "B01003_001",
+  state = "CA"
+) %>% 
+  rename(total_population = estimate) %>% 
+  select(total_population)
+
+# View the result
+ca_pop
+```
+
+R Tidy:
+
+To retrieve census data in R Tidy, we can also use the tidycensus
+package. Here’s an example of how to retrieve the total population for
+the state of California using pipes and dplyr functions:
+
+R tidy code:
+
+``` r
+library(tidycensus)
+library(tidyverse)
+
+# Set your Census API key
+census_api_key("your_api_key")
+
+# Get the total population for the state of California
+ca_pop <- get_acs(
+  geography = "state",
+  variables = "B01003_001",
+  state = "CA"
+) %>% 
+  rename(total_population = estimate) %>% 
+  select(total_population)
+
+# View the result
+ca_pop
+```
+
+Python:
+
+To retrieve census data in Python, we can use the census library. Here’s
+an example of how to retrieve the total population for the state of
+California:
+
+Python code:
+
+``` python
+from census import Census
+from us import states
+import pandas as pd
+
+# Set your Census API key
+c = Census("your_api_key")
+
+# Get the total population for the state of California
+ca_pop = c.acs5.state(("B01003_001"), states.CA.fips, year=2019)
+
+# Convert the result to a Pandas DataFrame
+ca_pop_df = pd.DataFrame(ca_pop)
+
+# Rename the column
+ca_pop_df = ca_pop_df.rename(columns={"B01003_001E": "total_population"})
+
+# Select only the total population column
+ca_pop_df = ca_pop_df[["total_population"]]
+
+# View the result
+ca_pop_df
+```
+
+## Lidar data
+
+To find Lidar data in R and Python, you typically need to start by
+identifying sources of Lidar data and then accessing them using
+appropriate packages and functions. Here are some examples of how to
+find Lidar data in R and Python:
+
+R:
+
+Identify sources of Lidar data: The USGS National Map Viewer provides
+access to Lidar data for the United States. You can also find Lidar data
+on state and local government websites, as well as on commercial data
+providers’ websites. Access the data: You can use the lidR package in R
+to download and read Lidar data in the LAS format. For example, the
+following code downloads and reads Lidar data for a specific area:
+
+R code:
+
+``` r
+library(lidR)
+
+# Download Lidar data
+LASfile <- system.file("extdata", "Megaplot.laz", package="lidR")
+lidar <- readLAS(LASfile)
+
+# Visualize the data
+plot(lidar)
+```
+
+Python:
+
+Identify sources of Lidar data: The USGS 3DEP program provides access to
+Lidar data for the United States. You can also find Lidar data on state
+and local government websites, as well as on commercial data providers’
+websites. Access the data: You can use the pylastools package in Python
+to download and read Lidar data in the LAS format. For example, the
+following code downloads and reads Lidar data for a specific area:
+
+Python code:
+
+``` r
+py_install("requests")
+py_install("pylas")
+py_install("laspy")
+```
+
+``` python
+import requests
+from pylas import read
+import laspy
+import numpy as np
+
+# Download Lidar data
+url = "https://s3-us-west-2.amazonaws.com/usgs-lidar-public/USGS_LPC_CA_SanFrancisco_2016_LAS_2018.zip"
+lasfile = "USGS_LPC_CA_SanFrancisco_2016_LAS_2018.las"
+r = requests.get(url, allow_redirects=True)
+open(lasfile, 'wb').write(r.content)
+
+# Read the data
+lidar = read(lasfile)
+
+# Visualize the data
+laspy.plot.plot(lidar)
+```
+
+## Data for black lives
+
+Data for Black Lives (<https://d4bl.org/>) is a movement that uses data
+science to create measurable change in the lives of Black people. While
+the Data for Black Lives website provides resources, reports, articles,
+and datasets related to racial equity, it doesn’t provide a direct API
+for downloading data.
+
+Instead, you can access the Data for Black Lives GitHub repository
+(<https://github.com/Data4BlackLives>) to find datasets and resources to
+work with. In this example, we’ll use a sample dataset available at
+<https://github.com/Data4BlackLives/covid-19/tree/master/data>. The
+dataset “COVID19_race_data.csv” contains COVID-19 race-related data.
+
+R: In R, we’ll use the ‘readr’ and ‘dplyr’ packages to read, process,
+and analyze the dataset.
+
+R code:
+
+``` r
+# Install and load necessary libraries
+
+library(readr)
+library(dplyr)
+
+# Read the CSV file
+url <- "https://raw.githubusercontent.com/Data4BlackLives/covid-19/master/data/COVID19_race_data.csv"
+data <- read_csv(url)
+
+# Basic information about the dataset
+print(dim(data))
+print(head(data))
+
+# Example analysis: calculate the mean of 'cases_total' by 'state'
+data %>%
+  group_by(state) %>%
+  summarize(mean_cases_total = mean(cases_total, na.rm = TRUE)) %>%
+  arrange(desc(mean_cases_total))
+```
+
+Python: In Python, we’ll use the ‘pandas’ library to read, process, and
+analyze the dataset.
+
+Python code:
+
+``` python
+import pandas as pd
+
+# Read the CSV file
+url = "https://raw.githubusercontent.com/Data4BlackLives/covid-19/master/data/COVID19_race_data.csv"
+data = pd.read_csv(url)
+
+# Basic information about the dataset
+print(data.shape)
+print(data.head())
+
+# Example analysis: calculate the mean of 'cases_total' by 'state'
+mean_cases_total = data.groupby("state")["cases_total"].mean().sort_values(ascending=False)
+print(mean_cases_total)
+```
+
+In conclusion, both R and Python provide powerful libraries and tools
+for downloading, processing, and analyzing datasets, such as those found
+in the Data for Black Lives repository. The ‘readr’ and ‘dplyr’
+libraries in R offer a simple and intuitive way to read and manipulate
+data, while the ‘pandas’ library in Python offers similar functionality
+with a different syntax. Depending on your preferred programming
+language and environment, both options can be effective in working with
+social justice datasets.
+
+## Propublica Congress API
+
+The ProPublica Congress API provides information about the U.S. Congress
+members and their voting records. In this example, we’ll fetch data
+about the current Senate members and calculate the number of members in
+each party.
+
+R: In R, we’ll use the ‘httr’ and ‘jsonlite’ packages to fetch and
+process data from the ProPublica Congress API.
+
+R code:
+
+``` r
+# load necessary libraries
+library(httr)
+library(jsonlite)
+
+# Replace 'your_api_key' with your ProPublica API key
+
+#
+
+# Fetch data about the current Senate members
+url <- "https://api.propublica.org/congress/v1/117/senate/members.json"
+response <- GET(url, add_headers(`X-API-Key` = api_key))
+
+# Check if the request was successful
+if (http_status(response)$category == "Success") {
+  data <- content(response, "parsed")
+  members <- data$results[[1]]$members
+  
+  # Calculate the number of members in each party
+  party_counts <- table(sapply(members, function(x) x$party))
+  print(party_counts)
+} else {
+  print(http_status(response)$message)
+}
+```
+
+    ## 
+    ##  D  I ID  R 
+    ## 49  1  2 51
+
+Python: In Python, we’ll use the ‘requests’ library to fetch data from
+the ProPublica Congress API and ‘pandas’ library to process the data.
+
+python code:
+
+``` python
+# Install necessary libraries
+
+import requests
+import pandas as pd
+
+# Replace 'your_api_key' with your ProPublica API key
+api_key = "your_api_key"
+headers = {"X-API-Key": api_key}
+
+# Fetch data about the current Senate members
+url = "https://api.propublica.org/congress/v1/117/senate/members.json"
+response = requests.get(url, headers=headers)
+
+# Check if the request was successful
+if response.status_code == 200:
+    data = response.json()
+    members = data["results"][0]["members"]
+    
+    # Calculate the number of members in each party
+    party_counts = pd.DataFrame(members)["party"].value_counts()
+    print(party_counts)
+else:
+    print(f"Error: {response.status_code}")
+```
+
+In conclusion, both R and Python offer efficient ways to fetch and
+process data from APIs like the ProPublica Congress API. The ‘httr’ and
+‘jsonlite’ libraries in R provide a straightforward way to make HTTP
+requests and parse JSON data, while the ‘requests’ library in Python
+offers similar functionality. The ‘pandas’ library in Python can be used
+for data manipulation and analysis, and R provides built-in functions
+like table() for aggregating data. Depending on your preferred
+programming language and environment, both options can be effective for
+working with the ProPublica Congress API.
+
+## Nonprofit Explorer API by ProPublica
+
+The Nonprofit Explorer API by ProPublica provides data on tax-exempt
+organizations in the United States. In this example, we’ll search for
+organizations with the keyword “education” and analyze the results.
+
+R: In R, we’ll use the ‘httr’ and ‘jsonlite’ packages to fetch and
+process data from the Nonprofit Explorer API.
+
+R code:
+
+``` r
+# Install and load necessary libraries
+library(httr)
+library(jsonlite)
+
+# Fetch data for organizations with the keyword "education"
+url <- "https://projects.propublica.org/nonprofits/api/v2/search.json?q=education"
+response <- GET(url)
+
+# Check if the request was successful
+if (http_status(response)$category == "Success") {
+  data <- content(response, "parsed")
+  organizations <- data$organizations
+  
+  # Count the number of organizations per state
+  state_counts <- table(sapply(organizations, function(x) x$state))
+  print(state_counts)
+} else {
+  print(http_status(response)$message)
+}
+```
+
+    ## 
+    ##      AZ      CA      CO      DC      FL      GA      HI      IL Indiana      LA 
+    ##       3      22       6       5       3       2       1       2       1       1 
+    ##      MD      MI      MN      MO      MP      MS      NC      NE      NJ      NM 
+    ##       1       2       5       3       1       1       2       2       2       1 
+    ##      NY      OH      OK  Oregon      PA      TX      UT      VA      WA      WV 
+    ##       1       5       1       2       2      12       1       4       3       1 
+    ##      ZZ 
+    ##       2
+
+Python: In Python, we’ll use the ‘requests’ library to fetch data from
+the Nonprofit Explorer API and ‘pandas’ library to process the data.
+
+Python code:
+
+``` python
+# Install necessary libraries
+import requests
+import pandas as pd
+
+# Fetch data for organizations with the keyword "education"
+url = "https://projects.propublica.org/nonprofits/api/v2/search.json?q=education"
+response = requests.get(url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    data = response.json()
+    organizations = data["organizations"]
+    
+    # Count the number of organizations per state
+    state_counts = pd.DataFrame(organizations)["state"].value_counts()
+    print(state_counts)
+else:
+    print(f"Error: {response.status_code}")
+```
+
+    ## CA         22
+    ## TX         12
+    ## CO          6
+    ## MN          5
+    ## OH          5
+    ## DC          5
+    ## VA          4
+    ## AZ          3
+    ## WA          3
+    ## MO          3
+    ## FL          3
+    ## IL          2
+    ## GA          2
+    ## NC          2
+    ## MI          2
+    ## Oregon      2
+    ## NE          2
+    ## ZZ          2
+    ## PA          2
+    ## NJ          2
+    ## HI          1
+    ## MS          1
+    ## NY          1
+    ## Indiana     1
+    ## NM          1
+    ## LA          1
+    ## UT          1
+    ## MD          1
+    ## MP          1
+    ## WV          1
+    ## OK          1
+    ## Name: state, dtype: int64
+
+In conclusion, both R and Python offer efficient ways to fetch and
+process data from APIs like the Nonprofit Explorer API. The ‘httr’ and
+‘jsonlite’ libraries in R provide a straightforward way to make HTTP
+requests and parse JSON data, while the ‘requests’ library in Python
+offers similar functionality. The ‘pandas’ library in Python can be used
+for data manipulation and analysis, and R provides built-in functions
+like table() for aggregating data. Depending on your preferred
+programming language and environment, both options can be effective for
+working with the Nonprofit Explorer API.
+
+## Campaign Finance API by ProPublica
+
+The Campaign Finance API by the Federal Election Commission (FEC)
+provides data on campaign finance in U.S. federal elections. In this
+example, we’ll fetch data about individual contributions for the 2020
+election cycle and analyze the results.
+
+R: In R, we’ll use the ‘httr’ and ‘jsonlite’ packages to fetch and
+process data from the Campaign Finance API.
+
+R code:
+
+``` r
+# Install and load necessary libraries
+library(httr)
+library(jsonlite)
+
+# Fetch data about individual contributions for the 2020 election cycle
+url <- "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key='OGwpkX7tH5Jihs1qQcisKfVAMddJzmzouWKtKoby'&two_year_transaction_period=2020&sort_hide_null=false&sort_null_only=false&per_page=20&page=1"
+response <- GET(url)
+
+# Check if the request was successful
+if (http_status(response)$category == "Success") {
+  data <- content(response, "parsed")
+  contributions <- data$results
+  
+  # Calculate the total contributions per state
+  state_totals <- aggregate(contributions$contributor_state, by = list(contributions$contributor_state), FUN = sum)
+  colnames(state_totals) <- c("State", "Total_Contributions")
+  print(state_totals)
+} else {
+  print(http_status(response)$message)
+}
+```
+
+    ## [1] "Client error: (403) Forbidden"
+
+Python: In Python, we’ll use the ‘requests’ library to fetch data from
+the Campaign Finance API and ‘pandas’ library to process the data.
+
+Python code:
+
+``` python
+# Install necessary libraries
+
+import requests
+import pandas as pd
+
+# Fetch data about individual contributions for the 2020 election cycle
+url = "https://api.open.fec.gov/v1/schedules/schedule_a/?api_key=your_api_key&two_year_transaction_period=2020&sort_hide_null=false&sort_null_only=false&per_page=20&page=1"
+response = requests.get(url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    data = response.json()
+    contributions = data["results"]
+    
+    # Calculate the total contributions per state
+    df = pd.DataFrame(contributions)
+    state_totals = df.groupby("contributor_state")["contribution_receipt_amount"].sum()
+    print(state_totals)
+else:
+    print(f"Error: {response.status_code}")
+```
+
+    ## Error: 403
+
+In conclusion, both R and Python offer efficient ways to fetch and
+process data from APIs like the Campaign Finance API. The ‘httr’ and
+‘jsonlite’ libraries in R provide a straightforward way to make HTTP
+requests and parse JSON data, while the ‘requests’ library in Python
+offers similar functionality. The ‘pandas’ library in Python can be used
+for data manipulation and analysis, and R provides built-in functions
+like aggregate() for aggregating data. Depending on your preferred
+programming language and environment, both options can be effective for
+working with the Campaign Finance API.
+
+Note: Remember to replace your_api_key with your actual FEC API key in
+the code examples above.
+
+## Historic Redlining
+
+Historic redlining data refers to data from the Home Owners’ Loan
+Corporation (HOLC) that created residential security maps in the 1930s,
+which contributed to racial segregation and disinvestment in minority
+neighborhoods. One popular source for this data is the Mapping
+Inequality project (<https://dsl.richmond.edu/panorama/redlining/>).
+
+In this example, we’ll download historic redlining data for Philadelphia
+in the form of a GeoJSON file and analyze the data in R and Python.
+
+R: In R, we’ll use the ‘sf’ and ‘dplyr’ packages to read and process the
+GeoJSON data.
+
+R code:
+
+``` r
+# Install and load necessary libraries
+library(sf)
+library(dplyr)
+
+# Download historic redlining data for Philadelphia
+url <- "https://dsl.richmond.edu/panorama/redlining/static/downloads/geojson/PAPhiladelphia1937.geojson"
+philly_geojson <- read_sf(url)
+
+# Count the number of areas per HOLC grade
+grade_counts <- philly_geojson %>%
+  group_by(holc_grade) %>%
+  summarize(count = n())
+
+plot(grade_counts)
+```
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-65-1.pdf)<!-- -->
+
+Python: In Python, we’ll use the ‘geopandas’ library to read and process
+the GeoJSON data.
+
+Python code:
+
+``` python
+# Install necessary libraries
+
+
+import geopandas as gpd
+
+# Download historic redlining data for Philadelphia
+url = "https://dsl.richmond.edu/panorama/redlining/static/downloads/geojson/PAPhiladelphia1937.geojson"
+philly_geojson = gpd.read_file(url)
+
+# Count the number of areas per HOLC grade
+grade_counts = philly_geojson["holc_grade"].value_counts()
+print(grade_counts)
+```
+
+    ## B    28
+    ## D    26
+    ## C    18
+    ## A    10
+    ## Name: holc_grade, dtype: int64
+
+In conclusion, both R and Python offer efficient ways to download and
+process historic redlining data in the form of GeoJSON files. The ‘sf’
+package in R provides a simple way to read and manipulate spatial data,
+while the ‘geopandas’ library in Python offers similar functionality.
+The ‘dplyr’ package in R can be used for data manipulation and analysis,
+and Python’s built-in functions like value_counts() can be used for
+aggregating data. Depending on your preferred programming language and
+environment, both options can be effective for working with historic
+redlining data.
+
+## American Indian and Alaska Native Areas (AIANNH)
+
+In this example, we’ll download and analyze the American Indian and
+Alaska Native Areas (AIANNH) TIGER/Line Shapefile from the U.S. Census
+Bureau. We’ll download the data for the year 2020, and analyze the
+number of AIANNH per congressional district
+
+R: In R, we’ll use the ‘sf’ and ‘dplyr’ packages to read and process the
+Shapefile data.
+
+R code:
+
+``` r
+# Install and load necessary libraries
+library(sf)
+library(dplyr)
+
+# Download historic redlining data for Philadelphia
+url <- "https://www2.census.gov/geo/tiger/TIGER2020/AIANNH/tl_2020_us_aiannh.zip"
+temp_file <- tempfile(fileext = ".zip")
+download.file(url, temp_file, mode = "wb")
+unzip(temp_file, exdir = tempdir())
+
+# Read the Shapefile
+shapefile_path <- file.path(tempdir(), "tl_2020_us_aiannh.shp")
+aiannh <- read_sf(shapefile_path)
+
+# Count the number of AIANNH per congressional district
+state_counts <- aiannh %>%
+  group_by(LSAD) %>%
+  summarize(count = n())
+
+print(state_counts[order(-state_counts$count),])
+```
+
+    ## Simple feature collection with 26 features and 2 fields
+    ## Geometry type: GEOMETRY
+    ## Dimension:     XY
+    ## Bounding box:  xmin: -174.236 ymin: 18.91069 xmax: -67.03552 ymax: 71.34019
+    ## Geodetic CRS:  NAD83
+    ## # A tibble: 26 × 3
+    ##    LSAD  count                                                          geometry
+    ##    <chr> <int>                                                <MULTIPOLYGON [°]>
+    ##  1 79      221 (((-166.5331 65.33918, -166.5331 65.33906, -166.533 65.33699, -1…
+    ##  2 86      206 (((-83.38811 35.46645, -83.38342 35.46596, -83.38316 35.46593, -…
+    ##  3 OT      155 (((-92.32972 47.81374, -92.3297 47.81305, -92.32967 47.81196, -9…
+    ##  4 78       75 (((-155.729 20.02457, -155.7288 20.02428, -155.7288 20.02427, -1…
+    ##  5 85       46 (((-122.3355 37.95215, -122.3354 37.95206, -122.3352 37.95199, -…
+    ##  6 92       35 (((-93.01356 31.56287, -93.01354 31.56251, -93.01316 31.56019, -…
+    ##  7 88       25 (((-97.35299 36.908, -97.35291 36.90801, -97.35287 36.908, -97.3…
+    ##  8 96       19 (((-116.48 32.63814, -116.48 32.63718, -116.4794 32.63716, -116.…
+    ##  9 84       16 (((-105.5937 36.40379, -105.5937 36.40324, -105.5937 36.40251, -…
+    ## 10 89       11 (((-95.91705 41.28037, -95.91653 41.28036, -95.91653 41.28125, -…
+    ## # ℹ 16 more rows
+
+Python: In Python, we’ll use the ‘geopandas’ library to read and process
+the Shapefile data.
+
+Python code:
+
+``` python
+import geopandas as gpd
+import pandas as pd
+import requests
+import zipfile
+import os
+from io import BytesIO
+
+# Download historic redlining data for Philadelphia
+url = "https://www2.census.gov/geo/tiger/TIGER2020/AIANNH/tl_2020_us_aiannh.zip"
+response = requests.get(url)
+zip_file = zipfile.ZipFile(BytesIO(response.content))
+
+# Extract Shapefile
+temp_dir = "temp"
+if not os.path.exists(temp_dir):
+    os.makedirs(temp_dir)
+
+zip_file.extractall(path=temp_dir)
+shapefile_path = os.path.join(temp_dir, "tl_2020_us_aiannh.shp")
+
+# Read the Shapefile
+aiannh = gpd.read_file(shapefile_path)
+
+# Count the number of AIANNH per congressional district
+state_counts = aiannh.groupby("LSAD").size().reset_index(name="count")
+
+# Sort by descending count
+state_counts_sorted = state_counts.sort_values(by="count", ascending=False)
+
+print(state_counts_sorted)
+```
+
+    ##    LSAD  count
+    ## 2    79    221
+    ## 9    86    206
+    ## 25   OT    155
+    ## 1    78     75
+    ## 8    85     46
+    ## 15   92     35
+    ## 11   88     25
+    ## 19   96     19
+    ## 7    84     16
+    ## 12   89     11
+    ## 5    82      8
+    ## 3    80      7
+    ## 4    81      6
+    ## 21   98      5
+    ## 20   97      5
+    ## 13   90      4
+    ## 18   95      3
+    ## 6    83      3
+    ## 17   94      2
+    ## 16   93      1
+    ## 14   91      1
+    ## 10   87      1
+    ## 22   99      1
+    ## 23   9C      1
+    ## 24   9D      1
+    ## 0    00      1
+
+In conclusion, both R and Python offer efficient ways to download and
+process AIANNH TIGER/Line Shapefile data from the U.S. Census Bureau.
+The ‘sf’ package in R provides a simple way to read and manipulate
+spatial data, while the ‘geopandas’ library in Python offers similar
+functionality. The ‘dplyr’ package in R can be used for data
+manipulation and analysis, and Python’s built-in functions like
+value_counts() can be used for aggregating data. Depending on your
+preferred programming language and environment, both options can be
+effective for working with AIANNH data.
+
+## Indian Entities Recognized and Eligible To Receive Services by BIA
+
+The Bureau of Indian Affairs (BIA) provides a PDF document containing a
+list of Indian Entities Recognized and Eligible To Receive Services. To
+analyze the data, we’ll first need to extract the information from the
+PDF. In this example, we’ll extract the names of the recognized tribes
+and count the number of tribes per state.
+
+R: In R, we’ll use the ‘pdftools’ package to extract text from the PDF
+and the ‘stringr’ package to process the text data.
+
+R code:
+
+``` r
+# Install and load necessary libraries
+library(pdftools)
+library(stringr)
+library(dplyr)
+
+# Download the BIA PDF
+url <- "https://www.govinfo.gov/content/pkg/FR-2022-01-28/pdf/2022-01789.pdf"
+temp_file <- tempfile(fileext = ".pdf")
+download.file(url, temp_file, mode = "wb")
+
+# Extract text from the PDF
+pdf_text <- pdf_text(temp_file)
+tribe_text <- pdf_text[4:length(pdf_text)]
+
+# Define helper functions
+tribe_state_extractor <- function(text_line) {
+  regex_pattern <- "(.*),\\s+([A-Z]{2})$"
+  tribe_state <- str_match(text_line, regex_pattern)
+  return(tribe_state)
+}
+
+is_valid_tribe_line <- function(text_line) {
+  regex_pattern <- "^\\d+\\s+"
+  return(!is.na(str_match(text_line, regex_pattern)))
+}
+
+# Process text data to extract tribes and states
+tribe_states <- sapply(tribe_text, tribe_state_extractor)
+valid_lines <- sapply(tribe_text, is_valid_tribe_line)
+tribe_states <- tribe_states[valid_lines, 2:3]
+
+# Count the number of tribes per state
+tribe_data <- as.data.frame(tribe_states)
+colnames(tribe_data) <- c("Tribe", "State")
+state_counts <- tribe_data %>%
+  group_by(State) %>%
+  summarise(Count = n())
+
+print(state_counts)
+```
+
+    ## # A tibble: 0 × 2
+    ## # ℹ 2 variables: State <chr>, Count <int>
+
+Python: In Python, we’ll use the ‘PyPDF2’ library to extract text from
+the PDF and the ‘re’ module to process the text data.
+
+Python code:
+
+``` python
+# Install necessary libraries
+import requests
+import PyPDF2
+import io
+import re
+from collections import Counter
+
+# Download the BIA PDF
+url = "https://www.bia.gov/sites/bia.gov/files/assets/public/raca/online-tribal-leaders-directory/tribal_leaders_2021-12-27.pdf"
+response = requests.get(url)
+
+# Extract text from the PDF
+pdf_reader = PyPDF2.PdfFileReader(io.BytesIO(response.content))
+tribe_text = [pdf_reader.getPage(i).extractText() for i in range(3, pdf_reader.numPages)]
+
+# Process text data to extract tribes and states
+tribes = [re.findall(r'^\d+\s+(.+),\s+([A-Z]{2})', line) for text in tribe_text for line in text.split('\n') if line]
+tribe_states = [state for tribe, state in tribes]
+
+# Count the number of tribes per state
+state_counts = Counter(tribe_states)
+print(state_counts)
+```
+
+In conclusion, both R and Python offer efficient ways to download and
+process the list of Indian Entities Recognized and Eligible To Receive
+Services from the BIA. The ‘pdftools’ package in R provides a simple way
+to extract text from PDF files, while the ‘PyPDF2’ library in Python
+offers similar functionality. The ‘stringr’ package in R and the ‘re’
+module in Python can be used to process and analyze text data. Depending
+on your preferred programming language and environment, both options can
+be effective for working with BIA data.
+
+## National Atlas - Indian Lands of the United States dataset
+
+In this example, we will download and analyze the National Atlas -
+Indian Lands of the United States dataset in both R and Python. We will
+read the dataset and count the number of Indian lands per state.
+
+R: In R, we’ll use the ‘sf’ package to read the Shapefile and the
+‘dplyr’ package to process the data.
+
+R code:
+
+``` r
+# Install and load necessary libraries
+
+library(sf)
+library(dplyr)
+
+# Download the Indian Lands dataset
+url <- "https://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/data/Boundaries/indlanp010g.shp_nt00968.tar.gz"
+temp_file <- tempfile(fileext = ".tar.gz")
+download.file(url, temp_file, mode = "wb")
+untar(temp_file, exdir = tempdir())
+
+# Read the Shapefile
+shapefile_path <- file.path(tempdir(), "indlanp010g.shp")
+indian_lands <- read_sf(shapefile_path)
+
+# Count the number of Indian lands per state
+# state_counts <- indian_lands %>%
+#   group_by(STATE) %>%
+#   summarize(count = n())
+
+plot(indian_lands)
+```
+
+    ## Warning: plotting the first 9 out of 23 attributes; use max.plot = 23 to plot
+    ## all
+
+![](bilingualism_md_files/figure-gfm/unnamed-chunk-71-1.pdf)<!-- -->
+
+Python: In Python, we’ll use the ‘geopandas’ and ‘pandas’ libraries to
+read the Shapefile and process the data.
+
+Python code:
+
+``` python
+import geopandas as gpd
+import pandas as pd
+import requests
+import tarfile
+import os
+from io import BytesIO
+
+# Download the Indian Lands dataset
+url = "https://prd-tnm.s3.amazonaws.com/StagedProducts/Small-scale/data/Boundaries/indlanp010g.shp_nt00966.tar.gz"
+response = requests.get(url)
+tar_file = tarfile.open(fileobj=BytesIO(response.content), mode='r:gz')
+
+# Extract Shapefile
+temp_dir = "temp"
+if not os.path.exists(temp_dir):
+    os.makedirs(temp_dir)
+
+tar_file.extractall(path=temp_dir)
+shapefile_path = os.path.join(temp_dir, "indlanp010g.shp")
+
+# Read the Shapefile
+indian_lands = gpd.read_file(shapefile_path)
+
+# Count the number of Indian lands per state
+state_counts = indian_lands.groupby("STATE").size().reset_index(name="count")
+
+print(state_counts)
+```
+
+Both R and Python codes download the dataset and read the Shapefile
+using the respective packages. They then group the data by the ‘STATE’
+attribute and calculate the count of Indian lands per state.
