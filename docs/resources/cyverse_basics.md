@@ -44,7 +44,9 @@
 ## Set up your GitHub credentials
 
 ### If you would prefer to follow a video instead of a written outline, we have prepared a video here:
-[![EDS in the Cloud: Setting Up SSH Key Authentication for GitHub](https://img.youtube.com/vi/nOwOzPJEQbU/0.jpg)](https://www.youtube.com/watch?v=nOwOzPJEQbU)
+<a href="https://www.youtube.com/watch?v=nOwOzPJEQbU">
+    <img src="https://img.youtube.com/vi/nOwOzPJEQbU/0.jpg" style="width: 100%;">
+</a>
 
 1. From Jupyter Lab, click on the Git Extension icon on the left menu:
    ![jupyterlab](../assets/cyverse_basics/jupyterlab.png)
