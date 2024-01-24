@@ -23,28 +23,23 @@
 ## Open up an analysis with the hackathon environment (Jupyter Lab)
 
 1. From the Cyverse Discovery Environment, click on `Apps` in the left menu
-
-   <img width="881" alt="image" src="../assets/cyverse_basics/apps.png">
+   ![apps](../assets/cyverse_basics/apps.png)
 
 2. Select `JupyterLab ESIIL`
-
-   <img width="881" alt="image" src="../assets/cyverse_basics/use_this_app.png">
+   ![use_this_app](../assets/cyverse_basics/use_this_app.png)
 
 3. Configure and launch your analysis - when choosing the disk size, make sure to choose 64GB or greater. The rest of the settings you can change to suit your computing needs:
+   ![app_launch](../assets/cyverse_basics/app_launch.png)
 
-   <img width="881" alt="image" src="../assets/cyverse_basics/app_launch.png">
+   ![app_settings](../assets/cyverse_basics/app_settings.png)
 
-  <img width="881" alt="image" src="../assets/cyverse_basics/app_settings.png">
-
-  <img width="881" alt="image" src="../assets/cyverse_basics/launch.png">
-
+   ![launch](../assets/cyverse_basics/launch.png)
 
 4. Click `Go to analysis`:
-
-   <img width="1004" alt="image" src="../assets/cyverse_basics/go_to_analysis.png">
+   ![go_to_analysis](../assets/cyverse_basics/go_to_analysis.png)
 
 5. Now you should see Jupyter Lab!
-   <img width="1004" alt="image" src="../assets/cyverse_basics/jupyterlab.png">
+   ![jupyterlab](../assets/cyverse_basics/jupyterlab.png)
 
 ## Set up your GitHub credentials
 
@@ -52,47 +47,43 @@
 [![EDS in the Cloud: Setting Up SSH Key Authentication for GitHub](https://img.youtube.com/vi/nOwOzPJEQbU/0.jpg)](https://www.youtube.com/watch?v=nOwOzPJEQbU)
 
 1. From Jupyter Lab, click on the Git Extension icon on the left menu:
-
-   <img width="1004" alt="image" src="../assets/cyverse_basics/jupyterlab.png">
+   ![jupyterlab](../assets/cyverse_basics/jupyterlab.png)
 
 2. Click `Clone a Repository` and Paste the link to the cyverse-utils [https://github.com/CU-ESIIL/cyverse-utils.git](https://github.com/CU-ESIIL/cyverse-utils.git) and click `Clone`:
-   <img width="1004" alt="image" src="../assets/cyverse_basics/clone.png">
-
+   ![clone](../assets/cyverse_basics/clone.png)
+   
 3. You should now see the `cyverse-utils` folder in your directory tree (provided you haven't changed directories from the default `/home/jovyan/data-store`
-   <img width="1004" alt="image" src="../assets/cyverse_basics/cyverse-utils.png">
+   ![cyverse-utils](../assets/cyverse_basics/cyverse-utils.png)
 
 4. Go into the `cyverse-utils` folder:
-   <img width="1004" alt="image" src="../assets/cyverse_basics/click_cyverse_utils.png">
+   ![click_cyverse_utils](../assets/cyverse_basics/click_cyverse_utils.png)
 
 5. open up the `create_github_keypair.ipynb` notebook if you prefer Python or the 'create_github_keypair.R' script if you prefer R by double-clicking and then select the default 'macrosystems' kernel:
-<img width="1004" alt="image" src="../assets/cyverse_basics/open_cyverse_utils.png">
+![open_cyverse_utils](../assets/cyverse_basics/open_cyverse_utils.png)
 
 6. Now you should see the notebook open. Click the `play` button at the top. You will be prompted to enter your GitHub username and email:
+   ![script_1](../assets/cyverse_basics/script_1.png)
 
-   <img width="1004" alt="image" src="../assets/cyverse_basics/script_1.png">
+   ![username](../assets/cyverse_basics/username.png)
 
-   <img width="1004" alt="image" src="../assets/cyverse_basics/username.png">
-
-   <img width="1004" alt="image" src="../assets/cyverse_basics/email.png">
+   ![email](../assets/cyverse_basics/email.png)
 
 7. You should now see your Public Key. Copy the WHOLE LINE including `ssh-ed25519` at the beginning and the `jovyan@...` at the end
-<img width="1462" alt="image" src="../assets/cyverse_basics/key.png">
+![key](../assets/cyverse_basics/key.png)
 
 8. Go to your GitHub settings page (you may need to log in to GitHub first):
-    <img width="1462" alt="image" src="<img width="1462" alt="image" src="../assets/cyverse_basics/settings.png">
+   ![settings](../assets/cyverse_basics/settings.png)
 
 9. Select `SSH and GPG keys`
-    <img width="1462" alt="image" src="<img width="1462" alt="image" src="../assets/cyverse_basics/ssh.png">
+   ![ssh](../assets/cyverse_basics/ssh.png)
 
 10. Select `New SSH key`
-    <img width="1462" alt="image" src="../assets/cyverse_basics/new_key.png">
+   ![new_key](../assets/cyverse_basics/new_key.png)
 
 11. Give your key a descriptive name, paste your ENTIRE public key in the `Key` input box, and click `Add SSH Key`. You may need to re-authenticate with your password or two-factor authentication.:
-
-    <img width="1462" alt="image" src="../assets/cyverse_basics/paste_key.png">
+   ![paste_key](../assets/cyverse_basics/paste_key.png)
 
 12. You should now see your new SSH key in your `Authentication Keys` list! Now you will be able to clone private repositories and push changes to GitHub from your Cyverse analysis!
-
-    <img width="1462" alt="image" src="../assets/cyverse_basics/final.png">
+   ![final](../assets/cyverse_basics/final.png)
 
 > NOTE! Your GitHub authentication is ONLY for the analysis you're working with right now. You will be able to use it as long as you want there, but once you start a new analysis you will need to go through this process again. Feel free to delete keys from old analyses that have been shut down.
