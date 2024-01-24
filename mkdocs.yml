@@ -17,6 +17,8 @@ nav:
        - Code of Conduct: resources/code-of-conduct.md
        - Participant agreement: resources/participant_agreement.md
        - R and Python bilingualism: resources/bilingualism_md.md
+       - STAC: resources/stac_mount_save.md
+       - Sentinal 2 STAC example: resources/Pull_Sentinal2_l2_data.md
        - Markdown: resources/markdown_basics.md
        - Cyverse basics: resources/cyverse_basics.md
        - Github basics: resources/github_basics.md
