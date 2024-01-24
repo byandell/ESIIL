@@ -501,7 +501,7 @@ is crucial, as it determines the relevance and quality of the data
 collection, much like the photographer’s choice dictates the story a
 photograph will tell.
 
-![](../assets/stac_mount_save/Ansel_adams_Jackson_hole.png)
+![](../assets/esiil_content/stac_mount_save/Ansel_adams_Jackson_hole.png)
 
 ``` r
 # Record start time
@@ -579,7 +579,7 @@ techniques, can illuminate hidden details, ensuring that the data cube,
 the final product, is as informative and accurate as the landscape it
 represents.
 
-![](../assets/stac_mount_save/View_Ansel-Adams_Camera.png)
+![](../assets/esiil_content/stac_mount_save/View_Ansel-Adams_Camera.png)
 
 ``` r
 # Record start time
@@ -785,7 +785,7 @@ y
 ## time [2021-05-01,2021-06-01)
 ```
 
-![](../code_for_building_cube/anim.gif)
+![](../assets/esiil_content/stac_mount_save/anim.gif)
 
 Saving Data Cubes to Local Storage There are occasions when we need to
 manipulate data cubes using other software. For such purposes, we can
