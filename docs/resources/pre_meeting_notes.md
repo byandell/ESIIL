@@ -1,7 +1,7 @@
 # Pre-Meeting Notes
 
 ## Meeting Details
-- **Date:**
+- **Date:** 
 - **Time:**
 - **Location:**
 - **Facilitator:**
