@@ -23,6 +23,7 @@ nav:
        - Cyverse basics: resources/cyverse_basics.md
        - Github basics: resources/github_basics.md
        - Cyverse hacks: resources/cyverse_hacks.md
+       - Docker basics: resources/docker_basics.md
        - Working groups: resources/working_groups_and_postdocs.md
   - Notes:
        - OASIS orientation: resources/pre_meeting_notes.md
