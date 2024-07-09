@@ -44,7 +44,7 @@ theme:
   font:
     text: 'Open Sans'
     code: 'Roboto Mono'
-  logo: 'assets/ESIIL_logo.png'
+  logo: 'assets/esiil_content/ESIIL_logo.png'
   favicon: 'assets/favicon.ico'
   # setting features for the navigation tab
   features:

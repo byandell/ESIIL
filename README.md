@@ -1,15 +1,14 @@
-[![DOI](https://zenodo.org/badge/733258046.svg)](https://zenodo.org/doi/10.5281/zenodo.11166823)
+# ESIIL OASIS
+This is the central hub for information pertaining to [ESIIL](https://github.com/CU-ESIIL/) Collaboration
 
-# Postdoc OASIS
-This is the central hub for information pertaining to ESIIL Postdocs
+# Brian Yandell
 
-# [Your Name]
-
-Welcome to the [Your Name] repository, part of the Environmental Data Science Innovation and Inclusion Lab (ESIIL). This repository serves as the central hub for our research at ESIIL, hosting your project description, proposals, bio, codebase, and more.
+Welcome to the Brian Yandell repository, part of the Environmental Data Science Innovation and Inclusion Lab (ESIIL). This repository serves as the central hub for our research at ESIIL, hosting your project description, proposals, bio, codebase, and more.
 
 ## Your Project
 
-[Provide a brief overview of your project here. Explain what you aim to achieve, the importance of your project, and its expected impact.]
+Involved with [Maka Sitomniya Working Group](https://github.com/byandell/geospatial/blob/main/maka_sitomniya.md) with goal to
+collaboration on development of a `data cube`.
 
 ## Project Proposal
 

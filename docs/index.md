@@ -1,17 +1,15 @@
-# [Your Name]
+# [Brian Yandell](https://byandell.github.io)
 
-Welcome to the [Your Name] repository, part of the Environmental Data Science Innovation and Inclusion Lab (ESIIL). This repository serves as the central hub for our research at ESIIL, hosting your project description, proposals, bio, codebase, and more.
+Welcome to the [Brian Yandell](https://byandell.github.io/ESIIL) repository, part of the [Environmental Data Science Innovation and Inclusion Lab (ESIIL)](https://github.com/CU-ESIIL/). This repository serves as the central hub for my research at ESIIL, hosting project description, proposals, bio, codebase, and more.
 
 ## Your Project
 
-[Provide a brief overview of your project here. Explain what you aim to achieve, the importance of your project, and its expected impact.]
+Involved with [Maka Sitomniya Working Group](https://github.com/byandell/geospatial/blob/main/maka_sitomniya.md) with goal to
+collaboration on development of a `data cube`.
 
 ## Project Proposal
 
-[Link to the detailed project proposal document or include the proposal directly in the repository. This should outline the goals, methodologies, anticipated challenges, and projected timelines.]
-
 ## Collaborators
-- ...
 
 ## Code Repository
 
@@ -24,6 +22,8 @@ This section of the repository will include all the code developed for the proje
 ## Meeting Notes and Agendas
 
 Meeting notes and agendas will be regularly updated here to keep all group members informed and engaged with the progress and direction of the project.
+
+See Maka Sitomniya Google Drive](https://drive.google.com/drive/u/1/folders/1F0xUXmP4icHTu5_khAfWyJFY2fdqZhO1).
 
 ## Contributing to This Repository
 
