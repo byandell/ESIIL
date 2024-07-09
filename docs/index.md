@@ -9,7 +9,7 @@ collaboration on development of a `data cube`.
 
 ## Project Proposal
 
-## Collaborators
+[Maka Sitomniya](https://cu-esiil.github.io/Maka-Sitomniya/)
 
 ## Code Repository
 
