@@ -15,6 +15,15 @@ collaboration on development of a `data cube`.
 
 This section of the repository will include all the code developed for the project. You can structure it as follows:
 
+- [byandell-Tribal](https://github.com/byandell-Tribal) github repo
+- [Earth Analytics 2024 ](https://github.com/byandell-Tribal/EarthAnalytics_2024)
+
+- Visualizations
+
+<embed type="text/html" src="https://github.com/byandell-Tribal/EarthAnalytics_2024/blob/main/Images/uttc.html" width="600" height="600">
+  
+Generic:
+
 - **Analysis Code**: Scripts for data analysis, statistical modeling, etc.
 - **Data Processing**: Scripts for cleaning, merging, and managing datasets.
 - **Visualization**: Code for creating figures, charts, and interactive visualizations.
@@ -23,7 +32,7 @@ This section of the repository will include all the code developed for the proje
 
 Meeting notes and agendas will be regularly updated here to keep all group members informed and engaged with the progress and direction of the project.
 
-See Maka Sitomniya Google Drive](https://drive.google.com/drive/u/1/folders/1F0xUXmP4icHTu5_khAfWyJFY2fdqZhO1).
+<!--- See Maka Sitomniya Google Drive](https://drive.google.com/drive/u/1/folders/1F0xUXmP4icHTu5_khAfWyJFY2fdqZhO1).--->
 
 ## Contributing to This Repository
 
