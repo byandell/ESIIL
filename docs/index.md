@@ -1,6 +1,5 @@
 # [Brian Yandell](https://byandell.github.io)
 
-
 Welcome to the [Brian Yandell](https://byandell.github.io/ESIIL) repository, part of the [Environmental Data Science Innovation and Inclusion Lab (ESIIL)](https://github.com/CU-ESIIL/). This repository serves as the central hub for my research at ESIIL, hosting project description, proposals, bio, codebase, and more.
 
 ## Your Project
