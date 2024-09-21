@@ -20,7 +20,7 @@ This section of the repository will include all the code developed for the proje
 
 - Visualizations
 
-<embed type="text/html" src="https://github.com/byandell-Tribal/EarthAnalytics_2024/blob/main/Images/uttc.html" width="600" height="600">
+<embed type="text/html" src="images/uwmadison.html" width="600" height="600">
   
 Generic:
 
