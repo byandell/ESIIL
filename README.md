@@ -16,3 +16,18 @@ displayed as
 
 All development of GitHub Page occurs in the `gh-pages` branch.
 See <https://github.com/byandell/ESIIL/tree/gh-pages>.
+
+### Open questions
+
+There are some things I do not understand.
+
+- What is purpose of files in `main` if deployment is in `gh-pages`.
+  - I see how this makes sense using `mkdocs` to make documents from `main` to `gh-pages`. Then I would want to only edit on `main`.
+  - If I am not using `mkdocs`, what needs to be in `main`?
+- The Postdoc page has a nice banner, which seems to be in
+[gh-pages/index.html](https://github.com/CU-ESIIL/Postdoc_OASIS/blob/gh-pages/index.html).
+  - Presumably this was created by `mkdocs` using the info in
+[main/mkdocs.html](https://github.com/CU-ESIIL/Postdoc_OASIS/blob/main/mkdocs.yml)
+- Without using `mkdocs`, why do my pages have header
+[ESIIL](https://byandell.github.io/ESIIL/)?
+  - Where is this in code tree?
