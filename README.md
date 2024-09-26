@@ -51,8 +51,9 @@ will appear on
 - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 - [Publish Your Project Documentation with GitHub Pages](https://github.blog/developer-skills/github/publish-your-project-documentation-with-github-pages/)
 =======
-All development of GitHub Page occurs in the `gh-pages` branch.
-See <https://github.com/byandell/ESIIL/tree/gh-pages>.
+All development of GitHub Page occurs in the `main` branch with pull request to `gh-pages` branch.
+This can be automated with [mkdocs](https://github.com/mkdocs/mkdocs) as was done on the ESIIL prototype;
+however, if you do that `mkdocs` will overwrite changes to `ghpages` branch`.
 
 ### Open questions
 
