@@ -28,4 +28,7 @@ See also R code for the same project as
 The python work is in
 [7_Portfolio_Post_Write_Post.ipynb](https://github.com/earthlab-education/climate-coding-challenge-byandell/blob/main/7_Portfolio_Post_Write_Post.ipynb).
 Additionally, there is an Rmarkdown version in
-[Climate_1.Rmd](https://github.com/earthlab-education/climate-coding-challenge-byandell/blob/main/Climate_1.Rmd).
+[Climate_1.Rmd](https://github.com/earthlab-education/climate-coding-challenge-byandell/blob/main/Climate_1.Rmd)
+with rendering below.
+
+<embed type="text/html" src="Climate_1.html">
