@@ -16,5 +16,5 @@ collaboration on development of a `data cube`.
 This section of the repository will include all the code developed for the project. You can structure it as follows:
 
 - [byandell-Tribal](https://github.com/byandell-Tribal) github organization
-- [Earth Analytics 2024 ](https://github.com/byandell-Tribal/EarthAnalytics_2024)
+- [Earth Analytics 2024](https://github.com/byandell-Tribal/EarthAnalytics_2024)
 - [EDA Projects](EarthDataAnalytics/)
