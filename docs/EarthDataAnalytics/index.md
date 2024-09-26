@@ -31,4 +31,4 @@ Additionally, there is an Rmarkdown version in
 [Climate_1.Rmd](https://github.com/earthlab-education/climate-coding-challenge-byandell/blob/main/Climate_1.Rmd)
 with rendering below.
 
-<embed type="text/html" src="Climate_1.html" width="1200" height="1200">
+<embed type="text/html" src="Climate_1.html" width="1200" height="600">
