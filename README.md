@@ -1,6 +1,6 @@
 # [Brian Yandell](https://byandell.github.io/ESIIL)
 
-Welcome to the README for 
+Welcome to the README for
 [Brian Yandell's ESIIL Collaboration](https://byandell.github.io/ESIIL) repository.
 ESIIL is the [Environmental Data Science Innovation and Inclusion Lab](https://esiil.org),
 with GitHub pages at
