@@ -1,7 +1,7 @@
 # Earth Data Analytics Projects
 
-This has projects from the
-[Earth Analytics 2024](https://github.com/byandell-Tribal/EarthAnalytics_2024)
+This has projects from the 2024
+[Earth Data Analytics](https://github.com/byandell-envsys/EarthDataAnalytics)
 course.
 
 - [First Map](#first-map)
@@ -21,11 +21,11 @@ and below is an interactive image of the campus area.
 <embed type="text/html" src="uwmadison.html" width="600" height="600">
 
 Python code to create this map can be found in
-<https://github.com/byandell-Tribal/first-map-template>
+<https://github.com/byandell-envsys/first-map-template>
 as
-[first-map.ipynb](https://github.com/byandell-Tribal/first-map-template/blob/main/first-map.ipynb)
+[first-map.ipynb](https://github.com/byandell-envsys/first-map-template/blob/main/first-map.ipynb)
 See also R code for the same project as
-[first-map.Rmd](https://github.com/byandell-Tribal/first-map-template/blob/main/first-map.Rmd).
+[first-map.Rmd](https://github.com/byandell-envsys/first-map-template/blob/main/first-map.Rmd).
 
 ## Climate Project 1
 
