@@ -7,6 +7,7 @@ course.
 - [First Map](#first-map)
 - [Climate Project 1](#climate-project-1)
 - [Species Distribution Project](#species-distribution-project)
+- [Redlining Project](#redlining-project)
 
 ## First Map
 
@@ -98,3 +99,24 @@ involved a few changes
 
 I did not keep a separate file or workflow for the siberian monthly records
 over 2023, but it would be essentially the same as that for the Sandhill Crane.
+
+# Redlining Project
+
+The focus city of my redlining project is Madison, WI.
+The goal of my project was to learn how to build a Python package,
+[landmapy Python package](https://github.com/byandell-envsys/landmapy).
+This package is used in the Jupyter notebook
+[madison.ipynb](https://github.com/earthlab-education/fundamentals-04-redlining-byandell/blob/main/notebooks/madison.ipynb)
+to complete the assignment.
+I have not added much context to the report, as my time was consumed with building the package.
+Below is the result of decision tree prediction sandwiched between the 
+
+<embed type="text/html" src="madison_redlining.html" width="1200" height="600">
+
+In addition to this project, I earlier (for the 2024 ESIIL Pre-Summit Sessions) developed
+an R package,
+[geospatial](https://github.com/byandell-envsys/geospatial),
+which has a Shiny app
+[redlineApp()](https://github.com/byandell-envsys/geospatial/blob/main/R/redline.R).
+
+
