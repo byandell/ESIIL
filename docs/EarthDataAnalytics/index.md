@@ -114,6 +114,10 @@ mean NDVI and redlining grades images:
 
 <embed type="text/html" src="madison_redlining.html" width="1200" height="600">
 
+The model fit is clearly not very good, particularly for the high (A) grade sections.
+This is in part due to the minute area of Madison, as noted by others working on small cities,
+plus some cloud cover and other distortions and the presence of five lakes.
+
 In addition to this project, I earlier (for the 2024 ESIIL Pre-Summit Sessions) developed
 an R package,
 [geospatial](https://github.com/byandell-envsys/geospatial),
