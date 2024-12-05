@@ -110,6 +110,7 @@ This package is used in the Jupyter notebook
 to complete the assignment.
 I have not added much context to the report, as my time was consumed with building the package.
 Below is the result of decision tree prediction sandwiched between the 
+mean NDVI and redlining grades images: 
 
 <embed type="text/html" src="madison_redlining.html" width="1200" height="600">
 
