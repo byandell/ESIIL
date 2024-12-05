@@ -103,7 +103,7 @@ over 2023, but it would be essentially the same as that for the Sandhill Crane.
 # Redlining Project
 
 The focus city of my redlining project is Madison, WI.
-The goal of my project was to learn how to build a Python package,
+The goal of my project was to learn how to build a
 [landmapy Python package](https://github.com/byandell-envsys/landmapy).
 This package is used in the Jupyter notebook
 [madison.ipynb](https://github.com/earthlab-education/fundamentals-04-redlining-byandell/blob/main/notebooks/madison.ipynb)
