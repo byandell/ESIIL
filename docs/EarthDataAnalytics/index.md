@@ -8,6 +8,7 @@ course.
 - [Climate Project 1](#climate-project-1)
 - [Species Distribution Project](#species-distribution-project)
 - [Redlining Project](#redlining-project)
+- [Habitat Project](#habitat-project)
 
 ## First Map
 
@@ -124,4 +125,29 @@ an R package,
 which has a Shiny app
 [redlineApp()](https://github.com/byandell-envsys/geospatial/blob/main/R/redline.R).
 
+## Habitat Project
 
+The habitat project is a work in progress being developed in these areas:
+
+- <https://github.com/byandell-envsys/habitatSuitability>
+  - [Buffalo Grasslands](https://github.com/byandell-envsys/habitatSuitability/blob/main/buffalo.ipynb)
+- [landmapy Python package](https://github.com/byandell-envsys/landmapy)
+- [Habitat Suitability Project](https://github.com/byandell/ESIIL/edit/main/docs/EarthDataAnalytics/index.md#habitat-project)
+
+This section will include the following:
+
+- description of chosen species (Blue Stem) and habitats
+(Buffalo Gap and Oglala National Grasslands)
+- HVPlots of layers with
+  - Soil, climate, slope
+  - Contour maps to fuzzy score
+  - fuzzy logic
+- discussion of code package
+
+Some features I would like to add in the future:
+
+- Loose rubber band around grass Islands
+(fill in gaps but preserve broad outlines)
+- movie over time
+  - slider as in [Species Distribution Project](#species-distribution-project)
+  - animated GIFs
